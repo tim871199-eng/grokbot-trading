@@ -2,27 +2,27 @@
  "currency": "EUR",
  "rules": "Spielgeld 10 € · Stop −3 % · ab +0,10 € Trailing · nur Coins < 1 % Kosten",
  "pricing_model": "Jupiter ExactIn quotes + network fee; EUR via SOL/USD×USD/EUR; 20-agent desk",
- "as_of": "09.11.2026, 19:02:03",
- "data_time": "2026-11-09T19:02:01+01:00",
- "as_of_iso": "2026-11-09T19:02:03+01:00",
+ "as_of": "09.11.2026, 19:30:51",
+ "data_time": "2026-11-09T19:30:49+01:00",
+ "as_of_iso": "2026-11-09T19:30:51+01:00",
  "bot_running": true,
  "bot_stale": false,
- "bot_stale_sec": 2.771095,
- "last_cycle": "19:01",
+ "bot_stale_sec": 2.36077,
+ "last_cycle": "19:30",
  "start": 10.0,
- "equity": 8.5,
- "cash": 0.01,
- "pnl": -1.5,
- "pnl_pct": -14.97,
- "multiplier": 0.85,
+ "equity": 8.46,
+ "cash": 8.46,
+ "pnl": -1.54,
+ "pnl_pct": -15.42,
+ "multiplier": 0.846,
  "pairs_scanned": 214,
  "evaluations": 34785,
- "cycles": 1509,
+ "cycles": 1510,
  "trades_opened": 12,
- "closed_count": 11,
+ "closed_count": 12,
  "wins": 0,
  "win_rate": 0,
- "realized_pnl": -1.48,
+ "realized_pnl": -1.54,
  "curve": [
   {
    "t": "2026-11-09T02:48:53+01:00",
@@ -40,7 +40,7 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:09:25+01:00",
+   "t": "2026-11-09T03:09:41+01:00",
    "label": "03:09",
    "equity": 10.0
   },
@@ -70,7 +70,7 @@
    "equity": 9.03
   },
   {
-   "t": "2026-11-09T05:46:29+01:00",
+   "t": "2026-11-09T05:46:44+01:00",
    "label": "05:46",
    "equity": 9.03
   },
@@ -100,12 +100,12 @@
    "equity": 9.03
   },
   {
-   "t": "2026-11-09T06:25:15+01:00",
+   "t": "2026-11-09T06:25:29+01:00",
    "label": "06:25",
    "equity": 9.03
   },
   {
-   "t": "2026-11-09T06:40:12+01:00",
+   "t": "2026-11-09T06:40:26+01:00",
    "label": "06:40",
    "equity": 9.03
   },
@@ -130,12 +130,12 @@
    "equity": 8.85
   },
   {
-   "t": "2026-11-09T07:30:14+01:00",
+   "t": "2026-11-09T07:30:30+01:00",
    "label": "07:30",
    "equity": 8.85
   },
   {
-   "t": "2026-11-09T08:08:13+01:00",
+   "t": "2026-11-09T08:08:29+01:00",
    "label": "08:08",
    "equity": 8.79
   },
@@ -160,18 +160,18 @@
    "equity": 8.79
   },
   {
-   "t": "2026-11-09T09:16:03+01:00",
+   "t": "2026-11-09T09:16:19+01:00",
    "label": "09:16",
    "equity": 8.79
   },
   {
-   "t": "2026-11-09T09:22:33+01:00",
+   "t": "2026-11-09T09:22:49+01:00",
    "label": "09:22",
    "equity": 8.79
   },
   {
-   "t": "2026-11-09T09:43:54+01:00",
-   "label": "09:43",
+   "t": "2026-11-09T09:44:08+01:00",
+   "label": "09:44",
    "equity": 8.75
   },
   {
@@ -190,23 +190,23 @@
    "equity": 8.73
   },
   {
-   "t": "2026-11-09T10:24:24+01:00",
+   "t": "2026-11-09T10:24:40+01:00",
    "label": "10:24",
    "equity": 8.73
   },
   {
-   "t": "2026-11-09T10:31:00+01:00",
+   "t": "2026-11-09T10:31:12+01:00",
    "label": "10:31",
    "equity": 8.73
   },
   {
-   "t": "2026-11-09T10:43:48+01:00",
-   "label": "10:43",
+   "t": "2026-11-09T10:44:02+01:00",
+   "label": "10:44",
    "equity": 8.73
   },
   {
-   "t": "2026-11-09T11:09:48+01:00",
-   "label": "11:09",
+   "t": "2026-11-09T11:10:04+01:00",
+   "label": "11:10",
    "equity": 8.67
   },
   {
@@ -220,22 +220,22 @@
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T11:43:55+01:00",
-   "label": "11:43",
+   "t": "2026-11-09T11:44:09+01:00",
+   "label": "11:44",
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T11:50:40+01:00",
+   "t": "2026-11-09T11:50:56+01:00",
    "label": "11:50",
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T11:57:10+01:00",
+   "t": "2026-11-09T11:57:26+01:00",
    "label": "11:57",
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T12:03:40+01:00",
+   "t": "2026-11-09T12:03:56+01:00",
    "label": "12:03",
    "equity": 8.65
   },
@@ -250,27 +250,27 @@
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T12:42:35+01:00",
+   "t": "2026-11-09T12:42:51+01:00",
    "label": "12:42",
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T12:56:36+01:00",
+   "t": "2026-11-09T12:56:52+01:00",
    "label": "12:56",
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T13:04:35+01:00",
+   "t": "2026-11-09T13:04:47+01:00",
    "label": "13:04",
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T14:14:44+01:00",
+   "t": "2026-11-09T14:14:58+01:00",
    "label": "14:14",
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T16:05:09+01:00",
+   "t": "2026-11-09T16:05:26+01:00",
    "label": "16:05",
    "equity": 8.62
   },
@@ -280,27 +280,27 @@
    "equity": 8.62
   },
   {
-   "t": "2026-11-09T16:17:59+01:00",
-   "label": "16:17",
+   "t": "2026-11-09T16:18:10+01:00",
+   "label": "16:18",
    "equity": 8.62
   },
   {
-   "t": "2026-11-09T16:24:30+01:00",
+   "t": "2026-11-09T16:24:41+01:00",
    "label": "16:24",
    "equity": 8.62
   },
   {
-   "t": "2026-11-09T16:30:57+01:00",
-   "label": "16:30",
+   "t": "2026-11-09T16:31:11+01:00",
+   "label": "16:31",
    "equity": 8.62
   },
   {
-   "t": "2026-11-09T16:52:25+01:00",
+   "t": "2026-11-09T16:52:40+01:00",
    "label": "16:52",
    "equity": 8.6
   },
   {
-   "t": "2026-11-09T16:59:13+01:00",
+   "t": "2026-11-09T16:59:29+01:00",
    "label": "16:59",
    "equity": 8.6
   },
@@ -310,41 +310,22 @@
    "equity": 8.6
   },
   {
-   "t": "2026-11-09T17:12:14+01:00",
+   "t": "2026-11-09T17:12:30+01:00",
    "label": "17:12",
    "equity": 8.6
   },
   {
-   "t": "2026-11-09T17:18:43+01:00",
-   "label": "17:18",
+   "t": "2026-11-09T17:19:00+01:00",
+   "label": "17:19",
    "equity": 8.6
   },
   {
-   "t": "2026-11-09T19:02:03+01:00",
-   "label": "19:02",
-   "equity": 8.5
+   "t": "2026-11-09T19:30:51+01:00",
+   "label": "19:30",
+   "equity": 8.46
   }
  ],
- "open_positions": [
-  {
-   "symbol": "Fartcoin ",
-   "opened": "19:01",
-   "cost": 8.52,
-   "value": 8.5,
-   "pct": -0.25,
-   "tp1_done": false,
-   "score": 45.6,
-   "url": "https://dexscreener.com/solana/bzc9nzfmqkxr6fz1dbph7bdf9broyef6pnzesp7v5iiw",
-   "fill_model": "jupiter",
-   "quote_cost_eur": 0.0062,
-   "pair": "Bzc9NZfMqkXR6fz1DBph7BDf9BroyEf6pnzESP7v5iiw",
-   "pool": "Bzc9NZfMqkXR6fz1DBph7BDf9BroyEf6pnzESP7v5iiw",
-   "trailing": false,
-   "mint": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
-   "entry": 0.1182,
-   "buy_why": "Score 45.6, Votes +7, rt 0.2619%"
-  }
- ],
+ "open_positions": [],
  "closed_trades": [
   {
    "symbol": "DESSA",
@@ -543,6 +524,24 @@
    "sell_why": "Zeit-Stop 15 Min ohne Nettogewinn",
    "pair": "9Tb2ohu5P16BpBarqd3N27WnkF51Ukfs8Z1GzzLDxVZW",
    "pool": "9Tb2ohu5P16BpBarqd3N27WnkF51Ukfs8Z1GzzLDxVZW"
+  },
+  {
+   "symbol": "Fartcoin ",
+   "opened": "19:01",
+   "closed": "19:30",
+   "cost": 8.52,
+   "proceeds": 8.45,
+   "pnl": -0.07,
+   "pnl_pct": -0.78,
+   "reason": "Zeit-Stop 15 Min ohne Nettogewinn",
+   "url": "https://dexscreener.com/solana/bzc9nzfmqkxr6fz1dbph7bdf9broyef6pnzesp7v5iiw",
+   "fill_model": "jupiter",
+   "quote_cost_eur": 0.0124,
+   "old_1pct_cost_eur": 0.1704,
+   "buy_why": "Score 45.6, Votes +7, rt 0.2619%",
+   "sell_why": "Zeit-Stop 15 Min ohne Nettogewinn",
+   "pair": "Bzc9NZfMqkXR6fz1DBph7BDf9BroyEf6pnzESP7v5iiw",
+   "pool": "Bzc9NZfMqkXR6fz1DBph7BDf9BroyEf6pnzESP7v5iiw"
   }
  ],
  "rejections": [
@@ -1137,27 +1136,6 @@
  ],
  "log": [
   {
-   "time": "18:35:18",
-   "agent": "Logger",
-   "text": "Durchlauf 1504: 35 Kand., 1 ok, 8,52 €",
-   "status": "Durchlauf",
-   "tone": "neutral"
-  },
-  {
-   "time": "18:35:34",
-   "agent": "Analyst",
-   "text": "GIGA: Score 39,9",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "18:35:34",
-   "agent": "Logger",
-   "text": "Durchlauf 1505: 34 Kand., 1 ok, 8,52 €",
-   "status": "Durchlauf",
-   "tone": "neutral"
-  },
-  {
    "time": "18:35:48",
    "agent": "Analyst",
    "text": "GIGA: Score 28,0",
@@ -1261,179 +1239,200 @@
    "text": "Durchlauf 1509: 36 Kand., 2 ok, 8,50 €",
    "status": "Durchlauf",
    "tone": "neutral"
+  },
+  {
+   "time": "19:30:49",
+   "agent": "ExitManager",
+   "text": "Verkauf Fartcoin : Zeit-Stop 15 Min ohne Nettogewinn",
+   "status": "Verkauf",
+   "tone": "warning"
+  },
+  {
+   "time": "19:30:49",
+   "agent": "Logger",
+   "text": "Fartcoin  geschlossen: -0,07 € (-0,78 %)",
+   "status": "Verlust",
+   "tone": "danger"
+  },
+  {
+   "time": "19:30:49",
+   "agent": "Logger",
+   "text": "Durchlauf 1510: 0 Kand., 0 ok, 8,46 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
   }
  ],
  "agents": [
   {
    "agent": "Scout",
    "task": "Neue Solana-Paare aus DexScreener-Feeds",
-   "action": "3 neue Paare entdeckt",
-   "metric": "seen=224",
-   "vote": 1,
-   "status": "ok",
-   "ts": "2026-11-09T19:01:28+01:00"
+   "action": "Pause: Risikolimit",
+   "metric": "halt",
+   "vote": 0,
+   "status": "warn",
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "TrendScout",
    "task": "Boosted/Trending Tokens",
-   "action": "40 Boost-/Trend-Tokens",
-   "metric": "boosted_cycle=40",
-   "vote": 1,
-   "status": "ok",
-   "ts": "2026-11-09T19:01:29+01:00"
+   "action": "Pause: Risikolimit",
+   "metric": "halt",
+   "vote": 0,
+   "status": "warn",
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "LiquidScout",
    "task": "Liquide etablierte Solana-Coins (kein 24h-Alter)",
-   "action": "0 liquid neu · 14 watch",
-   "metric": "liq_watch=14",
-   "vote": 1,
-   "status": "ok",
-   "ts": "2026-11-09T19:01:36+01:00"
+   "action": "Pause: Risikolimit",
+   "metric": "halt",
+   "vote": 0,
+   "status": "warn",
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "Liquidity",
    "task": "Mindest-Liquidität prüfen",
-   "action": "NAIWA: liq=7675$",
-   "metric": "",
-   "vote": -1,
+   "action": "Pause: Risikolimit",
+   "metric": "halt",
+   "vote": 0,
    "status": "warn",
-   "ts": "2026-11-09T19:01:40+01:00"
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "Volume",
    "task": "1h-Volumen prüfen",
-   "action": "NAIWA: vol1h=12115$",
-   "metric": "",
+   "action": "Pause: Risikolimit",
+   "metric": "halt",
    "vote": 0,
-   "status": "ok",
-   "ts": "2026-11-09T19:01:40+01:00"
+   "status": "warn",
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "Holder",
    "task": "Top-Holder-Konzentration",
-   "action": "LASTTRUCK: top1=2.4 top10=10.5",
-   "metric": "",
-   "vote": 1,
-   "status": "ok",
-   "ts": "2026-11-09T19:01:40+01:00"
+   "action": "Pause: Risikolimit",
+   "metric": "halt",
+   "vote": 0,
+   "status": "warn",
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "RugSecurity",
    "task": "RugCheck, Mint/Freeze, Score",
-   "action": "LASTTRUCK: {'score': 1, 'top1': 2.4038115320963223, 'top10': 10.515551644407044}",
-   "metric": "",
-   "vote": 1,
-   "status": "ok",
-   "ts": "2026-11-09T19:01:40+01:00"
+   "action": "Pause: Risikolimit",
+   "metric": "halt",
+   "vote": 0,
+   "status": "warn",
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "Honeypot",
    "task": "Jupiter Kauf+Verkauf Roundtrip",
-   "action": "Fartcoin : rt=0.2619%",
-   "metric": "",
-   "vote": 1,
-   "status": "ok",
-   "ts": "2026-11-09T19:01:42+01:00"
+   "action": "Pause: Risikolimit",
+   "metric": "halt",
+   "vote": 0,
+   "status": "warn",
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "DevWallet",
    "task": "Creator-Anteil (falls bekannt)",
-   "action": "LASTTRUCK: {'creator_pct': 0, 'creator': 'D8PdrJfSqcyw'}",
-   "metric": "",
-   "vote": 1,
-   "status": "ok",
-   "ts": "2026-11-09T19:01:40+01:00"
+   "action": "Pause: Risikolimit",
+   "metric": "halt",
+   "vote": 0,
+   "status": "warn",
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "Momentum",
    "task": "m5/h1 Kursmomentum",
-   "action": "NAIWA[new]: m5=-9.68 h1=10.71",
-   "metric": "",
-   "vote": -1,
+   "action": "Pause: Risikolimit",
+   "metric": "halt",
+   "vote": 0,
    "status": "warn",
-   "ts": "2026-11-09T19:01:40+01:00"
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "Orderflow",
    "task": "Kauf-/Verkaufsquote & Txns",
-   "action": "NAIWA: buy5=0.35",
-   "metric": "",
-   "vote": -1,
+   "action": "Pause: Risikolimit",
+   "metric": "halt",
+   "vote": 0,
    "status": "warn",
-   "ts": "2026-11-09T19:01:40+01:00"
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "Volatility",
    "task": "Zu wilde Schwankungen filtern",
-   "action": "NAIWA: {'m5': 9.68}",
-   "metric": "",
+   "action": "Pause: Risikolimit",
+   "metric": "halt",
    "vote": 0,
-   "status": "ok",
-   "ts": "2026-11-09T19:01:40+01:00"
+   "status": "warn",
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "Candle",
    "task": "1m-Kerzenmuster (GeckoTerminal)",
-   "action": "NAIWA: {'note': 'keine Kerzen'}",
-   "metric": "",
+   "action": "Pause: Risikolimit",
+   "metric": "halt",
    "vote": 0,
-   "status": "ok",
-   "ts": "2026-11-09T19:01:40+01:00"
+   "status": "warn",
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "Sentiment",
    "task": "Boosts/Social-Links als Proxy",
-   "action": "NAIWA: boosts=0 socials=1",
-   "metric": "",
+   "action": "Pause: Risikolimit",
+   "metric": "halt",
    "vote": 0,
-   "status": "ok",
-   "ts": "2026-11-09T19:01:40+01:00"
+   "status": "warn",
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "Analyst",
    "task": "Score + Stimmen zusammenfassen",
-   "action": "LASTTRUCK[new]: Score 74.9 · Votes +7",
-   "metric": "score=74.9",
-   "vote": 1,
-   "status": "ok",
-   "ts": "2026-11-09T19:01:40+01:00"
+   "action": "Pause: Risikolimit",
+   "metric": "halt",
+   "vote": 0,
+   "status": "warn",
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "Risk",
    "task": "Größe, Halts, Freigabe",
-   "action": "Limits ok · Stop −3 % Baseline · −6 % Safety · Trail ab +0,10 €",
-   "metric": "eq=8.50€",
-   "vote": 1,
-   "status": "ok",
-   "ts": "2026-11-09T19:02:01+01:00"
+   "action": "Tagesverlust-Limit -15 % erreicht",
+   "metric": "",
+   "vote": -1,
+   "status": "warn",
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "Executor",
    "task": "Jupiter-Quote-Fills (simuliert)",
-   "action": "Kauf Fartcoin  8.52 €",
-   "metric": "score=45.6",
-   "vote": 1,
-   "status": "ok",
-   "ts": "2026-11-09T19:01:43+01:00"
+   "action": "Pause: Risikolimit",
+   "metric": "halt",
+   "vote": 0,
+   "status": "warn",
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "ExitManager",
    "task": "Stop −3 % Baseline · Grace · Trailing ab +0,10 €",
-   "action": "Überwacht 1 Pos · Stop −3% Baseline · Grace 20s · Trail ab +0.10€",
-   "metric": "check≈2.5s",
+   "action": "Bereit: Stop −3% Baseline · Grace 20s · Trail ab +0.10€",
+   "metric": "halt",
    "vote": 0,
-   "status": "ok",
-   "ts": "2026-11-09T19:02:01+01:00"
+   "status": "warn",
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "MarketRegime",
    "task": "SOL-Trend; Pause bei Dump",
-   "action": "Markt ok · SOL h1 -0.47 %",
-   "metric": "SOL $86.48",
+   "action": "Markt ok · SOL h1 -0.16 %",
+   "metric": "SOL $86.27",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T18:37:58+01:00"
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "Learner",
@@ -1442,39 +1441,39 @@
    "metric": "140 Keys",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T19:01:43+01:00"
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "Auditor",
    "task": "Equity/Trades Konsistenz",
    "action": "Kontostand & Trades konsistent",
-   "metric": "eq=8.5034",
+   "metric": "eq=8.4577",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T19:02:01+01:00"
+   "ts": "2026-11-09T19:30:49+01:00"
   },
   {
    "agent": "Logger",
    "task": "Protokolliert Entscheidungen",
-   "action": "Durchlauf 1509: 36 Kand., 2 ok, eq=8.5045€",
-   "metric": "rej=34",
+   "action": "Halt: Tagesverlust-Limit -15 % erreicht",
+   "metric": "",
    "vote": null,
-   "status": "ok",
-   "ts": "2026-11-09T19:01:43+01:00"
+   "status": "warn",
+   "ts": "2026-11-09T19:30:49+01:00"
   }
  ],
  "agent_count": 22,
  "readiness": {
-  "days_running": 0.68,
+  "days_running": 0.7,
   "days_needed": 3,
-  "trades_closed": 11,
+  "trades_closed": 12,
   "trades_needed": 30,
   "win_rate": 0.0,
-  "net_pnl_eur": -1.5,
-  "max_drawdown_pct": -15.79,
+  "net_pnl_eur": -1.54,
+  "max_drawdown_pct": -16.24,
   "max_drawdown_limit_pct": -15.0,
   "ready_for_real": false,
-  "label_de": "Echtgeld-Freigabe: 11/30 Trades · Tag 0/3 · noch nicht bereit",
+  "label_de": "Echtgeld-Freigabe: 12/30 Trades · Tag 0/3 · noch nicht bereit",
   "checks": {
    "days": false,
    "trades": false,
@@ -1598,19 +1597,19 @@
   }
  ],
  "regime": {
-  "sol_usd": 86.48,
-  "sol_eur": 77.2629616,
-  "h1": -0.47,
-  "m5": 0.09,
+  "sol_usd": 86.27,
+  "sol_eur": 77.0753434,
+  "h1": -0.16,
+  "m5": 0.22,
   "paused": false,
   "src": "dexscreener",
-  "ts": "2026-11-09T18:37:58+01:00"
+  "ts": "2026-11-09T19:30:49+01:00"
  },
  "auditor": {
   "ok": true,
   "issues": [],
-  "equity": 8.5034,
-  "ts": "2026-11-09T19:02:01+01:00"
+  "equity": 8.4577,
+  "ts": "2026-11-09T19:30:49+01:00"
  },
  "last_buy_why": {
   "summary": "Score 45.6, Votes +7, rt 0.2619%",
@@ -1675,5 +1674,5 @@
    "score": 21.6
   }
  ],
- "server_time": 1794247323
+ "server_time": 1794249051
 }
