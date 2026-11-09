@@ -2,19 +2,19 @@
  "currency": "EUR",
  "rules": "Spielgeld 10 € · Stop −3 % · ab +0,10 € Trailing · nur Coins < 1 % Kosten",
  "pricing_model": "Jupiter ExactIn quotes + network fee; EUR via SOL/USD×USD/EUR; 20-agent desk",
- "as_of": "09.11.2026, 07:34:51",
- "data_time": "2026-11-09T07:34:50+01:00",
- "as_of_iso": "2026-11-09T07:34:51+01:00",
+ "as_of": "09.11.2026, 07:40:51",
+ "data_time": "2026-11-09T07:40:50+01:00",
+ "as_of_iso": "2026-11-09T07:40:51+01:00",
  "bot_running": true,
  "bot_stale": false,
- "bot_stale_sec": 1.932737,
+ "bot_stale_sec": 1.462431,
  "last_cycle": "07:31",
  "start": 10.0,
- "equity": 8.82,
+ "equity": 8.83,
  "cash": 0.01,
- "pnl": -1.18,
- "pnl_pct": -11.84,
- "multiplier": 0.882,
+ "pnl": -1.17,
+ "pnl_pct": -11.74,
+ "multiplier": 0.883,
  "pairs_scanned": 109,
  "evaluations": 12690,
  "cycles": 542,
@@ -320,9 +320,9 @@
    "equity": 8.85
   },
   {
-   "t": "2026-11-09T07:34:51+01:00",
-   "label": "07:34",
-   "equity": 8.82
+   "t": "2026-11-09T07:40:51+01:00",
+   "label": "07:40",
+   "equity": 8.83
   }
  ],
  "open_positions": [
@@ -330,8 +330,8 @@
    "symbol": "Fartcoin ",
    "opened": "07:31",
    "cost": 8.84,
-   "value": 8.81,
-   "pct": -0.34,
+   "value": 8.82,
+   "pct": -0.22,
    "tp1_done": false,
    "score": 44.8,
    "url": "https://dexscreener.com/solana/bzc9nzfmqkxr6fz1dbph7bdf9broyef6pnzesp7v5iiw",
@@ -1101,10 +1101,10 @@
    "agent": "Risk",
    "task": "Größe, Halts, Freigabe",
    "action": "Limits ok · Stop −3 % Baseline · −6 % Safety · Trail ab +0,10 €",
-   "metric": "eq=8.82€",
+   "metric": "eq=8.83€",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T07:34:50+01:00"
+   "ts": "2026-11-09T07:40:50+01:00"
   },
   {
    "agent": "Executor",
@@ -1122,7 +1122,7 @@
    "metric": "check≈2.5s",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T07:34:50+01:00"
+   "ts": "2026-11-09T07:40:50+01:00"
   },
   {
    "agent": "MarketRegime",
@@ -1146,10 +1146,10 @@
    "agent": "Auditor",
    "task": "Equity/Trades Konsistenz",
    "action": "Kontostand & Trades konsistent",
-   "metric": "eq=8.8159",
+   "metric": "eq=8.8264",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T07:34:51+01:00"
+   "ts": "2026-11-09T07:40:51+01:00"
   },
   {
    "agent": "Logger",
@@ -1168,7 +1168,7 @@
   "trades_closed": 2,
   "trades_needed": 30,
   "win_rate": 0.0,
-  "net_pnl_eur": -1.18,
+  "net_pnl_eur": -1.17,
   "max_drawdown_pct": -12.96,
   "max_drawdown_limit_pct": -15.0,
   "ready_for_real": false,
@@ -1307,8 +1307,8 @@
  "auditor": {
   "ok": true,
   "issues": [],
-  "equity": 8.8159,
-  "ts": "2026-11-09T07:34:51+01:00"
+  "equity": 8.8264,
+  "ts": "2026-11-09T07:40:51+01:00"
  },
  "last_buy_why": {
   "summary": "Score 44.8, Votes +7, rt 0.2011%",
@@ -1361,5 +1361,5 @@
    "score": 17.1
   }
  ],
- "server_time": 1794206091
+ "server_time": 1794206451
 }
