@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#070b16">
+<meta name="robots" content="noindex">
+<title>Memecoin-Desk · Papiergeld</title>
+<style>
+:root{--bg:#070b16;--card:rgba(255,255,255,.06);--line:rgba(255,255,255,.11);--txt:#eef2ff;--mut:#97a3c2;--ok:#34d399;--bad:#f87171;--warn:#fbbf24;--acc:#8b5cf6;--acc2:#22d3ee}
+*{box-sizing:border-box}html,body{margin:0}
+body{font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif;color:var(--txt);background:var(--bg);min-height:100vh;overflow-x:hidden}
+body:before,body:after{content:"";position:fixed;z-index:-1;border-radius:50%;filter:blur(70px);opacity:.55;animation:float 18s ease-in-out infinite alternate}
+body:before{width:380px;height:380px;background:#6d28d9;top:-120px;left:-120px}
+body:after{width:340px;height:340px;background:#0891b2;bottom:-120px;right:-140px;animation-delay:-9s}
+@keyframes float{to{transform:translate(60px,90px) scale(1.15)}}
+.wrap{max-width:760px;margin:0 auto;padding:14px 14px 60px}
+header{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:6px 0 12px}
+h1{font-size:21px;margin:0;letter-spacing:.2px;background:linear-gradient(90deg,#c4b5fd,#67e8f9);-webkit-background-clip:text;background-clip:text;color:transparent}
+.badge{font-size:11.5px;font-weight:700;padding:4px 9px;border-radius:99px;border:1px solid var(--line);background:rgba(251,191,36,.14);color:#fde68a;letter-spacing:.4px}
+.stand{width:100%;font-size:13px;color:var(--mut)}
+.stale{display:none;margin:0 0 12px;padding:11px 13px;border-radius:14px;background:rgba(248,113,113,.15);border:1px solid rgba(248,113,113,.5);color:#fecaca;font-weight:600}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;margin:0 0 12px;backdrop-filter:blur(16px) saturate(140%);-webkit-backdrop-filter:blur(16px) saturate(140%);box-shadow:0 8px 30px rgba(0,0,0,.25),inset 0 1px 0 rgba(255,255,255,.07);animation:in .5s ease both}
+@keyframes in{from{opacity:0;transform:translateY(8px)}}
+h2{font-size:15px;margin:0 0 10px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+h2 small{font-weight:500;color:var(--mut);font-size:12px}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.kpi{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:14px;padding:9px 10px}
+.kpi b{display:block;font-size:19px}.kpi span{font-size:11.5px;color:var(--mut)}
+.pos{color:var(--ok)}.neg{color:var(--bad)}.mut{color:var(--mut)}
+.st{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.s{border:1px solid var(--line);border-radius:14px;padding:9px 10px;background:rgba(255,255,255,.035);position:relative}
+.s .n{font-weight:700;display:flex;align-items:center;gap:7px;text-transform:capitalize}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 0 rgba(52,211,153,.7);animation:pulse 2s infinite}
+.dot.off{background:var(--bad);animation:none}
+@keyframes pulse{70%{box-shadow:0 0 0 8px rgba(52,211,153,0)}100%{box-shadow:0 0 0 0 rgba(52,211,153,0)}}
+.s .r{font-size:11.5px;color:var(--mut)}.s .t{font-size:12px;margin-top:3px}
+.fun .row{display:flex;align-items:center;gap:8px;margin:6px 0}
+.fun .lab{width:44%;font-size:13px}
+.fun .bar{flex:1;height:22px;border-radius:8px;background:rgba(255,255,255,.05);overflow:hidden;position:relative}
+.fun .bar i{display:block;height:100%;border-radius:8px;background:linear-gradient(90deg,var(--acc),var(--acc2));transition:width .8s}
+.fun .bar i.k{background:linear-gradient(90deg,#ef4444,#f97316)}
+.fun .bar em{position:absolute;right:7px;top:2px;font-style:normal;font-size:12.5px;font-weight:700}
+.item{border-top:1px solid var(--line);padding:9px 0}.item:first-of-type{border-top:0}
+.top{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.sym{font-weight:700}.tm{font-size:12px;color:var(--mut);white-space:nowrap}
+.why{margin:4px 0 0;padding:0;list-style:none}.why li{font-size:13px;color:#fecaca}.why li:before{content:"✕ ";color:var(--bad)}
+.facts{font-size:11.5px;color:var(--mut);margin-top:3px}
+.chip{display:inline-block;font-size:11px;padding:1px 7px;border-radius:99px;border:1px solid var(--line);margin:2px 3px 0 0;color:var(--mut)}
+.score{font-size:20px;font-weight:800}
+.fac{display:grid;grid-template-columns:42% 1fr 58px;gap:6px;align-items:center;font-size:12.5px;margin:3px 0}
+.fac .b{height:8px;border-radius:5px;background:rgba(255,255,255,.07);overflow:hidden}.fac .b i{display:block;height:100%;background:linear-gradient(90deg,var(--acc),var(--acc2))}
+.fac .v{text-align:right;color:var(--mut)}
+.nd{color:var(--warn)!important;font-style:italic}
+.ring{width:54px;height:54px}
+details summary{cursor:pointer;color:var(--acc2);font-size:13px;margin-top:6px}
+.empty{color:var(--mut);font-size:13.5px;padding:4px 0}
+svg text{fill:var(--mut);font-size:22px}
+.more{display:block;width:100%;margin-top:8px;padding:8px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--txt);font:inherit;font-size:13px}
+.foot{font-size:12px;color:var(--mut);text-align:center;margin-top:16px}
+a{color:var(--acc2)}
+.tag{font-size:11px;font-weight:700;padding:2px 7px;border-radius:7px}
+.tag.p{background:rgba(52,211,153,.15);color:var(--ok)}.tag.h{background:rgba(251,191,36,.15);color:var(--warn)}.tag.x{background:rgba(248,113,113,.15);color:var(--bad)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>🛰️ Memecoin-Desk</h1><span class="badge">NUR PAPIERGELD</span>
+  <div class="stand" id="stand">Lade Daten …</div>
+</header>
+<div class="stale" id="stale"></div>
+<div id="app"></div>
+<div class="foot">Solana · 6 Stationen · echte Daten von DexScreener, Solana-RPC und RugCheck · keine Wallet, keine echten Trades<br>Aktualisiert sich automatisch alle 45 s</div>
+</div>
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const nf=(x,d=2)=>x==null||isNaN(x)?"–":Number(x).toLocaleString("de-DE",{minimumFractionDigits:d,maximumFractionDigits:d});
+const eur=(x,d=2)=>x==null?"–":nf(x,d)+" €";
+const pct=(x,d=1)=>x==null?"–":(x>0?"+":"")+nf(x,d)+" %";
+const usd=x=>x==null?"–":x>=1e6?nf(x/1e6,2)+" Mio $":x>=1e3?nf(x/1e3,0)+"k $":nf(x,0)+" $";
+const px=x=>{if(x==null)return"–";if(x>=1)return nf(x,4)+" $";const s=x.toPrecision(4);return Number(s).toLocaleString("de-DE",{maximumSignificantDigits:4})+" $"};
+const tB=iso=>iso?new Date(iso).toLocaleTimeString("de-DE",{timeZone:"Europe/Berlin",hour:"2-digit",minute:"2-digit"}):"–";
+const dtB=iso=>iso?new Date(iso).toLocaleString("de-DE",{timeZone:"Europe/Berlin",day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit"}):"–";
+const ago=s=>s==null?"nie":s<60?`vor ${Math.round(s)} s`:s<3600?`vor ${Math.round(s/60)} min`:`vor ${nf(s/3600,1)} h`;
+const cls=x=>x>0?"pos":x<0?"neg":"";
+const NAMES={scout:"Scout",filter:"Filter",analyst:"Analyst",executor:"Executor",risk:"Risk",logger:"Logger"};
+const FAC={momentum:"Momentum",unique_buyers:"Käufer (Kauf-Tx 1 h)",buy_sell:"Kauf/Verkauf",holder_growth:"Holder-Wachstum",liq_mcap:"Liquidität/MCap",smart_wallets:"Smart Wallets"};
+const EX={STOP_LOSS:"Stop −6 %",TRAILING_STOP:"Trailing-Stop"};
+let D=null,lastOk=0,showK=12,showS=8;
+
+function stationInfo(s){const i=s.info||{};switch(s.name){
+ case"scout":return i.with_pairs!=null?`${i.with_pairs} Paare geprüft, ${i.emitted} weitergegeben${i.error?" · Fehler: "+esc(i.error):""}`:"";
+ case"filter":return i.checked!=null?`letzte Runde: ${i.checked} geprüft, ${i.killed} gekillt`:"";
+ case"analyst":return i.scored!=null?`letzte Runde: ${i.scored} bewertet`:"";
+ case"executor":return i.equity!=null?`Konto ${eur(i.equity,3)}`:"";
+ case"risk":return i.open_positions!=null?`${i.open_positions} offene Position(en) bewacht`:"";
+ default:return"schreibt Log + erkennt Pausen"}}
+
+function eqChart(pts){
+ if(!pts||pts.length<2)return`<div class="empty">Noch zu wenige Punkte für eine Kurve.</div>`;
+ const W=700,H=230,P=34,xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]);
+ let lo=Math.min(...ys,D.start),hi=Math.max(...ys,D.start);if(hi-lo<0.2){lo-=0.1;hi+=0.1}
+ const x0=xs[0],x1=Math.max(xs[xs.length-1],x0+1),X=t=>P+40+(t-x0)/(x1-x0)*(W-P-46),Y=v=>6+(hi-v)/(hi-lo)*(H-P-6);
+ const d=pts.map((p,i)=>(i?"L":"M")+X(p[0]).toFixed(1)+","+Y(p[1]).toFixed(1)).join("");
+ const last=ys[ys.length-1],col=last>=D.start?"#34d399":"#f87171";
+ const tl=t=>new Date(t*1000).toLocaleTimeString("de-DE",{timeZone:"Europe/Berlin",hour:"2-digit",minute:"2-digit"});
+ return`<svg viewBox="0 0 ${W} ${H}" width="100%" style="display:block">
+ <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${col}" stop-opacity=".35"/><stop offset="1" stop-color="${col}" stop-opacity="0"/></linearGradient></defs>
+ <line x1="${P}" x2="${W}" y1="${Y(D.start)}" y2="${Y(D.start)}" stroke="rgba(255,255,255,.25)" stroke-dasharray="4 4"/>
+ <text x="2" y="${Y(D.start)+3}">${nf(D.start,0)}€</text><text x="2" y="24">${nf(hi,2)}</text><text x="2" y="${H-P}">${nf(lo,2)}</text>
+ <path d="${d}L${X(xs[xs.length-1])},${H-P}L${X(x0)},${H-P}Z" fill="url(#g)"/>
+ <path d="${d}" fill="none" stroke="${col}" stroke-width="2.5" vector-effect="non-scaling-stroke"/>
+ <text x="${P}" y="${H-8}">${tl(x0)}</text><text x="${W-64}" y="${H-8}">${tl(xs[xs.length-1])}</text></svg>`}
+
+function render(){
+ const d=D,a=d.account,f=d.funnel,r=d.rules;let h="";
+ // Konto
+ h+=`<div class="card"><h2>💶 Papier-Konto <small>Start ${eur(d.start)} · seit ${dtB(d.created)}</small></h2>
+ <div class="kpis"><div class="kpi"><b class="${cls(a.equity-d.start)}">${eur(a.equity,3)}</b><span>Konto jetzt</span></div>
+ <div class="kpi"><b class="${cls(a.pct)}">${pct(a.pct,2)}</b><span>seit Start</span></div>
+ <div class="kpi"><b class="${cls(a.realized)}">${eur(a.realized,3)}</b><span>Gewinn realisiert</span></div>
+ <div class="kpi"><b>${eur(a.cash,3)}</b><span>Cash frei</span></div>
+ <div class="kpi"><b>${d.open.length}</b><span>offene Trades</span></div>
+ <div class="kpi"><b>${a.wins} / ${a.losses}</b><span>Gewinner / Verlierer</span></div></div>
+ <div style="margin-top:10px">${eqChart(d.equity)}</div></div>`;
+ // Stationen
+ h+=`<div class="card"><h2>⚙️ Die 6 Stationen <small>${d.stations.filter(s=>s.ok).length}/6 aktiv</small></h2><div class="st">`+
+ d.stations.map(s=>`<div class="s"><div class="n"><span class="dot ${s.ok?"":"off"}"></span>${NAMES[s.name]}</div>
+ <div class="r">${esc(s.role)}</div><div class="t">${s.ok?"läuft":"<span class=neg>keine Aktivität</span>"} · ${tB(s.last)} <span class="mut">(${ago(s.age_s)})</span></div>
+ <div class="r">${stationInfo(s)}</div></div>`).join("")+`</div></div>`;
+ // Trichter
+ const rows=[["Paare angeschaut",f.scanned,`${f.scan_cycles} Scout-Runden (Summe)`],["Kandidaten (Alter+MCap passt)",f.candidates,`${f.candidates_coins} Coins`],
+ ["Rausgeworfen (Kill)",f.killed,`${f.killed_coins} Coins`,1],["Bewertet (Punkte)",f.scored,`${f.scored_coins} Coins`],
+ [`Bestanden (${r.pass_score}+ Punkte)`,f.passed70,`${f.passed70_coins} Coins`],["Trades",f.trades,"Papier"]];
+ const mx=Math.max(1,f.candidates);
+ h+=`<div class="card fun"><h2>🔻 Trichter <small>seit Start</small></h2>`+rows.map((x,i)=>`<div class="row"><div class="lab">${x[0]}<br><span class="mut" style="font-size:11px">${x[2]}</span></div>
+ <div class="bar"><i class="${x[3]?"k":""}" style="width:${i==0?100:Math.max(x[1]?4:0,Math.min(100,x[1]/mx*100))}%"></i><em>${nf(x[1],0)}</em></div></div>`).join("")+
+ `<div class="facts">Hinweis: Ein Coin kann mehrmals geprüft werden (frühestens alle 5 min neu).</div></div>`;
+ // Offene Positionen
+ h+=`<div class="card"><h2>📈 Offene Positionen <small>Stop −${nf(r.stop,0)} % · Trailing ab +${nf(r.trail_act,0)} %</small></h2>`;
+ h+=d.open.length?d.open.map(p=>`<div class="item"><div class="top"><span class="sym">${esc(p.symbol)}</span><span class="${cls(p.upnl_eur)}"><b>${eur(p.upnl_eur,3)}</b> (${pct(p.move_pct)})</span></div>
+ <div class="facts">Einstieg ${px(p.entry)} · jetzt ${px(p.price)} · Einsatz ${eur(p.cost_eur,3)} · seit ${tB(p.opened)}</div>
+ <div class="facts">Stop: ${px(p.stop_now)} ${p.trailing?`<span class="tag p">Trailing aktiv · Hoch ${px(p.peak)}</span>`:`<span class="tag h">Trailing ab ${px(p.trail_at)}</span>`} · Preis-Check ${tB(p.mark_ts)}</div></div>`).join("")
+ :`<div class="empty">Keine offene Position. Es wird nur gekauft, wenn ein Coin ${r.pass_score}+ Punkte hat.</div>`;
+ h+=`</div>`;
+ // Geschlossen
+ h+=`<div class="card"><h2>✅ Geschlossene Trades <small>${d.closed.length}</small></h2>`+(d.closed.length?d.closed.map(p=>`<div class="item"><div class="top"><span class="sym">${esc(p.symbol)}</span><span class="${cls(p.pnl_eur)}"><b>${eur(p.pnl_eur,3)}</b> (${pct(p.pnl_pct)})</span></div>
+ <div class="facts">${tB(p.opened)} → ${tB(p.closed)} · ${esc(EX[p.reason]||p.reason)} · Einstieg ${px(p.entry)} · Ausstieg ${px(p.exit)} · Einsatz ${eur(p.cost_eur,3)}</div></div>`).join(""):`<div class="empty">Noch keine geschlossenen Trades.</div>`)+`</div>`;
+ // Scores
+ h+=`<div class="card"><h2>🧠 Analyst-Punkte <small>letzte Bewertung je Coin</small></h2>`;
+ h+=d.scores.length?d.scores.slice(0,showS).map(s=>{const st=s.passed?`<span class="tag p">bestanden</span>`:s.score>=r.pass_score?`<span class="tag h">wartet</span>`:`<span class="tag x">zu wenig</span>`;
+ const col=s.score>=r.pass_score?"#34d399":s.score>=50?"#fbbf24":"#f87171",C=2*Math.PI*22;
+ return`<div class="item"><div class="top"><div style="display:flex;gap:10px;align-items:center"><svg class="ring" viewBox="0 0 54 54"><circle cx="27" cy="27" r="22" stroke="rgba(255,255,255,.1)" stroke-width="5" fill="none"/><circle cx="27" cy="27" r="22" stroke="${col}" stroke-width="5" fill="none" stroke-linecap="round" stroke-dasharray="${C*s.score/100} ${C}" transform="rotate(-90 27 27)"/><text x="27" y="32" text-anchor="middle" style="fill:#fff;font-size:15px;font-weight:800">${Math.round(s.score)}</text></svg>
+ <div><div class="sym">${esc(s.symbol)} ${st}</div><div class="tm">${tB(s.ts)} · ${s.n}× bewertet${s.history.length>1?" · Verlauf "+s.history.map(x=>Math.round(x)).join("→"):""}</div></div></div></div>
+ ${s.hold_reason?`<div class="facts nd">${esc(s.hold_reason)}</div>`:""}
+ <div style="margin-top:6px">${Object.keys(FAC).map(k=>{const v=s.components[k],w=s.eff_weights[k];const nd=v==null;
+  return`<div class="fac"><span${nd?' class="nd"':""}>${FAC[k]}</span><div class="b"><i style="width:${nd?0:Math.round(v*100)}%"></i></div><span class="v ${nd?"nd":""}">${nd?"keine Daten":Math.round(v*100)+"%"+(w!=null?" ·"+Math.round(w):"")}</span></div>`}).join("")}</div>
+ <div class="facts">Rechts: Teilwert · Gewicht. ${s.components.smart_wallets==null?"Smart Wallets: keine echte freie Datenquelle, Gewicht auf die anderen verteilt.":""}</div></div>`}).join("")
+ +(d.scores.length>showS?`<button class="more" onclick="showS+=10;render()">Mehr zeigen (${d.scores.length-showS})</button>`:"")
+ :`<div class="empty">Noch keine Bewertungen.</div>`;
+ h+=`</div>`;
+ // Kills
+ h+=`<div class="card"><h2>🗑️ Rausgeworfene Coins <small>${f.killed} Kills · neueste zuerst</small></h2>`;
+ h+=d.kills.length?d.kills.slice(0,showK).map(k=>{const x=k.facts||{};const ch=[];
+  if(x.top10_pct!=null)ch.push(`Top10 ${nf(x.top10_pct,1)}%`);if(x.lpLockedPct!=null)ch.push(`LP gesperrt ${nf(x.lpLockedPct,0)}%`);
+  if(x.dev_pct!=null)ch.push(`Dev ${nf(x.dev_pct,1)}%`);if(x.bundle_pct!=null)ch.push(`Insider ${nf(x.bundle_pct,1)}%`);
+  if(x.h1_change!=null)ch.push(`1h ${pct(x.h1_change,0)}`);if(x.holders!=null)ch.push(`${nf(x.holders,0)} Holder`);
+  if("mintAuthority"in x)ch.push(x.mintAuthority?"Mint aktiv":"Mint ✓");if("freezeAuthority"in x)ch.push(x.freezeAuthority?"Freeze aktiv":"Freeze ✓");
+  return`<div class="item"><div class="top"><span class="sym">${esc(k.symbol)} <span class="mut" style="font-weight:400;font-size:12px">${esc(k.name&&k.name!==k.symbol?k.name:"")}</span></span><span class="tm">${tB(k.ts)}</span></div>
+  <ul class="why">${k.reasons.map(r=>`<li>${esc(r[1]||r[0])}</li>`).join("")}</ul>
+  <div class="facts">MCap ${usd(k.mcap)} · Liq ${usd(k.liq)} · Alter ${nf(k.age_h,1)} h${k.dex?" · "+esc(k.dex):""}</div>
+  <div>${ch.map(c=>`<span class="chip">${c}</span>`).join("")}</div>
+  <details><summary>Coin ansehen</summary><div class="facts" style="word-break:break-all">${esc(k.mint)}<br><a href="https://dexscreener.com/solana/${encodeURIComponent(k.pair||k.mint)}" target="_blank" rel="noopener">DexScreener</a> · <a href="https://rugcheck.xyz/tokens/${encodeURIComponent(k.mint)}" target="_blank" rel="noopener">RugCheck</a></div></details></div>`}).join("")
+ +(d.kills.length>showK?`<button class="more" onclick="showK+=15;render()">Mehr zeigen (${d.kills.length-showK})</button>`:"")
+ :`<div class="empty">Noch keine Kills.</div>`;
+ h+=`</div>`;
+ // Pausen
+ const bp=d.pauses.filter(p=>p.agent==="logger"),ap=d.pauses.filter(p=>p.agent!=="logger");
+ h+=`<div class="card"><h2>⏸️ Pausen <small>${d.pause_box.count}× · ${nf(d.pause_box.seconds/60,1)} min gesamt</small></h2>
+ <div class="facts" style="margin-bottom:6px">In einer Pause lief der Computer des Desks nicht: kein Scan und keine Stop-Überwachung.</div>`+
+ (bp.length?bp.slice(0,15).map(p=>`<div class="item"><div class="top"><span>${tB(p.start)} – ${tB(p.end)}</span><span class="warn" style="color:var(--warn)">${p.seconds>=60?nf(p.seconds/60,1)+" min":p.seconds+" s"}</span></div></div>`).join(""):`<div class="empty">Keine Pausen.</div>`)+
+ (ap.length?`<details><summary>Einzelne Stationen hatten ${ap.length} Aussetzer</summary>${ap.slice(0,20).map(p=>`<div class="facts">${NAMES[p.agent]||esc(p.agent)}: ${tB(p.start)}–${tB(p.end)} (${p.seconds} s)</div>`).join("")}</details>`:"")+`</div>`;
+ // Regeln
+ h+=`<div class="card"><h2>📋 Regeln</h2><div class="facts" style="font-size:12.5px;line-height:1.6">
+ Scout: Alter ${esc(r.age)}, MCap ${usd(r.mcap[0])}–${usd(r.mcap[1])}<br>
+ Filter-Kills: Mint/Freeze nicht abgegeben · LP unter ${r.lp_min} % gesperrt/verbrannt · Top-10-Holder über ${r.top10_max} % · Dev über ${r.dev_max} % oder frühere Rugs · Insider/Bundle über ${r.bundle_max} % · schon über +${r.pump_max} % in 1 h · fehlende Daten = Kill<br>
+ Analyst: ${Object.entries(r.weights).map(([k,v])=>FAC[k]+" "+v).join(" · ")} → nur ab ${r.pass_score} Punkten<br>
+ Executor: max ${r.max_pct} % vom Konto pro Trade · Risk: Stop −${r.stop} % vor dem Kauf, Trailing ab +${r.trail_act} % (Abstand ${r.trail_dist} %)</div></div>`;
+ $("#app").innerHTML=h;checkStale();}
+
+function checkStale(){if(!D)return;const age=(Date.now()/1000-(D.data_ts||D.generated_ts));
+ $("#stand").innerHTML=`Stand: <b>${dtB(D.data_time||D.generated)} Uhr</b> (Berlin) · ${ago(age)}`;
+ const el=$("#stale");if(age>600){el.style.display="block";el.textContent=`⚠️ Die Daten sind ${Math.round(age/60)} Minuten alt. Der Desk-Computer schläft gerade oder die Seite wurde nicht neu hochgeladen. Die Zahlen unten sind der letzte bekannte Stand.`}
+ else if(lastOk&&Date.now()-lastOk>180000){el.style.display="block";el.textContent="⚠️ Keine Verbindung – zeige den letzten geladenen Stand."}else el.style.display="none"}
+
+async function load(){try{const r=await fetch("desk.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;D=await r.json();lastOk=Date.now();render()}
+ catch(e){if(!D){$("#stand").textContent="Daten konnten nicht geladen werden – versuche es gleich nochmal."}checkStale()}}
+load();setInterval(load,45000);setInterval(checkStale,15000);
+</script>
+</body>
+</html>
