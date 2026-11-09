@@ -2,22 +2,22 @@
  "currency": "EUR",
  "rules": "Spielgeld 10 € · Stop −3 % · ab +0,10 € Trailing · nur Coins < 1 % Kosten",
  "pricing_model": "Jupiter ExactIn quotes + network fee; EUR via SOL/USD×USD/EUR; 20-agent desk",
- "as_of": "09.11.2026, 03:00:50",
- "data_time": "2026-11-09T03:00:50+01:00",
- "as_of_iso": "2026-11-09T03:00:50+01:00",
+ "as_of": "09.11.2026, 03:06:50",
+ "data_time": "2026-11-09T03:06:44+01:00",
+ "as_of_iso": "2026-11-09T03:06:50+01:00",
  "bot_running": true,
  "bot_stale": false,
- "bot_stale_sec": 0.37115,
- "last_cycle": "03:00",
+ "bot_stale_sec": 6.688582,
+ "last_cycle": "03:06",
  "start": 10.0,
  "equity": 10.0,
  "cash": 10.0,
  "pnl": 0.0,
  "pnl_pct": 0.0,
  "multiplier": 1.0,
- "pairs_scanned": 47,
- "evaluations": 874,
- "cycles": 41,
+ "pairs_scanned": 49,
+ "evaluations": 1436,
+ "cycles": 65,
  "trades_opened": 0,
  "closed_count": 0,
  "wins": 0,
@@ -46,11 +46,6 @@
   },
   {
    "t": "2026-11-09T02:49:41+01:00",
-   "label": "02:49",
-   "equity": 10.0
-  },
-  {
-   "t": "2026-11-09T02:49:57+01:00",
    "label": "02:49",
    "equity": 10.0
   },
@@ -92,11 +87,6 @@
   {
    "t": "2026-11-09T02:51:57+01:00",
    "label": "02:51",
-   "equity": 10.0
-  },
-  {
-   "t": "2026-11-09T02:52:11+01:00",
-   "label": "02:52",
    "equity": 10.0
   },
   {
@@ -145,11 +135,6 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:54:43+01:00",
-   "label": "02:54",
-   "equity": 10.0
-  },
-  {
    "t": "2026-11-09T02:54:58+01:00",
    "label": "02:54",
    "equity": 10.0
@@ -186,11 +171,6 @@
   },
   {
    "t": "2026-11-09T02:56:42+01:00",
-   "label": "02:56",
-   "equity": 10.0
-  },
-  {
-   "t": "2026-11-09T02:56:58+01:00",
    "label": "02:56",
    "equity": 10.0
   },
@@ -233,6 +213,116 @@
    "t": "2026-11-09T03:00:50+01:00",
    "label": "03:00",
    "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:01:16+01:00",
+   "label": "03:01",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:01:31+01:00",
+   "label": "03:01",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:01:48+01:00",
+   "label": "03:01",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:02:01+01:00",
+   "label": "03:02",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:02:15+01:00",
+   "label": "03:02",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:02:30+01:00",
+   "label": "03:02",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:02:44+01:00",
+   "label": "03:02",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:03:01+01:00",
+   "label": "03:03",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:03:14+01:00",
+   "label": "03:03",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:03:44+01:00",
+   "label": "03:03",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:04:00+01:00",
+   "label": "03:04",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:04:14+01:00",
+   "label": "03:04",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:04:30+01:00",
+   "label": "03:04",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:04:44+01:00",
+   "label": "03:04",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:05:00+01:00",
+   "label": "03:05",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:05:14+01:00",
+   "label": "03:05",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:05:30+01:00",
+   "label": "03:05",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:06:00+01:00",
+   "label": "03:06",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:06:15+01:00",
+   "label": "03:06",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:06:30+01:00",
+   "label": "03:06",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:06:44+01:00",
+   "label": "03:06",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:06:50+01:00",
+   "label": "03:06",
+   "equity": 10.0
   }
  ],
  "open_positions": [],
@@ -240,34 +330,34 @@
  "rejections": [
   {
    "reason": "Kein ruhiges positives 5-Min-Momentum",
-   "count": 23
+   "count": 24
   },
   {
    "reason": "Liquidität < 15k USD (Marktdaten)",
-   "count": 20
+   "count": 21
   },
   {
    "reason": "Paar älter als 24 h",
-   "count": 16
+   "count": 17
   },
   {
    "reason": "Kaufquote 5 Min < 55 %",
-   "count": 15
+   "count": 16
   },
   {
    "reason": "1h-Trend negativ",
-   "count": 12
+   "count": 14
   },
   {
    "reason": "Zu wenig Trades (5 Min)",
    "count": 12
   },
   {
-   "reason": "Quote-Token nicht SOL/USDC",
-   "count": 10
+   "reason": "Volumen 1h < 10k USD (Marktdaten)",
+   "count": 11
   },
   {
-   "reason": "Volumen 1h < 10k USD (Marktdaten)",
+   "reason": "Quote-Token nicht SOL/USDC",
    "count": 10
   },
   {
@@ -276,11 +366,43 @@
   },
   {
    "reason": "Überhitzt (5 Min > +25 %)",
-   "count": 4
+   "count": 8
   },
   {
    "reason": "Starker Verkaufsdruck",
    "count": 4
+  },
+  {
+   "reason": "Zu volatil (5 Min ±19 %)",
+   "count": 4
+  },
+  {
+   "reason": "Zu volatil (5 Min ±21 %)",
+   "count": 4
+  },
+  {
+   "reason": "Zu volatil (5 Min ±39 %)",
+   "count": 3
+  },
+  {
+   "reason": "Zu volatil (5 Min ±23 %)",
+   "count": 3
+  },
+  {
+   "reason": "Zu volatil (5 Min ±29 %)",
+   "count": 3
+  },
+  {
+   "reason": "Zu volatil (5 Min ±24 %)",
+   "count": 3
+  },
+  {
+   "reason": "Zu volatil (5 Min ±22 %)",
+   "count": 3
+  },
+  {
+   "reason": "Zu volatil (5 Min ±28 %)",
+   "count": 2
   },
   {
    "reason": "Kein Preis",
@@ -299,11 +421,11 @@
    "count": 2
   },
   {
-   "reason": "Zu volatil (5 Min ±44 %)",
+   "reason": "Zu volatil (5 Min ±36 %)",
    "count": 2
   },
   {
-   "reason": "Zu volatil (5 Min ±23 %)",
+   "reason": "Zu volatil (5 Min ±44 %)",
    "count": 2
   },
   {
@@ -315,31 +437,23 @@
    "count": 2
   },
   {
-   "reason": "Zu volatil (5 Min ±29 %)",
-   "count": 2
-  },
-  {
-   "reason": "Zu volatil (5 Min ±19 %)",
-   "count": 2
-  },
-  {
    "reason": "Paar jünger als 10 Min",
    "count": 2
   },
   {
-   "reason": "Zu volatil (5 Min ±28 %)",
-   "count": 1
+   "reason": "Zu volatil (5 Min ±32 %)",
+   "count": 2
   },
   {
-   "reason": "Zu volatil (5 Min ±39 %)",
-   "count": 1
+   "reason": "Zu volatil (5 Min ±30 %)",
+   "count": 2
+  },
+  {
+   "reason": "Zu volatil (5 Min ±18 %)",
+   "count": 2
   },
   {
    "reason": "Zu volatil (5 Min ±38 %)",
-   "count": 1
-  },
-  {
-   "reason": "Zu volatil (5 Min ±36 %)",
    "count": 1
   },
   {
@@ -348,10 +462,6 @@
   },
   {
    "reason": "Zu volatil (5 Min ±26 %)",
-   "count": 1
-  },
-  {
-   "reason": "Zu volatil (5 Min ±24 %)",
    "count": 1
   },
   {
@@ -379,10 +489,6 @@
    "count": 1
   },
   {
-   "reason": "Zu volatil (5 Min ±32 %)",
-   "count": 1
-  },
-  {
    "reason": "Zu volatil (5 Min ±72 %)",
    "count": 1
   },
@@ -397,75 +503,103 @@
   {
    "reason": "Zu volatil (5 Min ±50 %)",
    "count": 1
+  },
+  {
+   "reason": "Kerzen-Range zu groß (12.2 %)",
+   "count": 1
+  },
+  {
+   "reason": "Zu volatil (5 Min ±35 %)",
+   "count": 1
+  },
+  {
+   "reason": "Zu volatil (5 Min ±33 %)",
+   "count": 1
+  },
+  {
+   "reason": "Zu volatil (5 Min ±37 %)",
+   "count": 1
+  },
+  {
+   "reason": "Kerzen-Range zu groß (14.3 %)",
+   "count": 1
+  },
+  {
+   "reason": "Bearish-Kerze dominant",
+   "count": 1
+  },
+  {
+   "reason": "Zu volatil (5 Min ±60 %)",
+   "count": 1
   }
  ],
  "filter_performance": [
   {
    "key": "Liquidität < 15k USD (Marktdaten)",
-   "rejects": 727,
+   "rejects": 1216,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Kein ruhiges positives 5-Min-Momentum",
-   "rejects": 636,
+   "rejects": 1104,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Kaufquote 5 Min < 55 %",
-   "rejects": 515,
+   "rejects": 802,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Zu wenig Trades (5 Min)",
-   "rejects": 483,
+   "rejects": 771,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "1h-Trend negativ",
-   "rejects": 447,
+   "rejects": 740,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Volumen 1h < 10k USD (Marktdaten)",
-   "rejects": 404,
+   "rejects": 637,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Kurs dumpt (1h < -30 %)",
-   "rejects": 237,
+   "rejects": 381,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Starker Verkaufsdruck",
-   "rejects": 88,
+   "rejects": 184,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Überhitzt (5 Min > +25 %)",
-   "rejects": 47,
+   "rejects": 86,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Preiswirkung zu hoch",
-   "rejects": 41,
+   "rejects": 57,
    "wins": 0,
    "losses": 0,
    "trades": 0
@@ -473,128 +607,128 @@
  ],
  "log": [
   {
-   "time": "02:56:58",
+   "time": "03:03:01",
    "agent": "Logger",
-   "text": "Durchlauf 33: 22 Kand., 1 ok, 10,00 €",
+   "text": "Durchlauf 50: 23 Kand., 0 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "02:57:11",
+   "time": "03:03:14",
    "agent": "Logger",
-   "text": "Durchlauf 34: 22 Kand., 0 ok, 10,00 €",
+   "text": "Durchlauf 51: 23 Kand., 0 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "02:57:27",
+   "time": "03:03:30",
    "agent": "Logger",
-   "text": "Durchlauf 35: 22 Kand., 0 ok, 10,00 €",
+   "text": "Durchlauf 52: 23 Kand., 0 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "02:57:41",
+   "time": "03:03:44",
    "agent": "Logger",
-   "text": "Durchlauf 36: 22 Kand., 0 ok, 10,00 €",
+   "text": "Durchlauf 53: 23 Kand., 0 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "02:57:58",
-   "agent": "Analyst",
-   "text": "BAWSAQ: Score 94,0",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "02:58:00",
-   "agent": "Analyst",
-   "text": "NVIDIH: Score 54,7",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "02:58:00",
+   "time": "03:04:00",
    "agent": "Logger",
-   "text": "Durchlauf 37: 22 Kand., 2 ok, 10,00 €",
+   "text": "Durchlauf 54: 23 Kand., 0 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "02:58:11",
-   "agent": "Analyst",
-   "text": "BAWSAQ: Score 94,0",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "02:58:11",
-   "agent": "Analyst",
-   "text": "NVIDIH: Score 54,7",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "02:58:12",
+   "time": "03:04:14",
    "agent": "Logger",
-   "text": "Durchlauf 38: 22 Kand., 2 ok, 10,00 €",
+   "text": "Durchlauf 55: 23 Kand., 0 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "02:58:27",
-   "agent": "Analyst",
-   "text": "BAWSAQ: Score 94,0",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "02:58:27",
-   "agent": "Analyst",
-   "text": "NVIDIH: Score 54,7",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "02:58:28",
+   "time": "03:04:30",
    "agent": "Logger",
-   "text": "Durchlauf 39: 22 Kand., 2 ok, 10,00 €",
+   "text": "Durchlauf 56: 23 Kand., 0 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "02:58:41",
+   "time": "03:04:44",
    "agent": "Filter",
-   "text": "Mischio: Liquidität < 15k USD (Marktdaten)",
+   "text": "BARRACK: Liquidität < 15k USD (Marktdaten), Überhitzt (5 Min > +25 %)",
    "status": "Abgelehnt",
    "tone": "neutral"
   },
   {
-   "time": "02:58:41",
+   "time": "03:04:44",
    "agent": "Logger",
-   "text": "Durchlauf 40: 23 Kand., 0 ok, 10,00 €",
+   "text": "Durchlauf 57: 24 Kand., 0 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "03:00:46",
-   "agent": "Analyst",
-   "text": "BAWSAQ: Score 86,7",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "03:00:48",
-   "agent": "Analyst",
-   "text": "NVIDIH: Score 70,8",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "03:00:50",
+   "time": "03:05:00",
    "agent": "Logger",
-   "text": "Durchlauf 41: 23 Kand., 2 ok, 10,00 €",
+   "text": "Durchlauf 58: 24 Kand., 0 ok, 10,00 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "03:05:14",
+   "agent": "Logger",
+   "text": "Durchlauf 59: 24 Kand., 0 ok, 10,00 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "03:05:30",
+   "agent": "Logger",
+   "text": "Durchlauf 60: 24 Kand., 0 ok, 10,00 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "03:05:44",
+   "agent": "Filter",
+   "text": "Greed : Paar älter als 24 h",
+   "status": "Abgelehnt",
+   "tone": "neutral"
+  },
+  {
+   "time": "03:05:44",
+   "agent": "Logger",
+   "text": "Durchlauf 61: 25 Kand., 0 ok, 10,00 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "03:06:00",
+   "agent": "Logger",
+   "text": "Durchlauf 62: 24 Kand., 0 ok, 10,00 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "03:06:15",
+   "agent": "Logger",
+   "text": "Durchlauf 63: 24 Kand., 0 ok, 10,00 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "03:06:30",
+   "agent": "Logger",
+   "text": "Durchlauf 64: 24 Kand., 0 ok, 10,00 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "03:06:44",
+   "agent": "Logger",
+   "text": "Durchlauf 65: 24 Kand., 0 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   }
@@ -604,10 +738,10 @@
    "agent": "Scout",
    "task": "Neue Solana-Paare aus DexScreener-Feeds",
    "action": "0 neue Paare entdeckt",
-   "metric": "seen=49",
+   "metric": "seen=51",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T03:00:43+01:00"
+   "ts": "2026-11-09T03:06:42+01:00"
   },
   {
    "agent": "TrendScout",
@@ -616,25 +750,34 @@
    "metric": "boosted_cycle=43",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:00:45+01:00"
+   "ts": "2026-11-09T03:06:44+01:00"
+  },
+  {
+   "agent": "LiquidScout",
+   "task": "Liquide etablierte Solana-Coins (kein 24h-Alter)",
+   "action": "Wartet",
+   "metric": "",
+   "vote": null,
+   "status": "idle",
+   "ts": null
   },
   {
    "agent": "Liquidity",
    "task": "Mindest-Liquidität prüfen",
-   "action": "Mischio: liq=0$",
+   "action": "BARRACK: liq=0$",
    "metric": "",
    "vote": -1,
    "status": "warn",
-   "ts": "2026-11-09T03:00:48+01:00"
+   "ts": "2026-11-09T03:06:44+01:00"
   },
   {
    "agent": "Volume",
    "task": "1h-Volumen prüfen",
-   "action": "Mischio: vol1h=44443$",
+   "action": "BARRACK: vol1h=15551$",
    "metric": "",
-   "vote": 1,
+   "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T03:00:48+01:00"
+   "ts": "2026-11-09T03:06:44+01:00"
   },
   {
    "agent": "Holder",
@@ -643,7 +786,7 @@
    "metric": "",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:00:48+01:00"
+   "ts": "2026-11-09T03:02:14+01:00"
   },
   {
    "agent": "RugSecurity",
@@ -652,16 +795,16 @@
    "metric": "",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:00:48+01:00"
+   "ts": "2026-11-09T03:02:14+01:00"
   },
   {
    "agent": "Honeypot",
    "task": "Jupiter Kauf+Verkauf Roundtrip",
-   "action": "NVIDIH: rt=2.2843%",
+   "action": "NVIDIH: rt=2.1887%",
    "metric": "",
    "vote": -1,
    "status": "warn",
-   "ts": "2026-11-09T03:00:50+01:00"
+   "ts": "2026-11-09T03:02:15+01:00"
   },
   {
    "agent": "DevWallet",
@@ -670,61 +813,61 @@
    "metric": "",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:00:48+01:00"
+   "ts": "2026-11-09T03:02:14+01:00"
   },
   {
    "agent": "Momentum",
    "task": "m5/h1 Kursmomentum",
-   "action": "Mischio: m5=49.64 h1=418",
+   "action": "BARRACK: m5=60.48 h1=123",
    "metric": "",
    "vote": -1,
    "status": "warn",
-   "ts": "2026-11-09T03:00:48+01:00"
+   "ts": "2026-11-09T03:06:44+01:00"
   },
   {
    "agent": "Orderflow",
    "task": "Kauf-/Verkaufsquote & Txns",
-   "action": "Mischio: buy5=0.7",
+   "action": "BARRACK: buy5=0.88",
    "metric": "",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:00:48+01:00"
+   "ts": "2026-11-09T03:06:44+01:00"
   },
   {
    "agent": "Volatility",
    "task": "Zu wilde Schwankungen filtern",
-   "action": "Mischio: {'m5': 49.64}",
+   "action": "BARRACK: {'m5': 60.48}",
    "metric": "",
    "vote": -1,
    "status": "warn",
-   "ts": "2026-11-09T03:00:48+01:00"
+   "ts": "2026-11-09T03:06:44+01:00"
   },
   {
    "agent": "Candle",
    "task": "1m-Kerzenmuster (GeckoTerminal)",
-   "action": "Mischio: {'note': 'keine Kerzen'}",
+   "action": "BARRACK: {'note': 'keine Kerzen'}",
    "metric": "",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T03:00:48+01:00"
+   "ts": "2026-11-09T03:06:44+01:00"
   },
   {
    "agent": "Sentiment",
    "task": "Boosts/Social-Links als Proxy",
-   "action": "Mischio: boosts=0 socials=2",
+   "action": "BARRACK: boosts=0 socials=2",
    "metric": "",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T03:00:48+01:00"
+   "ts": "2026-11-09T03:06:44+01:00"
   },
   {
    "agent": "Analyst",
    "task": "Score + Stimmen zusammenfassen",
-   "action": "NVIDIH: Score 70.8 · Votes +7",
-   "metric": "score=70.8",
+   "action": "NVIDIH: Score 73.1 · Votes +7",
+   "metric": "score=73.1",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:00:48+01:00"
+   "ts": "2026-11-09T03:02:14+01:00"
   },
   {
    "agent": "Risk",
@@ -733,7 +876,7 @@
    "metric": "eq=10.00€",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:00:45+01:00"
+   "ts": "2026-11-09T03:06:44+01:00"
   },
   {
    "agent": "Executor",
@@ -751,25 +894,25 @@
    "metric": "check≈2.5s",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T03:00:45+01:00"
+   "ts": "2026-11-09T03:06:44+01:00"
   },
   {
    "agent": "MarketRegime",
    "task": "SOL-Trend; Pause bei Dump",
-   "action": "Markt ok · SOL h1 +0.13 %",
-   "metric": "SOL $87.74",
+   "action": "Markt ok · SOL h1 +0.33 %",
+   "metric": "SOL $88.04",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:00:41+01:00"
+   "ts": "2026-11-09T03:06:41+01:00"
   },
   {
    "agent": "Learner",
    "task": "Filter-Statistik (ohne Limits zu lockern)",
-   "action": "Filter-Stats: Liquidität < 15k USD (Marktdaten)×727, Kein ruhiges positives 5-Min-Momentum×636, Kaufquote 5 Min < ",
-   "metric": "40 Keys",
+   "action": "Filter-Stats: Liquidität < 15k USD (Marktdaten)×1216, Kein ruhiges positives 5-Min-Momentum×1104, Kaufquote 5 Min ",
+   "metric": "51 Keys",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T03:00:50+01:00"
+   "ts": "2026-11-09T03:06:44+01:00"
   },
   {
    "agent": "Auditor",
@@ -778,19 +921,19 @@
    "metric": "eq=10.0000",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:00:50+01:00"
+   "ts": "2026-11-09T03:06:44+01:00"
   },
   {
    "agent": "Logger",
    "task": "Protokolliert Entscheidungen",
-   "action": "Durchlauf 41: 23 Kand., 2 ok, eq=10.0€",
-   "metric": "rej=23",
+   "action": "Durchlauf 65: 24 Kand., 0 ok, eq=10.0€",
+   "metric": "rej=24",
    "vote": null,
    "status": "ok",
-   "ts": "2026-11-09T03:00:50+01:00"
+   "ts": "2026-11-09T03:06:44+01:00"
   }
  ],
- "agent_count": 21,
+ "agent_count": 22,
  "readiness": {
   "days_running": 0.01,
   "days_needed": 3,
@@ -811,55 +954,31 @@
  },
  "chart_focus": {
   "mode": "candidate",
-  "mint": "H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump",
-  "symbol": "BAWSAQ",
-  "pair": "FTNkgRH5fqqgQQLR1MeApHhMHoQXoQpX95GWyRYyi13U",
-  "pool": "FTNkgRH5fqqgQQLR1MeApHhMHoQXoQpX95GWyRYyi13U",
-  "url": "https://dexscreener.com/solana/ftnkgrh5fqqgqqlr1meaphhmhoqxoqpx95gwyryyi13u",
+  "mint": "3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump",
+  "symbol": "NVIDIH",
+  "pair": "A45t4ikrS5LyaN8ne8vTNvmZ3iebnfJ9kj1C5LuziY79",
+  "pool": "A45t4ikrS5LyaN8ne8vTNvmZ3iebnfJ9kj1C5LuziY79",
+  "url": "https://dexscreener.com/solana/a45t4ikrs5lyan8ne8vtnvmz3iebnfj9kj1c5luziy79",
   "entry": null,
   "cost": null,
   "stop_pct": -6.0,
   "stop_loss_pct_baseline": 3.0,
   "tp_eur": 0.1,
   "trailing": false,
-  "score": 86.7,
+  "score": 73.1,
   "opened": null
  },
  "watchlist": [
-  {
-   "mint": "H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump",
-   "symbol": "BAWSAQ",
-   "pair": "FTNkgRH5fqqgQQLR1MeApHhMHoQXoQpX95GWyRYyi13U",
-   "pool": "FTNkgRH5fqqgQQLR1MeApHhMHoQXoQpX95GWyRYyi13U",
-   "score": 86.7,
-   "price": 0.000745,
-   "m5": 6.59,
-   "h1": 242,
-   "liq": 68096.45,
-   "url": "https://dexscreener.com/solana/ftnkgrh5fqqgqqlr1meaphhmhoqxoqpx95gwyryyi13u"
-  },
-  {
-   "mint": "3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump",
-   "symbol": "NVIDIH",
-   "pair": "A45t4ikrS5LyaN8ne8vTNvmZ3iebnfJ9kj1C5LuziY79",
-   "pool": "A45t4ikrS5LyaN8ne8vTNvmZ3iebnfJ9kj1C5LuziY79",
-   "score": 70.8,
-   "price": 0.000418,
-   "m5": 16.24,
-   "h1": 53.68,
-   "liq": 50522.16,
-   "url": "https://dexscreener.com/solana/a45t4ikrs5lyan8ne8vtnvmz3iebnfj9kj1c5luziy79"
-  },
   {
    "mint": "E28Q8PGpUrKkuq18cWsX8viGkx692sKGyhfyJoz8pump",
    "symbol": "AI",
    "pair": "58T8FB4eWJRoJnpn8SSfB5Mw35mtbk2y3eoSCseuL4id",
    "pool": "58T8FB4eWJRoJnpn8SSfB5Mw35mtbk2y3eoSCseuL4id",
    "score": null,
-   "price": 2.52e-05,
-   "m5": -10.46,
-   "h1": -77.49,
-   "liq": 11673.08,
+   "price": 1.837e-05,
+   "m5": -12.21,
+   "h1": -83.62,
+   "liq": 9727.66,
    "url": "https://dexscreener.com/solana/58t8fb4ewjrojnpn8ssfb5mw35mtbk2y3eoscseul4id"
   },
   {
@@ -868,10 +987,10 @@
    "pair": "2ZWUBjWSb7xArFasTf7XH859VCSfaMGMAMtJ3Y2vr6Yz",
    "pool": "2ZWUBjWSb7xArFasTf7XH859VCSfaMGMAMtJ3Y2vr6Yz",
    "score": null,
-   "price": 0.0001629,
-   "m5": -15.32,
-   "h1": 367,
-   "liq": 33507,
+   "price": 0.0001177,
+   "m5": -20.57,
+   "h1": 238,
+   "liq": 27363.75,
    "url": "https://dexscreener.com/solana/2zwubjwsb7xarfastf7xh859vcsfamgmamtj3y2vr6yz"
   },
   {
@@ -880,9 +999,9 @@
    "pair": "99mjbC7aWiTQZnRbZQUk2YSo9wpNoqR6n4cNRbxuBWwK",
    "pool": "99mjbC7aWiTQZnRbZQUk2YSo9wpNoqR6n4cNRbxuBWwK",
    "score": null,
-   "price": 4.134e-06,
-   "m5": 0,
-   "h1": -49.9,
+   "price": 4.009e-06,
+   "m5": -3.02,
+   "h1": -51.41,
    "liq": 0,
    "url": "https://dexscreener.com/solana/99mjbc7awitqznrbzquk2yso9wpnoqr6n4cnrbxubwwk"
   },
@@ -892,11 +1011,35 @@
    "pair": "BJZ9qMnbmcy8SDxerZRiGeMmtgr9iuGqAcQuU7E4LWhQ",
    "pool": "BJZ9qMnbmcy8SDxerZRiGeMmtgr9iuGqAcQuU7E4LWhQ",
    "score": null,
-   "price": 0.0001588,
-   "m5": 10.44,
-   "h1": 86.35,
-   "liq": 30420.92,
+   "price": 0.0002143,
+   "m5": 31.94,
+   "h1": 137,
+   "liq": 35613.8,
    "url": "https://dexscreener.com/solana/bjz9qmnbmcy8sdxerzrigemmtgr9iugqacquu7e4lwhq"
+  },
+  {
+   "mint": "H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump",
+   "symbol": "BAWSAQ",
+   "pair": "FTNkgRH5fqqgQQLR1MeApHhMHoQXoQpX95GWyRYyi13U",
+   "pool": "FTNkgRH5fqqgQQLR1MeApHhMHoQXoQpX95GWyRYyi13U",
+   "score": null,
+   "price": 0.0007638,
+   "m5": -0.22,
+   "h1": 191,
+   "liq": 68993.75,
+   "url": "https://dexscreener.com/solana/ftnkgrh5fqqgqqlr1meaphhmhoqxoqpx95gwyryyi13u"
+  },
+  {
+   "mint": "3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump",
+   "symbol": "NVIDIH",
+   "pair": "A45t4ikrS5LyaN8ne8vTNvmZ3iebnfJ9kj1C5LuziY79",
+   "pool": "A45t4ikrS5LyaN8ne8vTNvmZ3iebnfJ9kj1C5LuziY79",
+   "score": null,
+   "price": 0.0004742,
+   "m5": 10.74,
+   "h1": 68.94,
+   "liq": 53855.06,
+   "url": "https://dexscreener.com/solana/a45t4ikrs5lyan8ne8vtnvmz3iebnfj9kj1c5luziy79"
   },
   {
    "mint": "HgGrmd6dsRaeryvDLrs5kN1YZehmkbuCafF43UgQpump",
@@ -905,8 +1048,8 @@
    "pool": "BX4bjuEaKhFwr2VZSi9gMAAeceYFxFbtMTuCPdzYLz2U",
    "score": null,
    "price": 1.66e-06,
-   "m5": -0.55,
-   "h1": -98.56,
+   "m5": 0,
+   "h1": -97.86,
    "liq": 1704.49,
    "url": "https://dexscreener.com/solana/bx4bjueakhfwr2vzsi9gmaaeceyfxfbtmtucpdzylz2u"
   },
@@ -917,41 +1060,41 @@
    "pool": "AvRKw7vLWJawhG8pR7mvX4vqtvqgMa3Aq8jKzaJXPGVL",
    "score": null,
    "price": 1.729e-06,
-   "m5": 0.86,
-   "h1": -97.55,
+   "m5": 0,
+   "h1": -97.85,
    "liq": 1840.92,
    "url": "https://dexscreener.com/solana/avrkw7vlwjawhg8pr7mvx4vqtvqgma3aq8jkzajxpgvl"
   }
  ],
  "regime": {
-  "sol_usd": 87.74,
-  "sol_eur": 78.5852084,
-  "h1": 0.13,
-  "m5": -0.13,
+  "sol_usd": 88.04,
+  "sol_eur": 78.8539064,
+  "h1": 0.33,
+  "m5": 0.44,
   "paused": false,
   "src": "dexscreener",
-  "ts": "2026-11-09T03:00:41+01:00"
+  "ts": "2026-11-09T03:06:41+01:00"
  },
  "auditor": {
   "ok": true,
   "issues": [],
   "equity": 10.0,
-  "ts": "2026-11-09T03:00:50+01:00"
+  "ts": "2026-11-09T03:06:44+01:00"
  },
  "last_buy_why": null,
  "ticker": [
   {
    "symbol": "NVIDIH",
-   "m5": 16.24,
-   "h1": 53.68,
-   "score": 70.8
+   "m5": 18.38,
+   "h1": 59.62,
+   "score": 73.1
   },
   {
    "symbol": "BAWSAQ",
-   "m5": 6.59,
-   "h1": 242,
-   "score": 86.7
+   "m5": 2.67,
+   "h1": 249,
+   "score": 76.4
   }
  ],
- "server_time": 1794189650
+ "server_time": 1794190010
 }
