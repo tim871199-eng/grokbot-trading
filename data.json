@@ -2,23 +2,23 @@
  "currency": "EUR",
  "rules": "Spielgeld 10 € · Stop −3 % · ab +0,10 € Trailing · nur Coins < 1 % Kosten",
  "pricing_model": "Jupiter ExactIn quotes + network fee; EUR via SOL/USD×USD/EUR; 20-agent desk",
- "as_of": "09.11.2026, 03:06:50",
- "data_time": "2026-11-09T03:06:44+01:00",
- "as_of_iso": "2026-11-09T03:06:50+01:00",
+ "as_of": "09.11.2026, 03:12:50",
+ "data_time": "2026-11-09T03:12:48+01:00",
+ "as_of_iso": "2026-11-09T03:12:50+01:00",
  "bot_running": true,
  "bot_stale": false,
- "bot_stale_sec": 6.688582,
- "last_cycle": "03:06",
+ "bot_stale_sec": 2.148745,
+ "last_cycle": "03:10",
  "start": 10.0,
- "equity": 10.0,
- "cash": 10.0,
- "pnl": 0.0,
- "pnl_pct": 0.0,
- "multiplier": 1.0,
- "pairs_scanned": 49,
- "evaluations": 1436,
- "cycles": 65,
- "trades_opened": 0,
+ "equity": 10.03,
+ "cash": 0.01,
+ "pnl": 0.03,
+ "pnl_pct": 0.32,
+ "multiplier": 1.003,
+ "pairs_scanned": 63,
+ "evaluations": 1989,
+ "cycles": 80,
+ "trades_opened": 1,
  "closed_count": 0,
  "wins": 0,
  "win_rate": null,
@@ -32,11 +32,6 @@
   {
    "t": "2026-11-09T02:48:58+01:00",
    "label": "02:48",
-   "equity": 10.0
-  },
-  {
-   "t": "2026-11-09T02:49:11+01:00",
-   "label": "02:49",
    "equity": 10.0
   },
   {
@@ -65,11 +60,6 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:50:57+01:00",
-   "label": "02:50",
-   "equity": 10.0
-  },
-  {
    "t": "2026-11-09T02:51:11+01:00",
    "label": "02:51",
    "equity": 10.0
@@ -80,22 +70,17 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:51:41+01:00",
-   "label": "02:51",
-   "equity": 10.0
-  },
-  {
    "t": "2026-11-09T02:51:57+01:00",
    "label": "02:51",
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:52:27+01:00",
+   "t": "2026-11-09T02:52:11+01:00",
    "label": "02:52",
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:52:41+01:00",
+   "t": "2026-11-09T02:52:27+01:00",
    "label": "02:52",
    "equity": 10.0
   },
@@ -110,11 +95,6 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:53:31+01:00",
-   "label": "02:53",
-   "equity": 10.0
-  },
-  {
    "t": "2026-11-09T02:53:43+01:00",
    "label": "02:53",
    "equity": 10.0
@@ -125,12 +105,12 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:54:13+01:00",
+   "t": "2026-11-09T02:54:31+01:00",
    "label": "02:54",
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:54:31+01:00",
+   "t": "2026-11-09T02:54:43+01:00",
    "label": "02:54",
    "equity": 10.0
   },
@@ -140,22 +120,12 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:55:12+01:00",
-   "label": "02:55",
-   "equity": 10.0
-  },
-  {
    "t": "2026-11-09T02:55:28+01:00",
    "label": "02:55",
    "equity": 10.0
   },
   {
    "t": "2026-11-09T02:55:42+01:00",
-   "label": "02:55",
-   "equity": 10.0
-  },
-  {
-   "t": "2026-11-09T02:55:58+01:00",
    "label": "02:55",
    "equity": 10.0
   },
@@ -185,11 +155,6 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:57:41+01:00",
-   "label": "02:57",
-   "equity": 10.0
-  },
-  {
    "t": "2026-11-09T02:58:00+01:00",
    "label": "02:58",
    "equity": 10.0
@@ -205,17 +170,12 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:58:41+01:00",
-   "label": "02:58",
-   "equity": 10.0
-  },
-  {
    "t": "2026-11-09T03:00:50+01:00",
    "label": "03:00",
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:01:16+01:00",
+   "t": "2026-11-09T03:01:01+01:00",
    "label": "03:01",
    "equity": 10.0
   },
@@ -235,11 +195,6 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:02:15+01:00",
-   "label": "03:02",
-   "equity": 10.0
-  },
-  {
    "t": "2026-11-09T03:02:30+01:00",
    "label": "03:02",
    "equity": 10.0
@@ -250,12 +205,12 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:03:01+01:00",
+   "t": "2026-11-09T03:03:14+01:00",
    "label": "03:03",
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:03:14+01:00",
+   "t": "2026-11-09T03:03:30+01:00",
    "label": "03:03",
    "equity": 10.0
   },
@@ -265,22 +220,12 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:04:00+01:00",
-   "label": "03:04",
-   "equity": 10.0
-  },
-  {
    "t": "2026-11-09T03:04:14+01:00",
    "label": "03:04",
    "equity": 10.0
   },
   {
    "t": "2026-11-09T03:04:30+01:00",
-   "label": "03:04",
-   "equity": 10.0
-  },
-  {
-   "t": "2026-11-09T03:04:44+01:00",
    "label": "03:04",
    "equity": 10.0
   },
@@ -310,11 +255,6 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:06:30+01:00",
-   "label": "03:06",
-   "equity": 10.0
-  },
-  {
    "t": "2026-11-09T03:06:44+01:00",
    "label": "03:06",
    "equity": 10.0
@@ -323,53 +263,148 @@
    "t": "2026-11-09T03:06:50+01:00",
    "label": "03:06",
    "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:07:10+01:00",
+   "label": "03:07",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:07:21+01:00",
+   "label": "03:07",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:07:37+01:00",
+   "label": "03:07",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:08:07+01:00",
+   "label": "03:08",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:08:22+01:00",
+   "label": "03:08",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:08:51+01:00",
+   "label": "03:08",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:09:13+01:00",
+   "label": "03:09",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:09:25+01:00",
+   "label": "03:09",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:09:57+01:00",
+   "label": "03:09",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:10:11+01:00",
+   "label": "03:10",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:10:45+01:00",
+   "label": "03:10",
+   "equity": 9.93
+  },
+  {
+   "t": "2026-11-09T03:12:50+01:00",
+   "label": "03:12",
+   "equity": 10.03
   }
  ],
- "open_positions": [],
+ "open_positions": [
+  {
+   "symbol": "DESSA",
+   "opened": "03:10",
+   "cost": 9.99,
+   "value": 10.03,
+   "pct": 0.32,
+   "tp1_done": false,
+   "score": 43.1,
+   "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
+   "fill_model": "jupiter",
+   "quote_cost_eur": 0.0063,
+   "pair": "DEXTCER4k9dwbxTMU8zNVVwGevVmvHMB183pF2xxZwvH",
+   "pool": "DEXTCER4k9dwbxTMU8zNVVwGevVmvHMB183pF2xxZwvH",
+   "trailing": false,
+   "mint": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
+   "entry": 0.05358,
+   "buy_why": "Score 43.1, Votes +10, rt 0.7308%"
+  }
+ ],
  "closed_trades": [],
  "rejections": [
   {
    "reason": "Kein ruhiges positives 5-Min-Momentum",
-   "count": 24
+   "count": 36
+  },
+  {
+   "reason": "Liquidität < 40k USD (Marktdaten)",
+   "count": 22
   },
   {
    "reason": "Liquidität < 15k USD (Marktdaten)",
    "count": 21
   },
   {
-   "reason": "Paar älter als 24 h",
-   "count": 17
+   "reason": "Zu wenig Trades (5 Min)",
+   "count": 18
   },
   {
    "reason": "Kaufquote 5 Min < 55 %",
-   "count": 16
+   "count": 17
+  },
+  {
+   "reason": "Paar älter als 24 h",
+   "count": 17
   },
   {
    "reason": "1h-Trend negativ",
    "count": 14
   },
   {
-   "reason": "Zu wenig Trades (5 Min)",
+   "reason": "Volumen 1h < 10k USD (Marktdaten)",
    "count": 12
   },
   {
-   "reason": "Volumen 1h < 10k USD (Marktdaten)",
+   "reason": "Quote-Token nicht SOL/USDC",
    "count": 11
   },
   {
-   "reason": "Quote-Token nicht SOL/USDC",
-   "count": 10
-  },
-  {
    "reason": "Kurs dumpt (1h < -30 %)",
-   "count": 8
+   "count": 9
   },
   {
    "reason": "Überhitzt (5 Min > +25 %)",
-   "count": 8
+   "count": 9
   },
   {
    "reason": "Starker Verkaufsdruck",
+   "count": 8
+  },
+  {
+   "reason": "Kaufquote 5 Min < 52 %",
+   "count": 8
+  },
+  {
+   "reason": "Zu volatil (5 Min ±23 %)",
+   "count": 4
+  },
+  {
+   "reason": "Zu volatil (5 Min ±29 %)",
    "count": 4
   },
   {
@@ -381,19 +416,19 @@
    "count": 4
   },
   {
+   "reason": "Volumen 1h < 5k USD (Marktdaten)",
+   "count": 4
+  },
+  {
    "reason": "Zu volatil (5 Min ±39 %)",
    "count": 3
   },
   {
-   "reason": "Zu volatil (5 Min ±23 %)",
-   "count": 3
-  },
-  {
-   "reason": "Zu volatil (5 Min ±29 %)",
-   "count": 3
-  },
-  {
    "reason": "Zu volatil (5 Min ±24 %)",
+   "count": 3
+  },
+  {
+   "reason": "Zu volatil (5 Min ±30 %)",
    "count": 3
   },
   {
@@ -437,6 +472,10 @@
    "count": 2
   },
   {
+   "reason": "Zu volatil (5 Min ±20 %)",
+   "count": 2
+  },
+  {
    "reason": "Paar jünger als 10 Min",
    "count": 2
   },
@@ -445,11 +484,15 @@
    "count": 2
   },
   {
-   "reason": "Zu volatil (5 Min ±30 %)",
+   "reason": "Zu volatil (5 Min ±18 %)",
    "count": 2
   },
   {
-   "reason": "Zu volatil (5 Min ±18 %)",
+   "reason": "Zu volatil (5 Min ±37 %)",
+   "count": 2
+  },
+  {
+   "reason": "Top-Holder > 20 %",
    "count": 2
   },
   {
@@ -462,10 +505,6 @@
   },
   {
    "reason": "Zu volatil (5 Min ±26 %)",
-   "count": 1
-  },
-  {
-   "reason": "Zu volatil (5 Min ±20 %)",
    "count": 1
   },
   {
@@ -517,10 +556,6 @@
    "count": 1
   },
   {
-   "reason": "Zu volatil (5 Min ±37 %)",
-   "count": 1
-  },
-  {
    "reason": "Kerzen-Range zu groß (14.3 %)",
    "count": 1
   },
@@ -531,9 +566,44 @@
   {
    "reason": "Zu volatil (5 Min ±60 %)",
    "count": 1
+  },
+  {
+   "reason": "Zu volatil (5 Min ±40 %)",
+   "count": 1
+  },
+  {
+   "reason": "Zu volatil (5 Min ±42 %)",
+   "count": 1
+  },
+  {
+   "reason": "Zu volatil (5 Min ±52 %)",
+   "count": 1
+  },
+  {
+   "reason": "Zu volatil (5 Min ±41 %)",
+   "count": 1
+  },
+  {
+   "reason": "Zu volatil (5 Min ±63 %)",
+   "count": 1
+  },
+  {
+   "reason": "Top-10-Holder > 60 %",
+   "count": 1
+  },
+  {
+   "reason": "Momentum-Score < 40",
+   "count": 1
   }
  ],
  "filter_performance": [
+  {
+   "key": "Kein ruhiges positives 5-Min-Momentum",
+   "rejects": 1555,
+   "wins": 0,
+   "losses": 0,
+   "trades": 0
+  },
   {
    "key": "Liquidität < 15k USD (Marktdaten)",
    "rejects": 1216,
@@ -542,64 +612,57 @@
    "trades": 0
   },
   {
-   "key": "Kein ruhiges positives 5-Min-Momentum",
-   "rejects": 1104,
+   "key": "Zu wenig Trades (5 Min)",
+   "rejects": 1032,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Kaufquote 5 Min < 55 %",
-   "rejects": 802,
-   "wins": 0,
-   "losses": 0,
-   "trades": 0
-  },
-  {
-   "key": "Zu wenig Trades (5 Min)",
-   "rejects": 771,
+   "rejects": 994,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "1h-Trend negativ",
-   "rejects": 740,
+   "rejects": 934,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Volumen 1h < 10k USD (Marktdaten)",
-   "rejects": 637,
+   "rejects": 800,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Kurs dumpt (1h < -30 %)",
-   "rejects": 381,
+   "rejects": 463,
+   "wins": 0,
+   "losses": 0,
+   "trades": 0
+  },
+  {
+   "key": "Liquidität < 40k USD (Marktdaten)",
+   "rejects": 327,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Starker Verkaufsdruck",
-   "rejects": 184,
+   "rejects": 297,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Überhitzt (5 Min > +25 %)",
-   "rejects": 86,
-   "wins": 0,
-   "losses": 0,
-   "trades": 0
-  },
-  {
-   "key": "Preiswirkung zu hoch",
-   "rejects": 57,
+   "rejects": 109,
    "wins": 0,
    "losses": 0,
    "trades": 0
@@ -607,128 +670,128 @@
  ],
  "log": [
   {
-   "time": "03:03:01",
+   "time": "03:08:22",
    "agent": "Logger",
-   "text": "Durchlauf 50: 23 Kand., 0 ok, 10,00 €",
+   "text": "Durchlauf 71: 37 Kand., 0 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "03:03:14",
+   "time": "03:08:37",
    "agent": "Logger",
-   "text": "Durchlauf 51: 23 Kand., 0 ok, 10,00 €",
+   "text": "Durchlauf 72: 37 Kand., 0 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "03:03:30",
+   "time": "03:08:51",
    "agent": "Logger",
-   "text": "Durchlauf 52: 23 Kand., 0 ok, 10,00 €",
+   "text": "Durchlauf 73: 37 Kand., 0 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "03:03:44",
+   "time": "03:09:08",
+   "agent": "Analyst",
+   "text": "DESSA: Score 37,1",
+   "status": "Analyse",
+   "tone": "neutral"
+  },
+  {
+   "time": "03:09:13",
    "agent": "Logger",
-   "text": "Durchlauf 53: 23 Kand., 0 ok, 10,00 €",
+   "text": "Durchlauf 74: 37 Kand., 1 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "03:04:00",
+   "time": "03:09:25",
+   "agent": "Analyst",
+   "text": "DESSA: Score 37,1",
+   "status": "Analyse",
+   "tone": "neutral"
+  },
+  {
+   "time": "03:09:25",
    "agent": "Logger",
-   "text": "Durchlauf 54: 23 Kand., 0 ok, 10,00 €",
+   "text": "Durchlauf 75: 37 Kand., 1 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "03:04:14",
+   "time": "03:09:41",
    "agent": "Logger",
-   "text": "Durchlauf 55: 23 Kand., 0 ok, 10,00 €",
+   "text": "Durchlauf 76: 37 Kand., 0 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "03:04:30",
+   "time": "03:09:57",
    "agent": "Logger",
-   "text": "Durchlauf 56: 23 Kand., 0 ok, 10,00 €",
+   "text": "Durchlauf 77: 37 Kand., 0 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "03:04:44",
-   "agent": "Filter",
-   "text": "BARRACK: Liquidität < 15k USD (Marktdaten), Überhitzt (5 Min > +25 %)",
-   "status": "Abgelehnt",
-   "tone": "neutral"
-  },
-  {
-   "time": "03:04:44",
+   "time": "03:10:11",
    "agent": "Logger",
-   "text": "Durchlauf 57: 24 Kand., 0 ok, 10,00 €",
+   "text": "Durchlauf 78: 37 Kand., 0 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "03:05:00",
+   "time": "03:10:25",
+   "agent": "Analyst",
+   "text": "NVIDIH: Score 77,7",
+   "status": "Analyse",
+   "tone": "neutral"
+  },
+  {
+   "time": "03:10:27",
+   "agent": "Analyst",
+   "text": "DESSA: Score 41,9",
+   "status": "Analyse",
+   "tone": "neutral"
+  },
+  {
+   "time": "03:10:28",
    "agent": "Logger",
-   "text": "Durchlauf 58: 24 Kand., 0 ok, 10,00 €",
+   "text": "Durchlauf 79: 37 Kand., 2 ok, 10,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "03:05:14",
-   "agent": "Logger",
-   "text": "Durchlauf 59: 24 Kand., 0 ok, 10,00 €",
-   "status": "Durchlauf",
+   "time": "03:10:41",
+   "agent": "Analyst",
+   "text": "NVIDIH: Score 77,7",
+   "status": "Analyse",
    "tone": "neutral"
   },
   {
-   "time": "03:05:30",
-   "agent": "Logger",
-   "text": "Durchlauf 60: 24 Kand., 0 ok, 10,00 €",
-   "status": "Durchlauf",
+   "time": "03:10:41",
+   "agent": "Analyst",
+   "text": "DESSA: Score 41,9",
+   "status": "Analyse",
    "tone": "neutral"
   },
   {
-   "time": "03:05:44",
-   "agent": "Filter",
-   "text": "Greed : Paar älter als 24 h",
-   "status": "Abgelehnt",
-   "tone": "neutral"
+   "time": "03:10:44",
+   "agent": "Risk",
+   "text": "Einsatz 10,00 € freigegeben",
+   "status": "Freigabe",
+   "tone": "accent"
   },
   {
-   "time": "03:05:44",
-   "agent": "Logger",
-   "text": "Durchlauf 61: 25 Kand., 0 ok, 10,00 €",
-   "status": "Durchlauf",
-   "tone": "neutral"
+   "time": "03:10:45",
+   "agent": "Executor",
+   "text": "Kauf DESSA für 9,99 €",
+   "status": "Kauf",
+   "tone": "success"
   },
   {
-   "time": "03:06:00",
+   "time": "03:10:45",
    "agent": "Logger",
-   "text": "Durchlauf 62: 24 Kand., 0 ok, 10,00 €",
-   "status": "Durchlauf",
-   "tone": "neutral"
-  },
-  {
-   "time": "03:06:15",
-   "agent": "Logger",
-   "text": "Durchlauf 63: 24 Kand., 0 ok, 10,00 €",
-   "status": "Durchlauf",
-   "tone": "neutral"
-  },
-  {
-   "time": "03:06:30",
-   "agent": "Logger",
-   "text": "Durchlauf 64: 24 Kand., 0 ok, 10,00 €",
-   "status": "Durchlauf",
-   "tone": "neutral"
-  },
-  {
-   "time": "03:06:44",
-   "agent": "Logger",
-   "text": "Durchlauf 65: 24 Kand., 0 ok, 10,00 €",
+   "text": "Durchlauf 80: 37 Kand., 2 ok, 9,93 €",
    "status": "Durchlauf",
    "tone": "neutral"
   }
@@ -738,10 +801,10 @@
    "agent": "Scout",
    "task": "Neue Solana-Paare aus DexScreener-Feeds",
    "action": "0 neue Paare entdeckt",
-   "metric": "seen=51",
+   "metric": "seen=63",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T03:06:42+01:00"
+   "ts": "2026-11-09T03:10:30+01:00"
   },
   {
    "agent": "TrendScout",
@@ -750,235 +813,260 @@
    "metric": "boosted_cycle=43",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:06:44+01:00"
+   "ts": "2026-11-09T03:10:32+01:00"
   },
   {
    "agent": "LiquidScout",
    "task": "Liquide etablierte Solana-Coins (kein 24h-Alter)",
-   "action": "Wartet",
-   "metric": "",
-   "vote": null,
-   "status": "idle",
-   "ts": null
+   "action": "0 liquid neu · 12 watch",
+   "metric": "liq_watch=12",
+   "vote": 1,
+   "status": "ok",
+   "ts": "2026-11-09T03:10:40+01:00"
   },
   {
    "agent": "Liquidity",
    "task": "Mindest-Liquidität prüfen",
-   "action": "BARRACK: liq=0$",
+   "action": "SIGNS: liq=22735$",
    "metric": "",
    "vote": -1,
    "status": "warn",
-   "ts": "2026-11-09T03:06:44+01:00"
+   "ts": "2026-11-09T03:10:43+01:00"
   },
   {
    "agent": "Volume",
    "task": "1h-Volumen prüfen",
-   "action": "BARRACK: vol1h=15551$",
+   "action": "SIGNS: vol1h=129643$",
    "metric": "",
-   "vote": 0,
+   "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:06:44+01:00"
+   "ts": "2026-11-09T03:10:43+01:00"
   },
   {
    "agent": "Holder",
    "task": "Top-Holder-Konzentration",
-   "action": "NVIDIH: top1=0.9 top10=8.3",
+   "action": "PUMP: top1=27.8 top10=59.4",
    "metric": "",
-   "vote": 1,
-   "status": "ok",
-   "ts": "2026-11-09T03:02:14+01:00"
+   "vote": -1,
+   "status": "warn",
+   "ts": "2026-11-09T03:10:43+01:00"
   },
   {
    "agent": "RugSecurity",
    "task": "RugCheck, Mint/Freeze, Score",
-   "action": "NVIDIH: {'score': 1, 'top1': 0.8850733790112089, 'top10': 8.253859705633886}",
+   "action": "PUMP: {'score': 1, 'top1': 27.833192742558566, 'top10': 59.4215976370483}",
    "metric": "",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:02:14+01:00"
+   "ts": "2026-11-09T03:10:43+01:00"
   },
   {
    "agent": "Honeypot",
    "task": "Jupiter Kauf+Verkauf Roundtrip",
-   "action": "NVIDIH: rt=2.1887%",
+   "action": "DESSA: rt=0.7308%",
    "metric": "",
-   "vote": -1,
-   "status": "warn",
-   "ts": "2026-11-09T03:02:15+01:00"
+   "vote": 1,
+   "status": "ok",
+   "ts": "2026-11-09T03:10:44+01:00"
   },
   {
    "agent": "DevWallet",
    "task": "Creator-Anteil (falls bekannt)",
-   "action": "NVIDIH: {'creator_pct': 0, 'creator': 'k1W7QsRubPJ5'}",
+   "action": "PUMP: {'creator_pct': 0, 'creator': 'Doa8F9eugaAH'}",
    "metric": "",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:02:14+01:00"
+   "ts": "2026-11-09T03:10:43+01:00"
   },
   {
    "agent": "Momentum",
    "task": "m5/h1 Kursmomentum",
-   "action": "BARRACK: m5=60.48 h1=123",
+   "action": "SIGNS[new]: m5=-19.93 h1=136",
    "metric": "",
    "vote": -1,
    "status": "warn",
-   "ts": "2026-11-09T03:06:44+01:00"
+   "ts": "2026-11-09T03:10:43+01:00"
   },
   {
    "agent": "Orderflow",
    "task": "Kauf-/Verkaufsquote & Txns",
-   "action": "BARRACK: buy5=0.88",
+   "action": "SIGNS: buy5=0.59",
    "metric": "",
-   "vote": 1,
+   "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T03:06:44+01:00"
+   "ts": "2026-11-09T03:10:43+01:00"
   },
   {
    "agent": "Volatility",
    "task": "Zu wilde Schwankungen filtern",
-   "action": "BARRACK: {'m5': 60.48}",
+   "action": "SIGNS: {'m5': 19.93}",
    "metric": "",
    "vote": -1,
    "status": "warn",
-   "ts": "2026-11-09T03:06:44+01:00"
+   "ts": "2026-11-09T03:10:43+01:00"
   },
   {
    "agent": "Candle",
    "task": "1m-Kerzenmuster (GeckoTerminal)",
-   "action": "BARRACK: {'note': 'keine Kerzen'}",
+   "action": "SIGNS: {'note': 'keine Kerzen'}",
    "metric": "",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T03:06:44+01:00"
+   "ts": "2026-11-09T03:10:43+01:00"
   },
   {
    "agent": "Sentiment",
    "task": "Boosts/Social-Links als Proxy",
-   "action": "BARRACK: boosts=0 socials=2",
+   "action": "SIGNS: boosts=0 socials=1",
    "metric": "",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T03:06:44+01:00"
+   "ts": "2026-11-09T03:10:43+01:00"
   },
   {
    "agent": "Analyst",
    "task": "Score + Stimmen zusammenfassen",
-   "action": "NVIDIH: Score 73.1 · Votes +7",
-   "metric": "score=73.1",
+   "action": "DESSA[liquid]: Score 41.9 · Votes +9",
+   "metric": "score=41.9",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:02:14+01:00"
+   "ts": "2026-11-09T03:10:41+01:00"
   },
   {
    "agent": "Risk",
    "task": "Größe, Halts, Freigabe",
    "action": "Limits ok · Stop −3 % Baseline · −6 % Safety · Trail ab +0,10 €",
-   "metric": "eq=10.00€",
+   "metric": "eq=10.03€",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:06:44+01:00"
+   "ts": "2026-11-09T03:12:48+01:00"
   },
   {
    "agent": "Executor",
    "task": "Jupiter-Quote-Fills (simuliert)",
-   "action": "Wartet",
-   "metric": "",
-   "vote": null,
-   "status": "idle",
-   "ts": null
+   "action": "Kauf DESSA 9.99 €",
+   "metric": "score=43.1",
+   "vote": 1,
+   "status": "ok",
+   "ts": "2026-11-09T03:10:45+01:00"
   },
   {
    "agent": "ExitManager",
    "task": "Stop −3 % Baseline · Grace · Trailing ab +0,10 €",
-   "action": "Überwacht 0 Pos · Stop −3% Baseline · Grace 20s · Trail ab +0.10€",
+   "action": "Überwacht 1 Pos · Stop −3% Baseline · Grace 20s · Trail ab +0.10€",
    "metric": "check≈2.5s",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T03:06:44+01:00"
+   "ts": "2026-11-09T03:12:48+01:00"
   },
   {
    "agent": "MarketRegime",
    "task": "SOL-Trend; Pause bei Dump",
-   "action": "Markt ok · SOL h1 +0.33 %",
-   "metric": "SOL $88.04",
+   "action": "Markt ok · SOL h1 +0.21 %",
+   "metric": "SOL $87.94",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:06:41+01:00"
+   "ts": "2026-11-09T03:10:28+01:00"
   },
   {
    "agent": "Learner",
    "task": "Filter-Statistik (ohne Limits zu lockern)",
-   "action": "Filter-Stats: Liquidität < 15k USD (Marktdaten)×1216, Kein ruhiges positives 5-Min-Momentum×1104, Kaufquote 5 Min ",
-   "metric": "51 Keys",
+   "action": "Filter-Stats: Kein ruhiges positives 5-Min-Momentum×1555, Liquidität < 15k USD (Marktdaten)×1216, Zu wenig Trades ",
+   "metric": "62 Keys",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T03:06:44+01:00"
+   "ts": "2026-11-09T03:10:45+01:00"
   },
   {
    "agent": "Auditor",
    "task": "Equity/Trades Konsistenz",
    "action": "Kontostand & Trades konsistent",
-   "metric": "eq=10.0000",
+   "metric": "eq=10.0319",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:06:44+01:00"
+   "ts": "2026-11-09T03:12:48+01:00"
   },
   {
    "agent": "Logger",
    "task": "Protokolliert Entscheidungen",
-   "action": "Durchlauf 65: 24 Kand., 0 ok, eq=10.0€",
-   "metric": "rej=24",
+   "action": "Durchlauf 80: 37 Kand., 2 ok, eq=9.927€",
+   "metric": "rej=36",
    "vote": null,
    "status": "ok",
-   "ts": "2026-11-09T03:06:44+01:00"
+   "ts": "2026-11-09T03:10:45+01:00"
   }
  ],
  "agent_count": 22,
  "readiness": {
-  "days_running": 0.01,
+  "days_running": 0.02,
   "days_needed": 3,
   "trades_closed": 0,
   "trades_needed": 30,
   "win_rate": null,
-  "net_pnl_eur": 0.0,
-  "max_drawdown_pct": 0.0,
+  "net_pnl_eur": 0.03,
+  "max_drawdown_pct": -1.48,
   "max_drawdown_limit_pct": -15.0,
   "ready_for_real": false,
   "label_de": "Echtgeld-Freigabe: 0/30 Trades · Tag 0/3 · noch nicht bereit",
   "checks": {
    "days": false,
    "trades": false,
-   "profit": false,
+   "profit": true,
    "drawdown": true
   }
  },
  "chart_focus": {
-  "mode": "candidate",
-  "mint": "3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump",
-  "symbol": "NVIDIH",
-  "pair": "A45t4ikrS5LyaN8ne8vTNvmZ3iebnfJ9kj1C5LuziY79",
-  "pool": "A45t4ikrS5LyaN8ne8vTNvmZ3iebnfJ9kj1C5LuziY79",
-  "url": "https://dexscreener.com/solana/a45t4ikrs5lyan8ne8vtnvmz3iebnfj9kj1c5luziy79",
-  "entry": null,
-  "cost": null,
+  "mode": "position",
+  "mint": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
+  "symbol": "DESSA",
+  "pair": "DEXTCER4k9dwbxTMU8zNVVwGevVmvHMB183pF2xxZwvH",
+  "pool": "DEXTCER4k9dwbxTMU8zNVVwGevVmvHMB183pF2xxZwvH",
+  "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
+  "entry": 0.05358,
+  "cost": 9.993698825642781,
   "stop_pct": -6.0,
   "stop_loss_pct_baseline": 3.0,
   "tp_eur": 0.1,
+  "baseline_exit_eur": 9.920712794783208,
   "trailing": false,
-  "score": 73.1,
-  "opened": null
+  "score": 43.1,
+  "opened": "2026-11-09T03:10:45+01:00"
  },
  "watchlist": [
+  {
+   "mint": "3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump",
+   "symbol": "NVIDIH",
+   "pair": "A45t4ikrS5LyaN8ne8vTNvmZ3iebnfJ9kj1C5LuziY79",
+   "pool": "A45t4ikrS5LyaN8ne8vTNvmZ3iebnfJ9kj1C5LuziY79",
+   "score": 77.7,
+   "price": 0.0005067,
+   "m5": 6.43,
+   "h1": 83.18,
+   "liq": 55852.18,
+   "url": "https://dexscreener.com/solana/a45t4ikrs5lyan8ne8vtnvmz3iebnfj9kj1c5luziy79"
+  },
+  {
+   "mint": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
+   "symbol": "DESSA",
+   "pair": "DEXTCER4k9dwbxTMU8zNVVwGevVmvHMB183pF2xxZwvH",
+   "pool": "DEXTCER4k9dwbxTMU8zNVVwGevVmvHMB183pF2xxZwvH",
+   "score": 44.9,
+   "price": 0.05338,
+   "m5": 2.61,
+   "h1": -0.92,
+   "liq": 688624.63,
+   "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh"
+  },
   {
    "mint": "E28Q8PGpUrKkuq18cWsX8viGkx692sKGyhfyJoz8pump",
    "symbol": "AI",
    "pair": "58T8FB4eWJRoJnpn8SSfB5Mw35mtbk2y3eoSCseuL4id",
    "pool": "58T8FB4eWJRoJnpn8SSfB5Mw35mtbk2y3eoSCseuL4id",
    "score": null,
-   "price": 1.837e-05,
-   "m5": -12.21,
-   "h1": -83.62,
-   "liq": 9727.66,
+   "price": 2.129e-05,
+   "m5": 13.47,
+   "h1": -80.94,
+   "liq": 10602.29,
    "url": "https://dexscreener.com/solana/58t8fb4ewjrojnpn8ssfb5mw35mtbk2y3eoscseul4id"
   },
   {
@@ -987,10 +1075,10 @@
    "pair": "2ZWUBjWSb7xArFasTf7XH859VCSfaMGMAMtJ3Y2vr6Yz",
    "pool": "2ZWUBjWSb7xArFasTf7XH859VCSfaMGMAMtJ3Y2vr6Yz",
    "score": null,
-   "price": 0.0001177,
-   "m5": -20.57,
-   "h1": 238,
-   "liq": 27363.75,
+   "price": 0.0001444,
+   "m5": 21.4,
+   "h1": 314,
+   "liq": 30745.56,
    "url": "https://dexscreener.com/solana/2zwubjwsb7xarfastf7xh859vcsfamgmamtj3y2vr6yz"
   },
   {
@@ -1000,7 +1088,7 @@
    "pool": "99mjbC7aWiTQZnRbZQUk2YSo9wpNoqR6n4cNRbxuBWwK",
    "score": null,
    "price": 4.009e-06,
-   "m5": -3.02,
+   "m5": 0,
    "h1": -51.41,
    "liq": 0,
    "url": "https://dexscreener.com/solana/99mjbc7awitqznrbzquk2yso9wpnoqr6n4cnrbxubwwk"
@@ -1011,10 +1099,10 @@
    "pair": "BJZ9qMnbmcy8SDxerZRiGeMmtgr9iuGqAcQuU7E4LWhQ",
    "pool": "BJZ9qMnbmcy8SDxerZRiGeMmtgr9iuGqAcQuU7E4LWhQ",
    "score": null,
-   "price": 0.0002143,
-   "m5": 31.94,
-   "h1": 137,
-   "liq": 35613.8,
+   "price": 0.0002293,
+   "m5": 5.18,
+   "h1": 144,
+   "liq": 36958.82,
    "url": "https://dexscreener.com/solana/bjz9qmnbmcy8sdxerzrigemmtgr9iugqacquu7e4lwhq"
   },
   {
@@ -1023,23 +1111,11 @@
    "pair": "FTNkgRH5fqqgQQLR1MeApHhMHoQXoQpX95GWyRYyi13U",
    "pool": "FTNkgRH5fqqgQQLR1MeApHhMHoQXoQpX95GWyRYyi13U",
    "score": null,
-   "price": 0.0007638,
-   "m5": -0.22,
-   "h1": 191,
-   "liq": 68993.75,
+   "price": 0.0007381,
+   "m5": -3.3,
+   "h1": 102,
+   "liq": 67903.97,
    "url": "https://dexscreener.com/solana/ftnkgrh5fqqgqqlr1meaphhmhoqxoqpx95gwyryyi13u"
-  },
-  {
-   "mint": "3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump",
-   "symbol": "NVIDIH",
-   "pair": "A45t4ikrS5LyaN8ne8vTNvmZ3iebnfJ9kj1C5LuziY79",
-   "pool": "A45t4ikrS5LyaN8ne8vTNvmZ3iebnfJ9kj1C5LuziY79",
-   "score": null,
-   "price": 0.0004742,
-   "m5": 10.74,
-   "h1": 68.94,
-   "liq": 53855.06,
-   "url": "https://dexscreener.com/solana/a45t4ikrs5lyan8ne8vtnvmz3iebnfj9kj1c5luziy79"
   },
   {
    "mint": "HgGrmd6dsRaeryvDLrs5kN1YZehmkbuCafF43UgQpump",
@@ -1047,54 +1123,81 @@
    "pair": "BX4bjuEaKhFwr2VZSi9gMAAeceYFxFbtMTuCPdzYLz2U",
    "pool": "BX4bjuEaKhFwr2VZSi9gMAAeceYFxFbtMTuCPdzYLz2U",
    "score": null,
-   "price": 1.66e-06,
-   "m5": 0,
-   "h1": -97.86,
-   "liq": 1704.49,
+   "price": 1.627e-06,
+   "m5": -2,
+   "h1": 0.77,
+   "liq": 1671.93,
    "url": "https://dexscreener.com/solana/bx4bjueakhfwr2vzsi9gmaaeceyfxfbtmtucpdzylz2u"
-  },
-  {
-   "mint": "8xecQf6g6ooxPLRS6CePqmSF6RD7YMfZn1QCzDoppump",
-   "symbol": "SPY",
-   "pair": "AvRKw7vLWJawhG8pR7mvX4vqtvqgMa3Aq8jKzaJXPGVL",
-   "pool": "AvRKw7vLWJawhG8pR7mvX4vqtvqgMa3Aq8jKzaJXPGVL",
-   "score": null,
-   "price": 1.729e-06,
-   "m5": 0,
-   "h1": -97.85,
-   "liq": 1840.92,
-   "url": "https://dexscreener.com/solana/avrkw7vlwjawhg8pr7mvx4vqtvqgma3aq8jkzajxpgvl"
   }
  ],
  "regime": {
-  "sol_usd": 88.04,
-  "sol_eur": 78.8539064,
-  "h1": 0.33,
-  "m5": 0.44,
+  "sol_usd": 87.94,
+  "sol_eur": 78.7643404,
+  "h1": 0.21,
+  "m5": 0.2,
   "paused": false,
   "src": "dexscreener",
-  "ts": "2026-11-09T03:06:41+01:00"
+  "ts": "2026-11-09T03:10:28+01:00"
  },
  "auditor": {
   "ok": true,
   "issues": [],
-  "equity": 10.0,
-  "ts": "2026-11-09T03:06:44+01:00"
+  "equity": 10.0319,
+  "ts": "2026-11-09T03:12:48+01:00"
  },
- "last_buy_why": null,
+ "last_buy_why": {
+  "summary": "Score 43.1, Votes +10, rt 0.7308%",
+  "score": 43.1,
+  "votes": {
+   "Liquidity": 1,
+   "Volume": 1,
+   "Orderflow": 1,
+   "Momentum": 0,
+   "Volatility": 1,
+   "Candle": 1,
+   "Sentiment": 1,
+   "RugSecurity": 1,
+   "Holder": 1,
+   "DevWallet": 1,
+   "Honeypot": 1
+  },
+  "features": {
+   "m5": 2.61,
+   "h1": -0.92,
+   "buy_ratio_m5": 0.69,
+   "buy_ratio_h1": 0.58,
+   "vol_m5": 40989.64,
+   "liq": 688625,
+   "votes_for": 9,
+   "votes_against": 0
+  },
+  "agents_for": [
+   "Liquidity",
+   "Volume",
+   "Orderflow",
+   "Volatility",
+   "Candle",
+   "Sentiment",
+   "RugSecurity",
+   "Holder",
+   "DevWallet",
+   "Honeypot"
+  ],
+  "agents_against": []
+ },
  "ticker": [
   {
-   "symbol": "NVIDIH",
-   "m5": 18.38,
-   "h1": 59.62,
-   "score": 73.1
+   "symbol": "DESSA",
+   "m5": 2.61,
+   "h1": -0.92,
+   "score": 41.9
   },
   {
-   "symbol": "BAWSAQ",
-   "m5": 2.67,
-   "h1": 249,
-   "score": 76.4
+   "symbol": "NVIDIH",
+   "m5": 6.43,
+   "h1": 83.18,
+   "score": 77.7
   }
  ],
- "server_time": 1794190010
+ "server_time": 1794190370
 }
