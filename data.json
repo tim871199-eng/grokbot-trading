@@ -2,25 +2,25 @@
  "currency": "EUR",
  "rules": "Spielgeld 5 € · Jupiter-Fills · +0,10 € Take-Profit netto · Stop -6 %",
  "pricing_model": "Jupiter ExactIn quotes (SOL↔token) + network fee; EUR via live SOL/USD×USD/EUR",
- "as_of": "09.11.2026, 01:47:20",
- "data_time": "2026-11-09T01:47:06+01:00",
- "as_of_iso": "2026-11-09T01:47:20+01:00",
+ "as_of": "09.11.2026, 01:55:18",
+ "data_time": "2026-11-09T01:55:07+01:00",
+ "as_of_iso": "2026-11-09T01:55:18+01:00",
  "bot_running": true,
- "last_cycle": "01:47",
+ "last_cycle": "01:55",
  "start": 5.0,
- "equity": 4.81,
- "cash": 4.81,
- "pnl": -0.19,
- "pnl_pct": -3.89,
- "multiplier": 0.961,
- "pairs_scanned": 42,
- "evaluations": 530,
- "cycles": 29,
- "trades_opened": 3,
- "closed_count": 3,
- "wins": 2,
- "win_rate": 67,
- "realized_pnl": -0.19,
+ "equity": 4.94,
+ "cash": 4.94,
+ "pnl": -0.06,
+ "pnl_pct": -1.3,
+ "multiplier": 0.987,
+ "pairs_scanned": 45,
+ "evaluations": 937,
+ "cycles": 52,
+ "trades_opened": 4,
+ "closed_count": 4,
+ "wins": 3,
+ "win_rate": 75,
+ "realized_pnl": -0.06,
  "curve": [
   {
    "t": "2026-11-09T01:27:53+01:00",
@@ -49,11 +49,6 @@
   },
   {
    "t": "2026-11-09T01:29:14+01:00",
-   "label": "01:29",
-   "equity": 5.0
-  },
-  {
-   "t": "2026-11-09T01:29:29+01:00",
    "label": "01:29",
    "equity": 5.0
   },
@@ -118,11 +113,6 @@
    "equity": 5.13
   },
   {
-   "t": "2026-11-09T01:34:14+01:00",
-   "label": "01:34",
-   "equity": 5.13
-  },
-  {
    "t": "2026-11-09T01:34:29+01:00",
    "label": "01:34",
    "equity": 5.13
@@ -183,11 +173,6 @@
    "equity": 5.23
   },
   {
-   "t": "2026-11-09T01:45:53+01:00",
-   "label": "01:45",
-   "equity": 5.23
-  },
-  {
    "t": "2026-11-09T01:46:08+01:00",
    "label": "01:46",
    "equity": 5.23
@@ -213,9 +198,129 @@
    "equity": 4.81
   },
   {
-   "t": "2026-11-09T01:47:20+01:00",
+   "t": "2026-11-09T01:47:21+01:00",
    "label": "01:47",
    "equity": 4.81
+  },
+  {
+   "t": "2026-11-09T01:47:36+01:00",
+   "label": "01:47",
+   "equity": 4.81
+  },
+  {
+   "t": "2026-11-09T01:47:51+01:00",
+   "label": "01:47",
+   "equity": 4.81
+  },
+  {
+   "t": "2026-11-09T01:48:06+01:00",
+   "label": "01:48",
+   "equity": 4.81
+  },
+  {
+   "t": "2026-11-09T01:48:21+01:00",
+   "label": "01:48",
+   "equity": 4.81
+  },
+  {
+   "t": "2026-11-09T01:48:36+01:00",
+   "label": "01:48",
+   "equity": 4.81
+  },
+  {
+   "t": "2026-11-09T01:48:51+01:00",
+   "label": "01:48",
+   "equity": 4.81
+  },
+  {
+   "t": "2026-11-09T01:49:09+01:00",
+   "label": "01:49",
+   "equity": 4.81
+  },
+  {
+   "t": "2026-11-09T01:49:14+01:00",
+   "label": "01:49",
+   "equity": 4.81
+  },
+  {
+   "t": "2026-11-09T01:49:16+01:00",
+   "label": "01:49",
+   "equity": 4.81
+  },
+  {
+   "t": "2026-11-09T01:49:31+01:00",
+   "label": "01:49",
+   "equity": 4.81
+  },
+  {
+   "t": "2026-11-09T01:49:46+01:00",
+   "label": "01:49",
+   "equity": 4.81
+  },
+  {
+   "t": "2026-11-09T01:50:01+01:00",
+   "label": "01:50",
+   "equity": 4.81
+  },
+  {
+   "t": "2026-11-09T01:50:16+01:00",
+   "label": "01:50",
+   "equity": 4.81
+  },
+  {
+   "t": "2026-11-09T01:50:32+01:00",
+   "label": "01:50",
+   "equity": 4.81
+  },
+  {
+   "t": "2026-11-09T01:50:47+01:00",
+   "label": "01:50",
+   "equity": 4.81
+  },
+  {
+   "t": "2026-11-09T01:51:03+01:00",
+   "label": "01:51",
+   "equity": 4.72
+  },
+  {
+   "t": "2026-11-09T01:51:36+01:00",
+   "label": "01:51",
+   "equity": 4.94
+  },
+  {
+   "t": "2026-11-09T01:51:40+01:00",
+   "label": "01:51",
+   "equity": 4.94
+  },
+  {
+   "t": "2026-11-09T01:52:09+01:00",
+   "label": "01:52",
+   "equity": 4.94
+  },
+  {
+   "t": "2026-11-09T01:52:24+01:00",
+   "label": "01:52",
+   "equity": 4.94
+  },
+  {
+   "t": "2026-11-09T01:52:39+01:00",
+   "label": "01:52",
+   "equity": 4.94
+  },
+  {
+   "t": "2026-11-09T01:54:52+01:00",
+   "label": "01:54",
+   "equity": 4.94
+  },
+  {
+   "t": "2026-11-09T01:55:07+01:00",
+   "label": "01:55",
+   "equity": 4.94
+  },
+  {
+   "t": "2026-11-09T01:55:18+01:00",
+   "label": "01:55",
+   "equity": 4.94
   }
  ],
  "open_positions": [],
@@ -261,12 +366,26 @@
    "fill_model": "jupiter",
    "quote_cost_eur": 0.0125,
    "old_1pct_cost_eur": 0.1044
+  },
+  {
+   "symbol": "HEREWEGO",
+   "opened": "01:51",
+   "closed": "01:51",
+   "cost": 4.8,
+   "proceeds": 4.93,
+   "pnl": 0.13,
+   "pnl_pct": 2.7,
+   "reason": "Take-Profit netto +0,10 € erreicht",
+   "url": "https://dexscreener.com/solana/67bwjnjsjbdpp3kpi6gdeevk25qgrprwfttmqe4wszir",
+   "fill_model": "jupiter",
+   "quote_cost_eur": 0.0125,
+   "old_1pct_cost_eur": 0.096
   }
  ],
  "rejections": [
   {
    "reason": "Kein ruhiges positives 5-Min-Momentum",
-   "count": 19
+   "count": 20
   },
   {
    "reason": "Kaufquote 5 Min < 55 %",
@@ -290,22 +409,22 @@
   },
   {
    "reason": "Quote-Token nicht SOL/USDC",
-   "count": 11
+   "count": 13
+  },
+  {
+   "reason": "Volumen 1h < 10k USD (Marktdaten)",
+   "count": 12
   },
   {
    "reason": "Paar älter als 24 h",
    "count": 11
   },
   {
-   "reason": "Volumen 1h < 10k USD (Marktdaten)",
-   "count": 11
+   "reason": "Starker Verkaufsdruck",
+   "count": 5
   },
   {
    "reason": "Kein Preis",
-   "count": 4
-  },
-  {
-   "reason": "Starker Verkaufsdruck",
    "count": 4
   },
   {
@@ -314,10 +433,14 @@
   },
   {
    "reason": "Überhitzt (5 Min > +25 %)",
-   "count": 3
+   "count": 4
   },
   {
    "reason": "Kein Solana-Paar gefunden",
+   "count": 2
+  },
+  {
+   "reason": "Momentum-Score < 50",
    "count": 2
   },
   {
@@ -329,113 +452,113 @@
    "count": 1
   },
   {
-   "reason": "Momentum-Score < 50",
+   "reason": "Paar jünger als 10 Min",
    "count": 1
   }
  ],
  "log": [
   {
-   "time": "01:46:08",
-   "agent": "Analyst",
-   "text": "SPY: Momentum-Score 88,7",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:46:08",
+   "time": "01:51:02",
    "agent": "Risk",
-   "text": "ENTRY_STALE",
-   "status": "ENTRY_STALE",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:46:08",
-   "agent": "Logger",
-   "text": "Durchlauf 26: 18 Kandidaten, 2 durch Filter, Konto 5,23 €",
-   "status": "Durchlauf",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:46:23",
-   "agent": "Analyst",
-   "text": "ELYSION: Momentum-Score 43,4",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:46:23",
-   "agent": "Analyst",
-   "text": "SPY: Momentum-Score 88,7",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:46:23",
-   "agent": "",
-   "text": "USD/EUR 0.89566 (frankfurter.app)",
-   "status": "FX",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:46:24",
-   "agent": "Risk",
-   "text": "Einsatz 5,23 € freigegeben, Stop -6.0 %",
+   "text": "Einsatz 4,81 € freigegeben, Stop -6.0 %",
    "status": "Freigabe",
    "tone": "accent"
   },
   {
-   "time": "01:46:25",
+   "time": "01:51:03",
    "agent": "Executor",
-   "text": "Kauf SPY für 5,22 € (Score 80.2) · Jupiter",
+   "text": "Kauf HEREWEGO für 4,80 € (Score 55.7) · Jupiter",
    "status": "Kauf",
    "tone": "success"
   },
   {
-   "time": "01:46:25",
+   "time": "01:51:03",
    "agent": "Logger",
-   "text": "Durchlauf 27: 18 Kandidaten, 2 durch Filter, Konto 5,06 €",
+   "text": "Durchlauf 45: 18 Kandidaten, 1 durch Filter, Konto 4,72 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "01:46:48",
+   "time": "01:51:36",
    "agent": "Executor",
-   "text": "Verkauf SPY: Netto-Stop -6.0 % (bei -8.1 %)",
+   "text": "Verkauf HEREWEGO: Take-Profit netto +0,10 € erreicht",
    "status": "Verkauf",
    "tone": "warning"
   },
   {
-   "time": "01:46:48",
+   "time": "01:51:36",
    "agent": "Logger",
-   "text": "SPY geschlossen: -0,42 € (-8,08 %)",
-   "status": "Verlust",
-   "tone": "danger"
+   "text": "HEREWEGO geschlossen: +0,13 € (+2,70 %)",
+   "status": "Gewinn",
+   "tone": "success"
   },
   {
-   "time": "01:46:51",
-   "agent": "Analyst",
-   "text": "ELYSION: Momentum-Score 24,5",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:46:51",
+   "time": "01:51:40",
    "agent": "Logger",
-   "text": "Durchlauf 28: 17 Kandidaten, 1 durch Filter, Konto 4,81 €",
+   "text": "Durchlauf 46: 17 Kandidaten, 0 durch Filter, Konto 4,94 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "01:47:06",
-   "agent": "Analyst",
-   "text": "ELYSION: Momentum-Score 24,5",
-   "status": "Analyse",
+   "time": "01:51:54",
+   "agent": "Logger",
+   "text": "Durchlauf 47: 17 Kandidaten, 0 durch Filter, Konto 4,94 €",
+   "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "01:47:06",
+   "time": "01:52:09",
    "agent": "Logger",
-   "text": "Durchlauf 29: 17 Kandidaten, 1 durch Filter, Konto 4,81 €",
+   "text": "Durchlauf 48: 17 Kandidaten, 0 durch Filter, Konto 4,94 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:52:24",
+   "agent": "Logger",
+   "text": "Durchlauf 49: 17 Kandidaten, 0 durch Filter, Konto 4,94 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:52:39",
+   "agent": "Filter",
+   "text": "Pumpatars: Quote-Token nicht SOL/USDC",
+   "status": "Abgelehnt",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:52:39",
+   "agent": "Logger",
+   "text": "Durchlauf 50: 18 Kandidaten, 0 durch Filter, Konto 4,94 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:54:52",
+   "agent": "Filter",
+   "text": "NVIDIA: Paar jünger als 10 Min, Überhitzt (5 Min > +25 %)",
+   "status": "Abgelehnt",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:54:52",
+   "agent": "Filter",
+   "text": "GARRETT: Quote-Token nicht SOL/USDC",
+   "status": "Abgelehnt",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:54:52",
+   "agent": "Logger",
+   "text": "Durchlauf 51: 19 Kandidaten, 0 durch Filter, Konto 4,94 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:55:07",
+   "agent": "Logger",
+   "text": "Durchlauf 52: 18 Kandidaten, 0 durch Filter, Konto 4,94 €",
    "status": "Durchlauf",
    "tone": "neutral"
   }
@@ -444,51 +567,51 @@
   {
    "agent": "Scout",
    "task": "Sucht neue Solana-Coins (DexScreener)",
-   "action": "Letzter Durchlauf 01:47: 0 neue, 17 Kandidaten",
-   "metric": "42 Paare gescannt"
+   "action": "Letzter Durchlauf 01:55: 0 neue, 18 Kandidaten",
+   "metric": "45 Paare gescannt"
   },
   {
    "agent": "Filter",
    "task": "Liquidität, RugCheck, Jupiter-Verkaufstest",
-   "action": "Zuletzt abgelehnt: forg (Volumen 1h < 10k USD (Marktdaten))",
-   "metric": "41 Tokens aussortiert"
+   "action": "Zuletzt abgelehnt: NVIDIA (Paar jünger als 10 Min)",
+   "metric": "44 Tokens aussortiert"
   },
   {
    "agent": "Analyst",
    "task": "Bewertet Momentum (Score ab 50)",
-   "action": "Zuletzt ELYSION: Score 24,5",
-   "metric": "21 Analysen"
+   "action": "Zuletzt HEREWEGO: Score 50,7",
+   "metric": "28 Analysen"
   },
   {
    "agent": "Executor",
    "task": "Jupiter-Quotes (simuliert, kein Wallet)",
-   "action": "Zuletzt verkauft: SPY 01:46",
-   "metric": "3 Käufe, 3 Verkäufe"
+   "action": "Zuletzt verkauft: HEREWEGO 01:51",
+   "metric": "4 Käufe, 4 Verkäufe"
   },
   {
    "agent": "Risk",
    "task": "1 Position, Quote-TP +0,10 €, Stop −6 %",
    "action": "Überwacht 0 offene Position(en)",
-   "metric": "3 Trades freigegeben"
+   "metric": "4 Trades freigegeben"
   },
   {
    "agent": "Logger",
    "task": "Protokolliert jede Entscheidung",
-   "action": "Letzter Eintrag 01:47",
-   "metric": "579 Einträge, 29 Durchläufe"
+   "action": "Letzter Eintrag 01:55",
+   "metric": "1018 Einträge, 52 Durchläufe"
   }
  ],
  "readiness": {
-  "days_running": 0.01,
+  "days_running": 0.02,
   "days_needed": 3,
-  "trades_closed": 3,
+  "trades_closed": 4,
   "trades_needed": 30,
-  "win_rate": 66.7,
-  "net_pnl_eur": -0.19,
-  "max_drawdown_pct": -8.07,
+  "win_rate": 75.0,
+  "net_pnl_eur": -0.06,
+  "max_drawdown_pct": -11.4,
   "max_drawdown_limit_pct": -15.0,
   "ready_for_real": false,
-  "label_de": "Echtgeld-Freigabe: 3/30 Trades · Tag 0/3 · noch nicht bereit",
+  "label_de": "Echtgeld-Freigabe: 4/30 Trades · Tag 0/3 · noch nicht bereit",
   "checks": {
    "days": false,
    "trades": false,
@@ -497,6 +620,12 @@
   }
  },
  "ticker": [
+  {
+   "symbol": "HEREWEGO",
+   "m5": 3.04,
+   "h1": 27.7,
+   "score": 50.7
+  },
   {
    "symbol": "ELYSION",
    "m5": 2.7,
@@ -508,19 +637,7 @@
    "m5": 21.92,
    "h1": 136,
    "score": 88.7
-  },
-  {
-   "symbol": "GTA6KODAK",
-   "m5": 13.45,
-   "h1": 44.83,
-   "score": 61.1
-  },
-  {
-   "symbol": "HEREWEGO",
-   "m5": 8.43,
-   "h1": 6.01,
-   "score": 61.2
   }
  ],
- "server_time": 1794185240
+ "server_time": 1794185718
 }
