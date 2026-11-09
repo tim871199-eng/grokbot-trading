@@ -2,18 +2,18 @@
  "currency": "EUR",
  "rules": "Spielgeld 10 € · Stop −3 % · ab +0,10 € Trailing · nur Coins < 1 % Kosten",
  "pricing_model": "Jupiter ExactIn quotes + network fee; EUR via SOL/USD×USD/EUR; 20-agent desk",
- "as_of": "09.11.2026, 10:51:57",
- "data_time": "2026-11-09T10:51:55+01:00",
- "as_of_iso": "2026-11-09T10:51:57+01:00",
+ "as_of": "09.11.2026, 10:59:10",
+ "data_time": "2026-11-09T10:59:08+01:00",
+ "as_of_iso": "2026-11-09T10:59:10+01:00",
  "bot_running": true,
  "bot_stale": false,
- "bot_stale_sec": 2.224714,
+ "bot_stale_sec": 2.631545,
  "last_cycle": "10:48",
  "start": 10.0,
  "equity": 8.71,
  "cash": 0.01,
  "pnl": -1.29,
- "pnl_pct": -12.9,
+ "pnl_pct": -12.92,
  "multiplier": 0.871,
  "pairs_scanned": 131,
  "evaluations": 19212,
@@ -320,8 +320,8 @@
    "equity": 8.73
   },
   {
-   "t": "2026-11-09T10:51:57+01:00",
-   "label": "10:51",
+   "t": "2026-11-09T10:59:10+01:00",
+   "label": "10:59",
    "equity": 8.71
   }
  ],
@@ -331,7 +331,7 @@
    "opened": "10:48",
    "cost": 8.73,
    "value": 8.7,
-   "pct": -0.26,
+   "pct": -0.28,
    "tp1_done": false,
    "score": 44.5,
    "url": "https://dexscreener.com/solana/22wrmytj8x2trvqen3fxxi2r4rn6jdhwomtpssmn8rud",
@@ -1194,7 +1194,7 @@
    "metric": "eq=8.71€",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T10:51:55+01:00"
+   "ts": "2026-11-09T10:59:08+01:00"
   },
   {
    "agent": "Executor",
@@ -1212,7 +1212,7 @@
    "metric": "check≈2.5s",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T10:51:55+01:00"
+   "ts": "2026-11-09T10:59:08+01:00"
   },
   {
    "agent": "MarketRegime",
@@ -1236,10 +1236,10 @@
    "agent": "Auditor",
    "task": "Equity/Trades Konsistenz",
    "action": "Kontostand & Trades konsistent",
-   "metric": "eq=8.7099",
+   "metric": "eq=8.7079",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T10:51:55+01:00"
+   "ts": "2026-11-09T10:59:09+01:00"
   },
   {
    "agent": "Logger",
@@ -1397,8 +1397,8 @@
  "auditor": {
   "ok": true,
   "issues": [],
-  "equity": 8.7099,
-  "ts": "2026-11-09T10:51:55+01:00"
+  "equity": 8.7079,
+  "ts": "2026-11-09T10:59:09+01:00"
  },
  "last_buy_why": {
   "summary": "Score 44.5, Votes +6, rt 0.2458%",
@@ -1456,5 +1456,5 @@
    "score": 23.6
   }
  ],
- "server_time": 1794217917
+ "server_time": 1794218350
 }
