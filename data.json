@@ -2,25 +2,25 @@
  "currency": "EUR",
  "rules": "Spielgeld 5 € · +0,10 € Take-Profit netto · Stop -6 %",
  "pricing_model": "USD price returns applied to EUR paper equity; FX risk not modeled",
- "as_of": "09.11.2026, 01:33:10",
- "data_time": "2026-11-09T01:33:09+01:00",
- "as_of_iso": "2026-11-09T01:33:10+01:00",
+ "as_of": "09.11.2026, 01:41:20",
+ "data_time": "2026-11-09T01:41:18+01:00",
+ "as_of_iso": "2026-11-09T01:41:20+01:00",
  "bot_running": true,
- "last_cycle": "01:30",
+ "last_cycle": "01:40",
  "start": 5.0,
- "equity": 5.09,
+ "equity": 5.06,
  "cash": 0.0,
- "pnl": 0.09,
- "pnl_pct": 1.88,
- "multiplier": 1.019,
- "pairs_scanned": 39,
- "evaluations": 201,
- "cycles": 10,
- "trades_opened": 1,
- "closed_count": 0,
- "wins": 0,
- "win_rate": null,
- "realized_pnl": 0.0,
+ "pnl": 0.06,
+ "pnl_pct": 1.2,
+ "multiplier": 1.012,
+ "pairs_scanned": 41,
+ "evaluations": 356,
+ "cycles": 19,
+ "trades_opened": 2,
+ "closed_count": 1,
+ "wins": 1,
+ "win_rate": 100,
+ "realized_pnl": 0.13,
  "curve": [
   {
    "t": "2026-11-09T01:27:53+01:00",
@@ -83,35 +83,115 @@
    "equity": 4.9
   },
   {
-   "t": "2026-11-09T01:33:10+01:00",
+   "t": "2026-11-09T01:33:14+01:00",
    "label": "01:33",
-   "equity": 5.09
+   "equity": 5.13
+  },
+  {
+   "t": "2026-11-09T01:33:18+01:00",
+   "label": "01:33",
+   "equity": 5.13
+  },
+  {
+   "t": "2026-11-09T01:33:32+01:00",
+   "label": "01:33",
+   "equity": 5.13
+  },
+  {
+   "t": "2026-11-09T01:33:36+01:00",
+   "label": "01:33",
+   "equity": 5.13
+  },
+  {
+   "t": "2026-11-09T01:33:41+01:00",
+   "label": "01:33",
+   "equity": 5.13
+  },
+  {
+   "t": "2026-11-09T01:33:44+01:00",
+   "label": "01:33",
+   "equity": 5.13
+  },
+  {
+   "t": "2026-11-09T01:33:59+01:00",
+   "label": "01:33",
+   "equity": 5.13
+  },
+  {
+   "t": "2026-11-09T01:34:14+01:00",
+   "label": "01:34",
+   "equity": 5.13
+  },
+  {
+   "t": "2026-11-09T01:34:29+01:00",
+   "label": "01:34",
+   "equity": 5.13
+  },
+  {
+   "t": "2026-11-09T01:34:44+01:00",
+   "label": "01:34",
+   "equity": 5.13
+  },
+  {
+   "t": "2026-11-09T01:34:59+01:00",
+   "label": "01:34",
+   "equity": 5.13
+  },
+  {
+   "t": "2026-11-09T01:40:08+01:00",
+   "label": "01:40",
+   "equity": 5.03
+  },
+  {
+   "t": "2026-11-09T01:41:20+01:00",
+   "label": "01:41",
+   "equity": 5.06
   }
  ],
  "open_positions": [
   {
+   "symbol": "GTA6KODAK",
+   "opened": "01:40",
+   "cost": 5.13,
+   "value": 5.06,
+   "pct": -1.31,
+   "tp1_done": false,
+   "score": 61.1,
+   "url": "https://dexscreener.com/solana/bkaagfumhqvgxa3bqzyabmibsmvietuiapu95prauhx7"
+  }
+ ],
+ "closed_trades": [
+  {
    "symbol": "HEREWEGO",
    "opened": "01:30",
+   "closed": "01:33",
    "cost": 5.0,
-   "value": 5.09,
-   "pct": 1.88,
-   "tp1_done": false,
-   "score": 61.2,
+   "proceeds": 5.13,
+   "pnl": 0.13,
+   "pnl_pct": 2.55,
+   "reason": "Take-Profit netto +0,10 € erreicht",
    "url": "https://dexscreener.com/solana/67bwjnjsjbdpp3kpi6gdeevk25qgrprwfttmqe4wszir"
   }
  ],
- "closed_trades": [],
  "rejections": [
+  {
+   "reason": "Kein ruhiges positives 5-Min-Momentum",
+   "count": 18
+  },
   {
    "reason": "Kaufquote 5 Min < 60 %",
    "count": 15
   },
   {
-   "reason": "Kein ruhiges positives 5-Min-Momentum",
-   "count": 15
+   "reason": "Liquidität < 15k USD (Marktdaten)",
+   "count": 14
   },
   {
-   "reason": "Liquidität < 15k USD (Marktdaten)",
+   "reason": "1h-Trend negativ",
+   "count": 14
+  },
+  {
+   "reason": "Kaufquote 5 Min < 55 %",
    "count": 14
   },
   {
@@ -124,14 +204,10 @@
   },
   {
    "reason": "Paar älter als 24 h",
-   "count": 10
+   "count": 11
   },
   {
    "reason": "Volumen 1h < 10k USD (Marktdaten)",
-   "count": 10
-  },
-  {
-   "reason": "1h-Trend negativ",
    "count": 10
   },
   {
@@ -139,11 +215,15 @@
    "count": 4
   },
   {
-   "reason": "Kurs dumpt (1h < -30 %)",
-   "count": 3
+   "reason": "Starker Verkaufsdruck",
+   "count": 4
   },
   {
-   "reason": "Starker Verkaufsdruck",
+   "reason": "Kurs dumpt (1h < -30 %)",
+   "count": 4
+  },
+  {
+   "reason": "Überhitzt (5 Min > +25 %)",
    "count": 2
   },
   {
@@ -155,117 +235,117 @@
    "count": 1
   },
   {
-   "reason": "Überhitzt (5 Min > +25 %)",
+   "reason": "Momentum-Score < 60",
    "count": 1
   },
   {
-   "reason": "Momentum-Score < 60",
+   "reason": "Momentum-Score < 50",
    "count": 1
   }
  ],
  "log": [
   {
-   "time": "01:29:14",
+   "time": "01:33:18",
    "agent": "Logger",
-   "text": "Durchlauf 4: 18 Kandidaten, 1 durch Filter, Konto 5,00 €",
+   "text": "Durchlauf 11: 18 Kandidaten, 0 durch Filter, Konto 5,13 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "01:29:29",
-   "agent": "Analyst",
-   "text": "HEREWEGO: Momentum-Score 45,7",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:29:29",
+   "time": "01:33:32",
    "agent": "Logger",
-   "text": "Durchlauf 5: 18 Kandidaten, 1 durch Filter, Konto 5,00 €",
+   "text": "Durchlauf 12: 17 Kandidaten, 0 durch Filter, Konto 5,13 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "01:29:44",
-   "agent": "Analyst",
-   "text": "HEREWEGO: Momentum-Score 45,7",
-   "status": "Analyse",
+   "time": "01:33:36",
+   "agent": "Logger",
+   "text": "Bot angehalten, Konto 5,13 €",
+   "status": "Stopp",
    "tone": "neutral"
   },
   {
-   "time": "01:29:44",
+   "time": "01:33:41",
    "agent": "Logger",
-   "text": "Durchlauf 6: 18 Kandidaten, 1 durch Filter, Konto 5,00 €",
+   "text": "Bot gestartet (Spielgeld), Konto 5,13 €",
+   "status": "Start",
+   "tone": "accent"
+  },
+  {
+   "time": "01:33:44",
+   "agent": "Logger",
+   "text": "Durchlauf 13: 17 Kandidaten, 0 durch Filter, Konto 5,13 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "01:29:59",
-   "agent": "Analyst",
-   "text": "HEREWEGO: Momentum-Score 46,6",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:29:59",
+   "time": "01:33:59",
    "agent": "Logger",
-   "text": "Durchlauf 7: 18 Kandidaten, 1 durch Filter, Konto 5,00 €",
+   "text": "Durchlauf 14: 17 Kandidaten, 0 durch Filter, Konto 5,13 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "01:30:14",
-   "agent": "Analyst",
-   "text": "HEREWEGO: Momentum-Score 46,6",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:30:14",
+   "time": "01:34:14",
    "agent": "Logger",
-   "text": "Durchlauf 8: 18 Kandidaten, 1 durch Filter, Konto 5,00 €",
+   "text": "Durchlauf 15: 17 Kandidaten, 0 durch Filter, Konto 5,13 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "01:30:29",
-   "agent": "Analyst",
-   "text": "HEREWEGO: Momentum-Score 46,6",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:30:29",
+   "time": "01:34:29",
    "agent": "Logger",
-   "text": "Durchlauf 9: 18 Kandidaten, 1 durch Filter, Konto 5,00 €",
+   "text": "Durchlauf 16: 17 Kandidaten, 0 durch Filter, Konto 5,13 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "01:30:44",
+   "time": "01:34:44",
+   "agent": "Logger",
+   "text": "Durchlauf 17: 17 Kandidaten, 0 durch Filter, Konto 5,13 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:34:59",
+   "agent": "Logger",
+   "text": "Durchlauf 18: 17 Kandidaten, 0 durch Filter, Konto 5,13 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:40:06",
    "agent": "Analyst",
-   "text": "HEREWEGO: Momentum-Score 61,2",
+   "text": "ELYSION: Momentum-Score 38,8",
    "status": "Analyse",
    "tone": "neutral"
   },
   {
-   "time": "01:30:44",
+   "time": "01:40:08",
+   "agent": "Analyst",
+   "text": "GTA6KODAK: Momentum-Score 61,1",
+   "status": "Analyse",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:40:08",
    "agent": "Risk",
-   "text": "Einsatz 5,00 € freigegeben, Stop -6.0 %",
+   "text": "Einsatz 5,13 € freigegeben, Stop -6.0 %",
    "status": "Freigabe",
    "tone": "accent"
   },
   {
-   "time": "01:30:44",
+   "time": "01:40:08",
    "agent": "Executor",
-   "text": "Kauf HEREWEGO für 5,00 € (Score 61.2)",
+   "text": "Kauf GTA6KODAK für 5,13 € (Score 61.1)",
    "status": "Kauf",
    "tone": "success"
   },
   {
-   "time": "01:30:44",
+   "time": "01:40:08",
    "agent": "Logger",
-   "text": "Durchlauf 10: 18 Kandidaten, 1 durch Filter, Konto 4,90 €",
+   "text": "Durchlauf 19: 18 Kandidaten, 2 durch Filter, Konto 5,03 €",
    "status": "Durchlauf",
    "tone": "neutral"
   }
@@ -274,41 +354,53 @@
   {
    "agent": "Scout",
    "task": "Sucht neue Solana-Coins (DexScreener)",
-   "action": "Letzter Durchlauf 01:30: 0 neue, 18 Kandidaten",
-   "metric": "39 Paare gescannt"
+   "action": "Letzter Durchlauf 01:40: 1 neue, 18 Kandidaten",
+   "metric": "41 Paare gescannt"
   },
   {
    "agent": "Filter",
    "task": "Prüft Liquidität, Volumen, Alter, Holder",
-   "action": "Zuletzt abgelehnt: forg (Kaufquote 5 Min < 60 %)",
-   "metric": "40 Tokens aussortiert"
+   "action": "Zuletzt abgelehnt: forg (Kaufquote 5 Min < 55 %)",
+   "metric": "41 Tokens aussortiert"
   },
   {
    "agent": "Analyst",
    "task": "Bewertet Momentum (Score ab 60)",
-   "action": "Zuletzt HEREWEGO: Score 61,2",
-   "metric": "7 Analysen"
+   "action": "Zuletzt GTA6KODAK: Score 61,1",
+   "metric": "9 Analysen"
   },
   {
    "agent": "Executor",
    "task": "Kauft und verkauft (simuliert)",
-   "action": "Zuletzt gekauft: HEREWEGO 01:30",
-   "metric": "1 Käufe, 0 Verkäufe"
+   "action": "Zuletzt gekauft: GTA6KODAK 01:40",
+   "metric": "2 Käufe, 1 Verkäufe"
   },
   {
    "agent": "Risk",
    "task": "1 Position, voller Einsatz, Netto-Stop −6 %",
    "action": "Überwacht 1 offene Position(en)",
-   "metric": "1 Trades freigegeben"
+   "metric": "2 Trades freigegeben"
   },
   {
    "agent": "Logger",
    "task": "Protokolliert jede Entscheidung",
-   "action": "Letzter Eintrag 01:30",
-   "metric": "214 Einträge, 10 Durchläufe"
+   "action": "Letzter Eintrag 01:40",
+   "metric": "384 Einträge, 19 Durchläufe"
   }
  ],
  "ticker": [
+  {
+   "symbol": "GTA6KODAK",
+   "m5": 13.45,
+   "h1": 44.83,
+   "score": 61.1
+  },
+  {
+   "symbol": "ELYSION",
+   "m5": 9.17,
+   "h1": 14.84,
+   "score": 38.8
+  },
   {
    "symbol": "HEREWEGO",
    "m5": 8.43,
@@ -316,5 +408,5 @@
    "score": 61.2
   }
  ],
- "server_time": 1794184390
+ "server_time": 1794184880
 }
