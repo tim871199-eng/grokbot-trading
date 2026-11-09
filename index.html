@@ -94,9 +94,9 @@ a{color:inherit;text-decoration:none}
 <div class="ticker"><div class="tr" id="ticker"></div></div>
 <div class="hero">
   <div class="title"><h1>Grok Bot</h1><span class="live" id="live"><span class="dot"></span><span id="livetxt">Live</span></span></div>
-  <div class="subt" id="subt">Spielgeld 5 € · Stop −0,10 € · ab +0,10 € Trailing · sofort nächster Trade</div>
+  <div class="subt" id="subt">Spielgeld 10 € · Stop −0,10 € · ab +0,10 € Trailing · sofort nächster Trade</div>
   <div class="eq" id="eq">— €</div>
-  <div class="pnl"><span id="pnl">—</span><span class="pill" id="mult">1.00×</span><span class="mut" style="font-weight:500;font-size:12px" id="start">Start 5,00 €</span></div>
+  <div class="pnl"><span id="pnl">—</span><span class="pill" id="mult">1.00×</span><span class="mut" style="font-weight:500;font-size:12px" id="start">Start 10,00 €</span></div>
 </div>
 <div class="chartbox">
   <div class="chd"><div><div class="sym" id="csym">—</div><div class="mut" style="font-size:11px" id="cmode">warte auf Markt…</div></div><div class="px" id="cpx">—</div></div>
@@ -264,7 +264,7 @@ function render(d){
  $("pnl").innerHTML=`<span class="${cls(d.pnl)}">${sg(d.pnl)} € (${sg(d.pnl_pct)} %)</span>`;
  const mu=$("mult");mu.textContent=Number(d.multiplier).toFixed(3)+"×";mu.className="pill "+(up?"g":"r");
  $("start").textContent="Start "+eur(d.start);
- $("subt").textContent=d.rules||"Spielgeld 5 €";
+ $("subt").textContent=d.rules||"Spielgeld 10 €";
  $("agcnt").textContent=(d.agent_count||d.agents?.length||20)+" agents";
  const lv=$("live");lv.className="live"+(d.bot_running?"":" off");$("livetxt").textContent=d.bot_running?(d.bot_stale?"Stale":"Live"):"Pausiert";
  const ban=$("banner");
