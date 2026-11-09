@@ -115,6 +115,7 @@ function eqChart(pts){
  <text x="${P}" y="${H-8}">${tl(x0)}</text><text x="${W-64}" y="${H-8}">${tl(xs[xs.length-1])}</text></svg>`}
 
 function render(){
+ const now=Date.now()/1000;D.stations.forEach(s=>{if(s.last_ts){s.age_s=now-s.last_ts;s.ok=s.age_s<s.ok_limit_s}});
  const d=D,a=d.account,f=d.funnel,r=d.rules;let h="";
  // Konto
  h+=`<div class="card"><h2>💶 Papier-Konto <small>Start ${eur(d.start)} · seit ${dtB(d.created)}</small></h2>
