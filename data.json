@@ -2,27 +2,27 @@
  "currency": "EUR",
  "rules": "Spielgeld 10 € · Stop −3 % · ab +0,10 € Trailing · nur Coins < 1 % Kosten",
  "pricing_model": "Jupiter ExactIn quotes + network fee; EUR via SOL/USD×USD/EUR; 20-agent desk",
- "as_of": "09.11.2026, 03:12:50",
- "data_time": "2026-11-09T03:12:48+01:00",
- "as_of_iso": "2026-11-09T03:12:50+01:00",
+ "as_of": "09.11.2026, 03:35:52",
+ "data_time": "2026-11-09T03:35:46+01:00",
+ "as_of_iso": "2026-11-09T03:35:52+01:00",
  "bot_running": true,
  "bot_stale": false,
- "bot_stale_sec": 2.148745,
+ "bot_stale_sec": 6.46179,
  "last_cycle": "03:10",
  "start": 10.0,
- "equity": 10.03,
- "cash": 0.01,
- "pnl": 0.03,
- "pnl_pct": 0.32,
- "multiplier": 1.003,
+ "equity": 9.03,
+ "cash": 9.03,
+ "pnl": -0.97,
+ "pnl_pct": -9.67,
+ "multiplier": 0.903,
  "pairs_scanned": 63,
  "evaluations": 1989,
  "cycles": 80,
  "trades_opened": 1,
- "closed_count": 0,
+ "closed_count": 1,
  "wins": 0,
- "win_rate": null,
- "realized_pnl": 0.0,
+ "win_rate": 0,
+ "realized_pnl": -0.97,
  "curve": [
   {
    "t": "2026-11-09T02:48:53+01:00",
@@ -55,7 +55,7 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:50:41+01:00",
+   "t": "2026-11-09T02:50:57+01:00",
    "label": "02:50",
    "equity": 10.0
   },
@@ -80,7 +80,7 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:52:27+01:00",
+   "t": "2026-11-09T02:52:41+01:00",
    "label": "02:52",
    "equity": 10.0
   },
@@ -90,7 +90,7 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:53:11+01:00",
+   "t": "2026-11-09T02:53:31+01:00",
    "label": "02:53",
    "equity": 10.0
   },
@@ -115,8 +115,8 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:54:58+01:00",
-   "label": "02:54",
+   "t": "2026-11-09T02:55:12+01:00",
+   "label": "02:55",
    "equity": 10.0
   },
   {
@@ -140,7 +140,7 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:56:42+01:00",
+   "t": "2026-11-09T02:56:58+01:00",
    "label": "02:56",
    "equity": 10.0
   },
@@ -150,7 +150,7 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:57:27+01:00",
+   "t": "2026-11-09T02:57:41+01:00",
    "label": "02:57",
    "equity": 10.0
   },
@@ -165,7 +165,7 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T02:58:28+01:00",
+   "t": "2026-11-09T02:58:41+01:00",
    "label": "02:58",
    "equity": 10.0
   },
@@ -175,7 +175,7 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:01:01+01:00",
+   "t": "2026-11-09T03:01:16+01:00",
    "label": "03:01",
    "equity": 10.0
   },
@@ -185,12 +185,12 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:01:48+01:00",
-   "label": "03:01",
+   "t": "2026-11-09T03:02:01+01:00",
+   "label": "03:02",
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:02:01+01:00",
+   "t": "2026-11-09T03:02:15+01:00",
    "label": "03:02",
    "equity": 10.0
   },
@@ -200,17 +200,12 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:02:44+01:00",
-   "label": "03:02",
-   "equity": 10.0
-  },
-  {
-   "t": "2026-11-09T03:03:14+01:00",
+   "t": "2026-11-09T03:03:01+01:00",
    "label": "03:03",
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:03:30+01:00",
+   "t": "2026-11-09T03:03:14+01:00",
    "label": "03:03",
    "equity": 10.0
   },
@@ -220,7 +215,7 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:04:14+01:00",
+   "t": "2026-11-09T03:04:00+01:00",
    "label": "03:04",
    "equity": 10.0
   },
@@ -230,12 +225,12 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:05:00+01:00",
-   "label": "03:05",
+   "t": "2026-11-09T03:04:44+01:00",
+   "label": "03:04",
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:05:14+01:00",
+   "t": "2026-11-09T03:05:00+01:00",
    "label": "03:05",
    "equity": 10.0
   },
@@ -245,12 +240,17 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:06:00+01:00",
-   "label": "03:06",
+   "t": "2026-11-09T03:05:44+01:00",
+   "label": "03:05",
    "equity": 10.0
   },
   {
    "t": "2026-11-09T03:06:15+01:00",
+   "label": "03:06",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:06:30+01:00",
    "label": "03:06",
    "equity": 10.0
   },
@@ -260,7 +260,7 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:06:50+01:00",
+   "t": "2026-11-09T03:06:54+01:00",
    "label": "03:06",
    "equity": 10.0
   },
@@ -270,22 +270,22 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:07:21+01:00",
-   "label": "03:07",
-   "equity": 10.0
-  },
-  {
    "t": "2026-11-09T03:07:37+01:00",
    "label": "03:07",
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:08:07+01:00",
-   "label": "03:08",
+   "t": "2026-11-09T03:07:51+01:00",
+   "label": "03:07",
    "equity": 10.0
   },
   {
    "t": "2026-11-09T03:08:22+01:00",
+   "label": "03:08",
+   "equity": 10.0
+  },
+  {
+   "t": "2026-11-09T03:08:37+01:00",
    "label": "03:08",
    "equity": 10.0
   },
@@ -295,17 +295,12 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:09:13+01:00",
-   "label": "03:09",
-   "equity": 10.0
-  },
-  {
    "t": "2026-11-09T03:09:25+01:00",
    "label": "03:09",
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:09:57+01:00",
+   "t": "2026-11-09T03:09:41+01:00",
    "label": "03:09",
    "equity": 10.0
   },
@@ -315,37 +310,42 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:10:45+01:00",
+   "t": "2026-11-09T03:10:28+01:00",
    "label": "03:10",
-   "equity": 9.93
+   "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:12:50+01:00",
-   "label": "03:12",
-   "equity": 10.03
+   "t": "2026-11-09T03:35:46+01:00",
+   "label": "03:35",
+   "equity": 9.03
+  },
+  {
+   "t": "2026-11-09T03:35:52+01:00",
+   "label": "03:35",
+   "equity": 9.03
   }
  ],
- "open_positions": [
+ "open_positions": [],
+ "closed_trades": [
   {
    "symbol": "DESSA",
    "opened": "03:10",
+   "closed": "03:35",
    "cost": 9.99,
-   "value": 10.03,
-   "pct": 0.32,
-   "tp1_done": false,
-   "score": 43.1,
+   "proceeds": 9.03,
+   "pnl": -0.97,
+   "pnl_pct": -9.67,
+   "reason": "Netto-Stop -6.0 % (bei -9.7 %)",
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh",
    "fill_model": "jupiter",
-   "quote_cost_eur": 0.0063,
+   "quote_cost_eur": 0.0126,
+   "old_1pct_cost_eur": 0.1999,
+   "buy_why": "Score 43.1, Votes +10, rt 0.7308%",
+   "sell_why": "Netto-Stop -6.0 % (bei -9.7 %)",
    "pair": "DEXTCER4k9dwbxTMU8zNVVwGevVmvHMB183pF2xxZwvH",
-   "pool": "DEXTCER4k9dwbxTMU8zNVVwGevVmvHMB183pF2xxZwvH",
-   "trailing": false,
-   "mint": "npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-   "entry": 0.05358,
-   "buy_why": "Score 43.1, Votes +10, rt 0.7308%"
+   "pool": "DEXTCER4k9dwbxTMU8zNVVwGevVmvHMB183pF2xxZwvH"
   }
  ],
- "closed_trades": [],
  "rejections": [
   {
    "reason": "Kein ruhiges positives 5-Min-Momentum",
@@ -670,20 +670,6 @@
  ],
  "log": [
   {
-   "time": "03:08:22",
-   "agent": "Logger",
-   "text": "Durchlauf 71: 37 Kand., 0 ok, 10,00 €",
-   "status": "Durchlauf",
-   "tone": "neutral"
-  },
-  {
-   "time": "03:08:37",
-   "agent": "Logger",
-   "text": "Durchlauf 72: 37 Kand., 0 ok, 10,00 €",
-   "status": "Durchlauf",
-   "tone": "neutral"
-  },
-  {
    "time": "03:08:51",
    "agent": "Logger",
    "text": "Durchlauf 73: 37 Kand., 0 ok, 10,00 €",
@@ -794,6 +780,20 @@
    "text": "Durchlauf 80: 37 Kand., 2 ok, 9,93 €",
    "status": "Durchlauf",
    "tone": "neutral"
+  },
+  {
+   "time": "03:35:46",
+   "agent": "ExitManager",
+   "text": "Verkauf DESSA: Netto-Stop -6.0 % (bei -9.7 %)",
+   "status": "Verkauf",
+   "tone": "warning"
+  },
+  {
+   "time": "03:35:46",
+   "agent": "Logger",
+   "text": "DESSA geschlossen: -0,97 € (-9,67 %)",
+   "status": "Verlust",
+   "tone": "danger"
   }
  ],
  "agents": [
@@ -936,28 +936,28 @@
    "agent": "Risk",
    "task": "Größe, Halts, Freigabe",
    "action": "Limits ok · Stop −3 % Baseline · −6 % Safety · Trail ab +0,10 €",
-   "metric": "eq=10.03€",
+   "metric": "eq=9.03€",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:12:48+01:00"
+   "ts": "2026-11-09T03:35:46+01:00"
   },
   {
    "agent": "Executor",
    "task": "Jupiter-Quote-Fills (simuliert)",
-   "action": "Kauf DESSA 9.99 €",
-   "metric": "score=43.1",
+   "action": "Sell DESSA 9.03 €",
+   "metric": "Netto-Stop -6.0 % (bei -9.7 %)",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:10:45+01:00"
+   "ts": "2026-11-09T03:35:46+01:00"
   },
   {
    "agent": "ExitManager",
    "task": "Stop −3 % Baseline · Grace · Trailing ab +0,10 €",
-   "action": "Überwacht 1 Pos · Stop −3% Baseline · Grace 20s · Trail ab +0.10€",
-   "metric": "check≈2.5s",
-   "vote": 0,
+   "action": "Verkauf DESSA: Netto-Stop -6.0 % (bei -9.7 %)",
+   "metric": "9.03€",
+   "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:12:48+01:00"
+   "ts": "2026-11-09T03:35:46+01:00"
   },
   {
    "agent": "MarketRegime",
@@ -972,19 +972,19 @@
    "agent": "Learner",
    "task": "Filter-Statistik (ohne Limits zu lockern)",
    "action": "Filter-Stats: Kein ruhiges positives 5-Min-Momentum×1555, Liquidität < 15k USD (Marktdaten)×1216, Zu wenig Trades ",
-   "metric": "62 Keys",
+   "metric": "73 Keys",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T03:10:45+01:00"
+   "ts": "2026-11-09T03:35:46+01:00"
   },
   {
    "agent": "Auditor",
    "task": "Equity/Trades Konsistenz",
    "action": "Kontostand & Trades konsistent",
-   "metric": "eq=10.0319",
+   "metric": "eq=9.0332",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T03:12:48+01:00"
+   "ts": "2026-11-09T03:35:46+01:00"
   },
   {
    "agent": "Logger",
@@ -998,20 +998,20 @@
  ],
  "agent_count": 22,
  "readiness": {
-  "days_running": 0.02,
+  "days_running": 0.03,
   "days_needed": 3,
-  "trades_closed": 0,
+  "trades_closed": 1,
   "trades_needed": 30,
-  "win_rate": null,
-  "net_pnl_eur": 0.03,
-  "max_drawdown_pct": -1.48,
+  "win_rate": 0.0,
+  "net_pnl_eur": -0.97,
+  "max_drawdown_pct": -10.54,
   "max_drawdown_limit_pct": -15.0,
   "ready_for_real": false,
-  "label_de": "Echtgeld-Freigabe: 0/30 Trades · Tag 0/3 · noch nicht bereit",
+  "label_de": "Echtgeld-Freigabe: 1/30 Trades · Tag 0/3 · noch nicht bereit",
   "checks": {
    "days": false,
    "trades": false,
-   "profit": true,
+   "profit": false,
    "drawdown": true
   }
  },
@@ -1142,8 +1142,8 @@
  "auditor": {
   "ok": true,
   "issues": [],
-  "equity": 10.0319,
-  "ts": "2026-11-09T03:12:48+01:00"
+  "equity": 9.0332,
+  "ts": "2026-11-09T03:35:46+01:00"
  },
  "last_buy_why": {
   "summary": "Score 43.1, Votes +10, rt 0.7308%",
@@ -1199,5 +1199,5 @@
    "score": 77.7
   }
  ],
- "server_time": 1794190370
+ "server_time": 1794191752
 }
