@@ -94,7 +94,7 @@ a{color:inherit;text-decoration:none}
 <div class="ticker"><div class="tr" id="ticker"></div></div>
 <div class="hero">
   <div class="title"><h1>Grok Bot</h1><span class="live" id="live"><span class="dot"></span><span id="livetxt">Live</span></span></div>
-  <div class="subt" id="subt">Spielgeld 10 € · Stop −0,10 € · ab +0,10 € Trailing · sofort nächster Trade</div>
+  <div class="subt" id="subt">Spielgeld 10 € · Stop −3 % · ab +0,10 € Trailing · nur Coins < 1 % Kosten</div>
   <div class="eq" id="eq">— €</div>
   <div class="pnl"><span id="pnl">—</span><span class="pill" id="mult">1.00×</span><span class="mut" style="font-weight:500;font-size:12px" id="start">Start 10,00 €</span></div>
 </div>
@@ -206,9 +206,9 @@ function setPriceLines(focus, lastClose){
   priceLines.entry=candleSeries.createPriceLine({price:entry,color:"#38bdf8",lineWidth:1,lineStyle:2,axisLabelVisible:true,title:"Entry"});
   // EUR stop ≈ entry * (1 − stop_loss_eur/cost); also show −6% safety
   if(cost>0){
-   const stopEur=Number(focus.stop_loss_eur!=null?focus.stop_loss_eur:0.10);
-   const stopPx=entry*(1-stopEur/cost);
-   priceLines.stop=candleSeries.createPriceLine({price:stopPx,color:"#ef4444",lineWidth:1,lineStyle:2,axisLabelVisible:true,title:"−0,10€"});
+   const blPct=Number(focus.stop_loss_pct_baseline!=null?focus.stop_loss_pct_baseline:3);
+   const stopPx=entry*(1-blPct/100);
+   priceLines.stop=candleSeries.createPriceLine({price:stopPx,color:"#ef4444",lineWidth:1,lineStyle:2,axisLabelVisible:true,title:"−3% BL"});
    const safe=entry*(1+(Number(focus.stop_pct||-6)/100));
    priceLines.safe=candleSeries.createPriceLine({price:safe,color:"#f87171",lineWidth:1,lineStyle:3,axisLabelVisible:false,title:"−6%"});
    const tpPx=entry*(1+Number(focus.tp_eur||0.10)/cost);
