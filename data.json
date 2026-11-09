@@ -2,21 +2,21 @@
  "currency": "EUR",
  "rules": "Spielgeld 5 € · +0,10 € Take-Profit netto · Stop -6 %",
  "pricing_model": "USD price returns applied to EUR paper equity; FX risk not modeled",
- "as_of": "09.11.2026, 01:30:28",
- "data_time": "2026-11-09T01:30:14+01:00",
- "as_of_iso": "2026-11-09T01:30:28+01:00",
+ "as_of": "09.11.2026, 01:33:10",
+ "data_time": "2026-11-09T01:33:09+01:00",
+ "as_of_iso": "2026-11-09T01:33:10+01:00",
  "bot_running": true,
  "last_cycle": "01:30",
  "start": 5.0,
- "equity": 5.0,
- "cash": 5.0,
- "pnl": 0.0,
- "pnl_pct": 0.0,
- "multiplier": 1.0,
+ "equity": 5.09,
+ "cash": 0.0,
+ "pnl": 0.09,
+ "pnl_pct": 1.88,
+ "multiplier": 1.019,
  "pairs_scanned": 39,
- "evaluations": 165,
- "cycles": 8,
- "trades_opened": 0,
+ "evaluations": 201,
+ "cycles": 10,
+ "trades_opened": 1,
  "closed_count": 0,
  "wins": 0,
  "win_rate": null,
@@ -73,12 +73,33 @@
    "equity": 5.0
   },
   {
-   "t": "2026-11-09T01:30:28+01:00",
+   "t": "2026-11-09T01:30:29+01:00",
    "label": "01:30",
    "equity": 5.0
+  },
+  {
+   "t": "2026-11-09T01:30:44+01:00",
+   "label": "01:30",
+   "equity": 4.9
+  },
+  {
+   "t": "2026-11-09T01:33:10+01:00",
+   "label": "01:33",
+   "equity": 5.09
   }
  ],
- "open_positions": [],
+ "open_positions": [
+  {
+   "symbol": "HEREWEGO",
+   "opened": "01:30",
+   "cost": 5.0,
+   "value": 5.09,
+   "pct": 1.88,
+   "tp1_done": false,
+   "score": 61.2,
+   "url": "https://dexscreener.com/solana/67bwjnjsjbdpp3kpi6gdeevk25qgrprwfttmqe4wszir"
+  }
+ ],
  "closed_trades": [],
  "rejections": [
   {
@@ -118,11 +139,11 @@
    "count": 4
   },
   {
-   "reason": "Starker Verkaufsdruck",
-   "count": 2
+   "reason": "Kurs dumpt (1h < -30 %)",
+   "count": 3
   },
   {
-   "reason": "Kurs dumpt (1h < -30 %)",
+   "reason": "Starker Verkaufsdruck",
    "count": 2
   },
   {
@@ -143,48 +164,6 @@
   }
  ],
  "log": [
-  {
-   "time": "01:28:29",
-   "agent": "Filter",
-   "text": "0DAY: Paar älter als 24 h",
-   "status": "Abgelehnt",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:28:29",
-   "agent": "Filter",
-   "text": "Marscoin: Paar älter als 24 h",
-   "status": "Abgelehnt",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:28:29",
-   "agent": "Logger",
-   "text": "Durchlauf 1: 41 Kandidaten, 0 durch Filter, Konto 5,00 €",
-   "status": "Durchlauf",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:28:44",
-   "agent": "Logger",
-   "text": "Durchlauf 2: 20 Kandidaten, 0 durch Filter, Konto 5,00 €",
-   "status": "Durchlauf",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:28:59",
-   "agent": "Logger",
-   "text": "Durchlauf 3: 20 Kandidaten, 0 durch Filter, Konto 5,00 €",
-   "status": "Durchlauf",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:29:14",
-   "agent": "Analyst",
-   "text": "HEREWEGO: Momentum-Score 45,7",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
   {
    "time": "01:29:14",
    "agent": "Logger",
@@ -247,6 +226,48 @@
    "text": "Durchlauf 8: 18 Kandidaten, 1 durch Filter, Konto 5,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
+  },
+  {
+   "time": "01:30:29",
+   "agent": "Analyst",
+   "text": "HEREWEGO: Momentum-Score 46,6",
+   "status": "Analyse",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:30:29",
+   "agent": "Logger",
+   "text": "Durchlauf 9: 18 Kandidaten, 1 durch Filter, Konto 5,00 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:30:44",
+   "agent": "Analyst",
+   "text": "HEREWEGO: Momentum-Score 61,2",
+   "status": "Analyse",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:30:44",
+   "agent": "Risk",
+   "text": "Einsatz 5,00 € freigegeben, Stop -6.0 %",
+   "status": "Freigabe",
+   "tone": "accent"
+  },
+  {
+   "time": "01:30:44",
+   "agent": "Executor",
+   "text": "Kauf HEREWEGO für 5,00 € (Score 61.2)",
+   "status": "Kauf",
+   "tone": "success"
+  },
+  {
+   "time": "01:30:44",
+   "agent": "Logger",
+   "text": "Durchlauf 10: 18 Kandidaten, 1 durch Filter, Konto 4,90 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
   }
  ],
  "agents": [
@@ -260,40 +281,40 @@
    "agent": "Filter",
    "task": "Prüft Liquidität, Volumen, Alter, Holder",
    "action": "Zuletzt abgelehnt: forg (Kaufquote 5 Min < 60 %)",
-   "metric": "41 Tokens aussortiert"
+   "metric": "40 Tokens aussortiert"
   },
   {
    "agent": "Analyst",
    "task": "Bewertet Momentum (Score ab 60)",
-   "action": "Zuletzt HEREWEGO: Score 46,6",
-   "metric": "5 Analysen"
+   "action": "Zuletzt HEREWEGO: Score 61,2",
+   "metric": "7 Analysen"
   },
   {
    "agent": "Executor",
    "task": "Kauft und verkauft (simuliert)",
-   "action": "Wartet",
-   "metric": "0 Käufe, 0 Verkäufe"
+   "action": "Zuletzt gekauft: HEREWEGO 01:30",
+   "metric": "1 Käufe, 0 Verkäufe"
   },
   {
    "agent": "Risk",
    "task": "1 Position, voller Einsatz, Netto-Stop −6 %",
-   "action": "Überwacht 0 offene Position(en)",
-   "metric": "0 Trades freigegeben"
+   "action": "Überwacht 1 offene Position(en)",
+   "metric": "1 Trades freigegeben"
   },
   {
    "agent": "Logger",
    "task": "Protokolliert jede Entscheidung",
    "action": "Letzter Eintrag 01:30",
-   "metric": "174 Einträge, 8 Durchläufe"
+   "metric": "214 Einträge, 10 Durchläufe"
   }
  ],
  "ticker": [
   {
    "symbol": "HEREWEGO",
-   "m5": 3.35,
-   "h1": 3.26,
-   "score": 46.6
+   "m5": 8.43,
+   "h1": 6.01,
+   "score": 61.2
   }
  ],
- "server_time": 1794184228
+ "server_time": 1794184390
 }
