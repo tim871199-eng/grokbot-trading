@@ -2,19 +2,19 @@
  "currency": "EUR",
  "rules": "Spielgeld 10 € · Stop −3 % · ab +0,10 € Trailing · nur Coins < 1 % Kosten",
  "pricing_model": "Jupiter ExactIn quotes + network fee; EUR via SOL/USD×USD/EUR; 20-agent desk",
- "as_of": "09.11.2026, 10:02:27",
- "data_time": "2026-11-09T10:00:08+01:00",
- "as_of_iso": "2026-11-09T10:02:27+01:00",
+ "as_of": "09.11.2026, 10:07:29",
+ "data_time": "2026-11-09T10:07:26+01:00",
+ "as_of_iso": "2026-11-09T10:07:29+01:00",
  "bot_running": true,
- "bot_stale": true,
- "bot_stale_sec": 139.799098,
+ "bot_stale": false,
+ "bot_stale_sec": 3.703758,
  "last_cycle": "09:57",
  "start": 10.0,
- "equity": 8.75,
+ "equity": 8.76,
  "cash": 0.01,
- "pnl": -1.25,
- "pnl_pct": -12.52,
- "multiplier": 0.875,
+ "pnl": -1.24,
+ "pnl_pct": -12.38,
+ "multiplier": 0.876,
  "pairs_scanned": 125,
  "evaluations": 17137,
  "cycles": 797,
@@ -320,9 +320,9 @@
    "equity": 8.75
   },
   {
-   "t": "2026-11-09T10:02:27+01:00",
-   "label": "10:02",
-   "equity": 8.75
+   "t": "2026-11-09T10:07:29+01:00",
+   "label": "10:07",
+   "equity": 8.76
   }
  ],
  "open_positions": [
@@ -330,8 +330,8 @@
    "symbol": "PENGU",
    "opened": "09:57",
    "cost": 8.74,
-   "value": 8.74,
-   "pct": -0.02,
+   "value": 8.76,
+   "pct": 0.14,
    "tp1_done": false,
    "score": 43.8,
    "url": "https://dexscreener.com/solana/faqh648xeeatql7du49sztp9nfj5pjrqrfvamccyd9cz",
@@ -1165,10 +1165,10 @@
    "agent": "Risk",
    "task": "Größe, Halts, Freigabe",
    "action": "Limits ok · Stop −3 % Baseline · −6 % Safety · Trail ab +0,10 €",
-   "metric": "eq=8.75€",
+   "metric": "eq=8.76€",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T10:00:08+01:00"
+   "ts": "2026-11-09T10:07:26+01:00"
   },
   {
    "agent": "Executor",
@@ -1186,7 +1186,7 @@
    "metric": "check≈2.5s",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T10:00:08+01:00"
+   "ts": "2026-11-09T10:07:26+01:00"
   },
   {
    "agent": "MarketRegime",
@@ -1210,10 +1210,10 @@
    "agent": "Auditor",
    "task": "Equity/Trades Konsistenz",
    "action": "Kontostand & Trades konsistent",
-   "metric": "eq=8.7484",
+   "metric": "eq=8.7624",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T10:00:09+01:00"
+   "ts": "2026-11-09T10:07:26+01:00"
   },
   {
    "agent": "Logger",
@@ -1232,7 +1232,7 @@
   "trades_closed": 4,
   "trades_needed": 30,
   "win_rate": 0.0,
-  "net_pnl_eur": -1.25,
+  "net_pnl_eur": -1.24,
   "max_drawdown_pct": -13.62,
   "max_drawdown_limit_pct": -15.0,
   "ready_for_real": false,
@@ -1371,8 +1371,8 @@
  "auditor": {
   "ok": true,
   "issues": [],
-  "equity": 8.7484,
-  "ts": "2026-11-09T10:00:09+01:00"
+  "equity": 8.7624,
+  "ts": "2026-11-09T10:07:26+01:00"
  },
  "last_buy_why": {
   "summary": "Score 43.8, Votes +6, rt 0.1441%",
@@ -1430,5 +1430,5 @@
    "score": 12.0
   }
  ],
- "server_time": 1794214947
+ "server_time": 1794215249
 }
