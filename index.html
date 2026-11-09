@@ -71,7 +71,7 @@ a{color:inherit;text-decoration:none}
 <div class="ticker"><div class="tr" id="ticker"></div></div>
 <div class="hero">
   <div class="title"><h1>Grok Bot</h1><span class="live" id="live"><span class="dot"></span><span id="livetxt">Live</span></span></div>
-  <div class="subt">Spielgeld 5 € · +0,10 € Take-Profit · Stop -6 %</div>
+  <div class="subt">Spielgeld 5 € · Jupiter-Fills · +0,10 € TP · Stop -6 %</div>
   <div class="eq" id="eq">— €</div>
   <div class="pnl"><span id="pnl">—</span><span class="pill" id="mult">1.00×</span><span class="mut" style="font-weight:500;font-size:12px" id="start">Start 5,00 €</span></div>
 </div>
@@ -88,7 +88,13 @@ a{color:inherit;text-decoration:none}
 <div class="card"><h2>Logger<span class="cnt">live</span></h2><div class="console" id="log"></div></div>
 <div class="card"><h2>Warum sie rausflogen</h2><div id="rej"></div></div>
 <div class="card"><h2>Geschlossene Trades<span class="cnt" id="ccnt"></span></h2><div id="closed"></div></div>
-<div class="note">⚠︎ Spielgeld – keine echten Trades. 1 % Kosten je Seite. Gewinne nicht garantiert.</div>
+<div class="card" id="readyCard"><h2>Echtgeld-Freigabe<span class="cnt" id="readyCnt">Status</span></h2>
+<div id="readyBody" class="empty">Lade…</div>
+<div class="bar" style="margin-top:10px"><div class="l">Trades<b id="readyTr">0/30</b></div><div class="bg"><div class="fg" id="readyTrBar" style="width:0%"></div></div></div>
+<div class="bar"><div class="l">Tage<b id="readyDy">0/3</b></div><div class="bg"><div class="fg" id="readyDyBar" style="width:0%"></div></div></div>
+<div class="bar"><div class="l">Gewinn / Drawdown<b id="readyPn">–</b></div><div class="bg"><div class="fg" id="readyPnBar" style="width:0%;background:linear-gradient(90deg,#a16207,#facc15)"></div></div></div>
+</div>
+<div class="note">⚠︎ Spielgeld – keine echten Trades. Jupiter-Quotes + Netzgebühr. Gewinne nicht garantiert.</div>
 <div class="foot" id="foot">verbinde…</div>
 <div class="toast" id="toast"></div>
 <script>
@@ -130,9 +136,29 @@ function render(d){
  const rj=(d.rejections||[]).slice(0,7),mx=Math.max(1,...rj.map(r=>r.count));
  $("rej").innerHTML=rj.length?rj.map(r=>`<div class="bar"><div class="l">${esc(r.reason)}<b>${r.count}</b></div><div class="bg"><div class="fg" style="width:${(r.count/mx*100).toFixed(0)}%"></div></div></div>`).join(""):`<div class="empty">Noch nichts aussortiert.</div>`;
  const ct=(d.closed_trades||[]).slice().reverse();$("ccnt").textContent=ct.length;
- $("closed").innerHTML=ct.length?ct.map(t=>`<div class="pos"><div><div class="s">${esc(t.symbol)}</div><div class="m">${esc(t.opened)}–${esc(t.closed)} · ${esc(t.reason)}</div></div><div class="rt"><b class="${cls(t.pnl)}">${sg(t.pnl)} €</b><div class="m ${cls(t.pnl_pct)}">${sg(t.pnl_pct)} %</div></div></div>`).join(""):`<div class="empty">Noch keine geschlossenen Trades.</div>`;
+ $("closed").innerHTML=ct.length?ct.map(t=>{const qc=t.quote_cost_eur!=null?` · Quote-Kosten ${eur(t.quote_cost_eur,4)}`:"";return `<div class="pos"><div><div class="s">${esc(t.symbol)}</div><div class="m">${esc(t.opened)}–${esc(t.closed)} · ${esc(t.reason)}${qc}</div></div><div class="rt"><b class="${cls(t.pnl)}">${sg(t.pnl)} €</b><div class="m ${cls(t.pnl_pct)}">${sg(t.pnl_pct)} %</div></div></div>`}).join(""):`<div class="empty">Noch keine geschlossenen Trades.</div>`;
  const tk=d.ticker||[];const th=tk.map(t=>{const v=t.h1??t.m5;return `<span><b>${esc(t.symbol)}</b><span class="${cls(v)}">${v==null?"–":sg(v)+"%"}</span></span>`}).join("");
  if(th&&th!==lastTicker){lastTicker=th;$("ticker").innerHTML=th+th;}
+
+ // Readiness card
+ const rd=d.readiness||null;
+ if(rd){
+  const ok=!!rd.ready_for_real;
+  $("readyCnt").textContent=ok?"bereit":"noch nicht";
+  $("readyCnt").style.color=ok?"var(--gl)":"var(--mut)";
+  $("readyBody").innerHTML=`<div style="font-size:13px;font-weight:600;color:${ok?"var(--gl)":"var(--sub)"}">${esc(rd.label_de)}</div>
+   <div class="m" style="margin-top:6px;font-size:12px;color:var(--mut)">Nur Status – kein Echtgeld. Braucht ≥3 Tage, ≥30 Trades, Gewinn und Drawdown &lt; 15 %.</div>`;
+  const trPct=Math.min(100,(rd.trades_closed/rd.trades_needed)*100);
+  const dyPct=Math.min(100,(rd.days_running/rd.days_needed)*100);
+  $("readyTr").textContent=`${rd.trades_closed}/${rd.trades_needed}`;
+  $("readyTrBar").style.width=trPct.toFixed(0)+"%";
+  $("readyDy").textContent=`${Math.min(rd.days_running,rd.days_needed).toLocaleString("de-DE",{maximumFractionDigits:1})}/${rd.days_needed}`;
+  $("readyDyBar").style.width=dyPct.toFixed(0)+"%";
+  const pnl=rd.net_pnl_eur, dd=rd.max_drawdown_pct;
+  $("readyPn").innerHTML=`<span class="${cls(pnl)}">${sg(pnl)} €</span> · DD ${Number(dd).toLocaleString("de-DE",{maximumFractionDigits:1})} %`;
+  $("readyPnBar").style.width=Math.min(100, Math.max(0, (pnl>0?50:0) + Math.max(0,15+dd)/15*50)).toFixed(0)+"%";
+  $("readyPnBar").style.background=ok?"linear-gradient(90deg,#16a34a,#4ade80)":"linear-gradient(90deg,#a16207,#facc15)";
+ }
  $("foot").textContent="Stand: "+new Intl.DateTimeFormat("de-DE",{timeZone:"Europe/Berlin",hour:"2-digit",minute:"2-digit",second:"2-digit"}).format(new Date(d.data_time||d.as_of_iso))+" (Berlin) · aktualisiert ca. alle 5–10 Min";
  // Toasts
  const now={open:new Set(op.map(p=>p.symbol+"|"+p.opened)),closed:new Set((d.closed_trades||[]).map(t=>t.symbol+"|"+t.closed))};
