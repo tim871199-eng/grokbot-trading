@@ -1,26 +1,28 @@
 {
  "currency": "EUR",
- "rules": "Spielgeld 5 € · Jupiter-Fills · +0,10 € Take-Profit netto · Stop -6 %",
+ "rules": "Spielgeld 5 € · 20 Agenten · Jupiter · Trailing-Floor +0,10 € · Stop -6 %",
  "pricing_model": "Jupiter ExactIn quotes (SOL↔token) + network fee; EUR via live SOL/USD×USD/EUR",
- "as_of": "09.11.2026, 02:01:18",
- "data_time": "2026-11-09T02:01:15+01:00",
- "as_of_iso": "2026-11-09T02:01:18+01:00",
+ "as_of": "09.11.2026, 02:07:18",
+ "data_time": "2026-11-09T02:07:10+01:00",
+ "as_of_iso": "2026-11-09T02:07:18+01:00",
  "bot_running": true,
- "last_cycle": "02:01",
+ "bot_stale": false,
+ "bot_stale_sec": 83.527944,
+ "last_cycle": "02:07",
  "start": 5.0,
- "equity": 4.46,
- "cash": 4.46,
- "pnl": -0.54,
- "pnl_pct": -10.73,
- "multiplier": 0.893,
- "pairs_scanned": 46,
- "evaluations": 1391,
- "cycles": 77,
- "trades_opened": 6,
- "closed_count": 6,
+ "equity": 4.06,
+ "cash": 4.06,
+ "pnl": -0.94,
+ "pnl_pct": -18.73,
+ "multiplier": 0.813,
+ "pairs_scanned": 47,
+ "evaluations": 1732,
+ "cycles": 101,
+ "trades_opened": 7,
+ "closed_count": 7,
  "wins": 3,
- "win_rate": 50,
- "realized_pnl": -0.53,
+ "win_rate": 43,
+ "realized_pnl": -0.93,
  "curve": [
   {
    "t": "2026-11-09T01:27:53+01:00",
@@ -33,13 +35,8 @@
    "equity": 5.0
   },
   {
-   "t": "2026-11-09T01:28:44+01:00",
+   "t": "2026-11-09T01:28:59+01:00",
    "label": "01:28",
-   "equity": 5.0
-  },
-  {
-   "t": "2026-11-09T01:29:14+01:00",
-   "label": "01:29",
    "equity": 5.0
   },
   {
@@ -53,14 +50,9 @@
    "equity": 5.0
   },
   {
-   "t": "2026-11-09T01:30:14+01:00",
+   "t": "2026-11-09T01:30:29+01:00",
    "label": "01:30",
    "equity": 5.0
-  },
-  {
-   "t": "2026-11-09T01:30:44+01:00",
-   "label": "01:30",
-   "equity": 4.9
   },
   {
    "t": "2026-11-09T01:33:14+01:00",
@@ -73,12 +65,7 @@
    "equity": 5.13
   },
   {
-   "t": "2026-11-09T01:33:36+01:00",
-   "label": "01:33",
-   "equity": 5.13
-  },
-  {
-   "t": "2026-11-09T01:33:44+01:00",
+   "t": "2026-11-09T01:33:41+01:00",
    "label": "01:33",
    "equity": 5.13
   },
@@ -93,14 +80,9 @@
    "equity": 5.13
   },
   {
-   "t": "2026-11-09T01:34:44+01:00",
+   "t": "2026-11-09T01:34:59+01:00",
    "label": "01:34",
    "equity": 5.13
-  },
-  {
-   "t": "2026-11-09T01:40:08+01:00",
-   "label": "01:40",
-   "equity": 5.03
   },
   {
    "t": "2026-11-09T01:44:35+01:00",
@@ -113,7 +95,7 @@
    "equity": 5.23
   },
   {
-   "t": "2026-11-09T01:45:08+01:00",
+   "t": "2026-11-09T01:45:23+01:00",
    "label": "01:45",
    "equity": 5.23
   },
@@ -128,14 +110,9 @@
    "equity": 5.23
   },
   {
-   "t": "2026-11-09T01:45:53+01:00",
-   "label": "01:45",
-   "equity": 5.23
-  },
-  {
-   "t": "2026-11-09T01:46:25+01:00",
+   "t": "2026-11-09T01:46:08+01:00",
    "label": "01:46",
-   "equity": 5.06
+   "equity": 5.23
   },
   {
    "t": "2026-11-09T01:46:48+01:00",
@@ -148,12 +125,7 @@
    "equity": 4.81
   },
   {
-   "t": "2026-11-09T01:47:21+01:00",
-   "label": "01:47",
-   "equity": 4.81
-  },
-  {
-   "t": "2026-11-09T01:47:51+01:00",
+   "t": "2026-11-09T01:47:36+01:00",
    "label": "01:47",
    "equity": 4.81
   },
@@ -168,12 +140,7 @@
    "equity": 4.81
   },
   {
-   "t": "2026-11-09T01:48:51+01:00",
-   "label": "01:48",
-   "equity": 4.81
-  },
-  {
-   "t": "2026-11-09T01:49:09+01:00",
+   "t": "2026-11-09T01:49:06+01:00",
    "label": "01:49",
    "equity": 4.81
   },
@@ -188,12 +155,7 @@
    "equity": 4.81
   },
   {
-   "t": "2026-11-09T01:49:46+01:00",
-   "label": "01:49",
-   "equity": 4.81
-  },
-  {
-   "t": "2026-11-09T01:50:16+01:00",
+   "t": "2026-11-09T01:50:01+01:00",
    "label": "01:50",
    "equity": 4.81
   },
@@ -208,12 +170,7 @@
    "equity": 4.72
   },
   {
-   "t": "2026-11-09T01:51:36+01:00",
-   "label": "01:51",
-   "equity": 4.94
-  },
-  {
-   "t": "2026-11-09T01:51:54+01:00",
+   "t": "2026-11-09T01:51:40+01:00",
    "label": "01:51",
    "equity": 4.94
   },
@@ -233,12 +190,7 @@
    "equity": 4.94
   },
   {
-   "t": "2026-11-09T01:55:22+01:00",
-   "label": "01:55",
-   "equity": 4.94
-  },
-  {
-   "t": "2026-11-09T01:55:52+01:00",
+   "t": "2026-11-09T01:55:37+01:00",
    "label": "01:55",
    "equity": 4.94
   },
@@ -253,12 +205,7 @@
    "equity": 4.94
   },
   {
-   "t": "2026-11-09T01:56:52+01:00",
-   "label": "01:56",
-   "equity": 4.94
-  },
-  {
-   "t": "2026-11-09T01:57:22+01:00",
+   "t": "2026-11-09T01:57:07+01:00",
    "label": "01:57",
    "equity": 4.94
   },
@@ -273,12 +220,7 @@
    "equity": 4.94
   },
   {
-   "t": "2026-11-09T01:58:22+01:00",
-   "label": "01:58",
-   "equity": 4.94
-  },
-  {
-   "t": "2026-11-09T01:58:52+01:00",
+   "t": "2026-11-09T01:58:37+01:00",
    "label": "01:58",
    "equity": 4.94
   },
@@ -293,14 +235,9 @@
    "equity": 4.81
   },
   {
-   "t": "2026-11-09T01:59:52+01:00",
+   "t": "2026-11-09T01:59:56+01:00",
    "label": "01:59",
    "equity": 4.77
-  },
-  {
-   "t": "2026-11-09T02:00:12+01:00",
-   "label": "02:00",
-   "equity": 4.46
   },
   {
    "t": "2026-11-09T02:00:15+01:00",
@@ -318,9 +255,74 @@
    "equity": 4.46
   },
   {
-   "t": "2026-11-09T02:01:18+01:00",
+   "t": "2026-11-09T02:01:30+01:00",
    "label": "02:01",
    "equity": 4.46
+  },
+  {
+   "t": "2026-11-09T02:02:00+01:00",
+   "label": "02:02",
+   "equity": 4.46
+  },
+  {
+   "t": "2026-11-09T02:02:30+01:00",
+   "label": "02:02",
+   "equity": 4.46
+  },
+  {
+   "t": "2026-11-09T02:03:00+01:00",
+   "label": "02:03",
+   "equity": 4.46
+  },
+  {
+   "t": "2026-11-09T02:03:30+01:00",
+   "label": "02:03",
+   "equity": 4.46
+  },
+  {
+   "t": "2026-11-09T02:04:00+01:00",
+   "label": "02:04",
+   "equity": 4.46
+  },
+  {
+   "t": "2026-11-09T02:04:30+01:00",
+   "label": "02:04",
+   "equity": 4.46
+  },
+  {
+   "t": "2026-11-09T02:05:00+01:00",
+   "label": "02:05",
+   "equity": 4.46
+  },
+  {
+   "t": "2026-11-09T02:05:30+01:00",
+   "label": "02:05",
+   "equity": 4.46
+  },
+  {
+   "t": "2026-11-09T02:05:49+01:00",
+   "label": "02:05",
+   "equity": 4.38
+  },
+  {
+   "t": "2026-11-09T02:05:55+01:00",
+   "label": "02:05",
+   "equity": 4.06
+  },
+  {
+   "t": "2026-11-09T02:06:25+01:00",
+   "label": "02:06",
+   "equity": 4.06
+  },
+  {
+   "t": "2026-11-09T02:06:55+01:00",
+   "label": "02:06",
+   "equity": 4.06
+  },
+  {
+   "t": "2026-11-09T02:07:18+01:00",
+   "label": "02:07",
+   "equity": 4.06
   }
  ],
  "open_positions": [],
@@ -337,7 +339,11 @@
    "url": "https://dexscreener.com/solana/67bwjnjsjbdpp3kpi6gdeevk25qgrprwfttmqe4wszir",
    "fill_model": "legacy",
    "quote_cost_eur": null,
-   "old_1pct_cost_eur": null
+   "old_1pct_cost_eur": null,
+   "buy_why": null,
+   "sell_why": "Take-Profit netto +0,10 € erreicht",
+   "pair": null,
+   "pool": null
   },
   {
    "symbol": "GTA6KODAK",
@@ -351,7 +357,11 @@
    "url": "https://dexscreener.com/solana/bkaagfumhqvgxa3bqzyabmibsmvietuiapu95prauhx7",
    "fill_model": "legacy",
    "quote_cost_eur": null,
-   "old_1pct_cost_eur": null
+   "old_1pct_cost_eur": null,
+   "buy_why": null,
+   "sell_why": "Take-Profit netto +0,10 € erreicht",
+   "pair": null,
+   "pool": null
   },
   {
    "symbol": "SPY",
@@ -365,7 +375,11 @@
    "url": "https://dexscreener.com/solana/avrkw7vlwjawhg8pr7mvx4vqtvqgma3aq8jkzajxpgvl",
    "fill_model": "jupiter",
    "quote_cost_eur": 0.0125,
-   "old_1pct_cost_eur": 0.1044
+   "old_1pct_cost_eur": 0.1044,
+   "buy_why": null,
+   "sell_why": "Netto-Stop -6.0 % (bei -8.1 %)",
+   "pair": null,
+   "pool": null
   },
   {
    "symbol": "HEREWEGO",
@@ -379,7 +393,11 @@
    "url": "https://dexscreener.com/solana/67bwjnjsjbdpp3kpi6gdeevk25qgrprwfttmqe4wszir",
    "fill_model": "jupiter",
    "quote_cost_eur": 0.0125,
-   "old_1pct_cost_eur": 0.096
+   "old_1pct_cost_eur": 0.096,
+   "buy_why": null,
+   "sell_why": "Take-Profit netto +0,10 € erreicht",
+   "pair": null,
+   "pool": null
   },
   {
    "symbol": "NVIDIA",
@@ -393,7 +411,11 @@
    "url": "https://dexscreener.com/solana/bx4bjueakhfwr2vzsi9gmaaeceyfxfbtmtucpdzylz2u",
    "fill_model": "jupiter",
    "quote_cost_eur": 0.0125,
-   "old_1pct_cost_eur": 0.0986
+   "old_1pct_cost_eur": 0.0986,
+   "buy_why": null,
+   "sell_why": "Take-Profit netto +0,10 € erreicht",
+   "pair": null,
+   "pool": null
   },
   {
    "symbol": "NVIDIH",
@@ -407,7 +429,29 @@
    "url": "https://dexscreener.com/solana/a45t4ikrs5lyan8ne8vtnvmz3iebnfj9kj1c5luziy79",
    "fill_model": "jupiter",
    "quote_cost_eur": 0.0126,
-   "old_1pct_cost_eur": 0.0953
+   "old_1pct_cost_eur": 0.0953,
+   "buy_why": null,
+   "sell_why": "Netto-Stop -6.0 % (bei -6.5 %)",
+   "pair": null,
+   "pool": null
+  },
+  {
+   "symbol": "SPY",
+   "opened": "02:05",
+   "closed": "02:05",
+   "cost": 4.46,
+   "proceeds": 4.06,
+   "pnl": -0.4,
+   "pnl_pct": -8.98,
+   "reason": "Netto-Stop -6.0 % (bei -8.8 %)",
+   "url": "https://dexscreener.com/solana/avrkw7vlwjawhg8pr7mvx4vqtvqgma3aq8jkzajxpgvl",
+   "fill_model": "jupiter",
+   "quote_cost_eur": 0.0126,
+   "old_1pct_cost_eur": 0.0891,
+   "buy_why": null,
+   "sell_why": "Netto-Stop -6.0 % (bei -8.8 %)",
+   "pair": "AvRKw7vLWJawhG8pR7mvX4vqtvqgMa3Aq8jKzaJXPGVL",
+   "pool": "AvRKw7vLWJawhG8pR7mvX4vqtvqgMa3Aq8jKzaJXPGVL"
   }
  ],
  "rejections": [
@@ -417,7 +461,7 @@
   },
   {
    "reason": "Kaufquote 5 Min < 55 %",
-   "count": 17
+   "count": 18
   },
   {
    "reason": "Zu wenig Trades (5 Min)",
@@ -428,6 +472,10 @@
    "count": 15
   },
   {
+   "reason": "Quote-Token nicht SOL/USDC",
+   "count": 14
+  },
+  {
    "reason": "Liquidität < 15k USD (Marktdaten)",
    "count": 14
   },
@@ -436,12 +484,8 @@
    "count": 14
   },
   {
-   "reason": "Quote-Token nicht SOL/USDC",
-   "count": 13
-  },
-  {
    "reason": "Volumen 1h < 10k USD (Marktdaten)",
-   "count": 12
+   "count": 13
   },
   {
    "reason": "Paar älter als 24 h",
@@ -449,7 +493,7 @@
   },
   {
    "reason": "Starker Verkaufsdruck",
-   "count": 7
+   "count": 8
   },
   {
    "reason": "Kurs dumpt (1h < -30 %)",
@@ -484,109 +528,131 @@
    "count": 1
   }
  ],
+ "filter_performance": [],
  "log": [
   {
-   "time": "01:59:52",
+   "time": "02:04:45",
    "agent": "Logger",
-   "text": "NVIDIA geschlossen: -0,16 € (-3,28 %)",
-   "status": "Verlust",
-   "tone": "danger"
-  },
-  {
-   "time": "01:59:56",
-   "agent": "Analyst",
-   "text": "NVIDIH: Momentum-Score 76,3",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:59:56",
-   "agent": "Risk",
-   "text": "ENTRY_STALE",
-   "status": "ENTRY_STALE",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:59:56",
-   "agent": "Logger",
-   "text": "Durchlauf 71: 19 Kandidaten, 1 durch Filter, Konto 4,77 €",
+   "text": "Durchlauf 91: 19 Kand., 0 ok, 4,46 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "02:00:10",
+   "time": "02:05:00",
+   "agent": "Logger",
+   "text": "Durchlauf 92: 19 Kand., 0 ok, 4,46 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "02:05:15",
+   "agent": "Logger",
+   "text": "Durchlauf 93: 19 Kand., 0 ok, 4,46 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "02:05:30",
+   "agent": "Logger",
+   "text": "Durchlauf 94: 19 Kand., 0 ok, 4,46 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "02:05:45",
    "agent": "Analyst",
-   "text": "NVIDIH: Momentum-Score 76,3",
+   "text": "SPY: Score 84,7",
    "status": "Analyse",
    "tone": "neutral"
   },
   {
-   "time": "02:00:11",
+   "time": "02:05:46",
    "agent": "Risk",
-   "text": "Einsatz 4,77 € freigegeben, Stop -6.0 %",
+   "text": "Einsatz 4,46 € freigegeben",
    "status": "Freigabe",
    "tone": "accent"
   },
   {
-   "time": "02:00:12",
+   "time": "02:05:47",
    "agent": "Executor",
-   "text": "Kauf NVIDIH für 4,77 € (Score 76.3) · Jupiter",
+   "text": "Kauf SPY für 4,46 €",
    "status": "Kauf",
    "tone": "success"
   },
   {
-   "time": "02:00:12",
+   "time": "02:05:47",
    "agent": "Logger",
-   "text": "Durchlauf 72: 19 Kandidaten, 1 durch Filter, Konto 4,31 €",
+   "text": "Durchlauf 95: 19 Kand., 1 ok, 4,38 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "02:00:12",
-   "agent": "Executor",
-   "text": "Verkauf NVIDIH: Netto-Stop -6.0 % (bei -6.5 %)",
+   "time": "02:05:49",
+   "agent": "Logger",
+   "text": "Bot angehalten, 4,38 €",
+   "status": "Stopp",
+   "tone": "neutral"
+  },
+  {
+   "time": "02:05:54",
+   "agent": "Logger",
+   "text": "Bot gestartet (21 Agenten), 4,38 €",
+   "status": "Start",
+   "tone": "accent"
+  },
+  {
+   "time": "02:05:55",
+   "agent": "ExitManager",
+   "text": "Verkauf SPY: Netto-Stop -6.0 % (bei -8.8 %)",
    "status": "Verkauf",
    "tone": "warning"
   },
   {
-   "time": "02:00:12",
+   "time": "02:05:55",
    "agent": "Logger",
-   "text": "NVIDIH geschlossen: -0,31 € (-6,50 %)",
+   "text": "SPY geschlossen: -0,40 € (-8,98 %)",
    "status": "Verlust",
    "tone": "danger"
   },
   {
-   "time": "02:00:15",
+   "time": "02:05:55",
    "agent": "Logger",
-   "text": "Durchlauf 73: 18 Kandidaten, 0 durch Filter, Konto 4,46 €",
+   "text": "Durchlauf 96: 0 Kand., 0 ok, 4,06 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "02:00:30",
+   "time": "02:06:10",
    "agent": "Logger",
-   "text": "Durchlauf 74: 18 Kandidaten, 0 durch Filter, Konto 4,46 €",
+   "text": "Durchlauf 97: 0 Kand., 0 ok, 4,06 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "02:00:45",
+   "time": "02:06:25",
    "agent": "Logger",
-   "text": "Durchlauf 75: 18 Kandidaten, 0 durch Filter, Konto 4,46 €",
+   "text": "Durchlauf 98: 0 Kand., 0 ok, 4,06 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "02:01:00",
+   "time": "02:06:40",
    "agent": "Logger",
-   "text": "Durchlauf 76: 18 Kandidaten, 0 durch Filter, Konto 4,46 €",
+   "text": "Durchlauf 99: 0 Kand., 0 ok, 4,06 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "02:01:15",
+   "time": "02:06:55",
    "agent": "Logger",
-   "text": "Durchlauf 77: 18 Kandidaten, 0 durch Filter, Konto 4,46 €",
+   "text": "Durchlauf 100: 0 Kand., 0 ok, 4,06 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "02:07:10",
+   "agent": "Logger",
+   "text": "Durchlauf 101: 0 Kand., 0 ok, 4,06 €",
    "status": "Durchlauf",
    "tone": "neutral"
   }
@@ -594,52 +660,206 @@
  "agents": [
   {
    "agent": "Scout",
-   "task": "Sucht neue Solana-Coins (DexScreener)",
-   "action": "Letzter Durchlauf 02:01: 0 neue, 18 Kandidaten",
-   "metric": "46 Paare gescannt"
+   "task": "Neue Solana-Paare aus DexScreener-Feeds",
+   "action": "Wartet",
+   "metric": "",
+   "vote": null,
+   "status": "idle",
+   "ts": null
   },
   {
-   "agent": "Filter",
-   "task": "Liquidität, RugCheck, Jupiter-Verkaufstest",
-   "action": "Zuletzt abgelehnt: GTA6KODAK (Zu wenig Trades (5 Min))",
-   "metric": "44 Tokens aussortiert"
+   "agent": "TrendScout",
+   "task": "Boosted/Trending Tokens",
+   "action": "Wartet",
+   "metric": "",
+   "vote": null,
+   "status": "idle",
+   "ts": null
+  },
+  {
+   "agent": "Liquidity",
+   "task": "Mindest-Liquidität prüfen",
+   "action": "Wartet",
+   "metric": "",
+   "vote": null,
+   "status": "idle",
+   "ts": null
+  },
+  {
+   "agent": "Volume",
+   "task": "1h-Volumen prüfen",
+   "action": "Wartet",
+   "metric": "",
+   "vote": null,
+   "status": "idle",
+   "ts": null
+  },
+  {
+   "agent": "Holder",
+   "task": "Top-Holder-Konzentration",
+   "action": "Wartet",
+   "metric": "",
+   "vote": null,
+   "status": "idle",
+   "ts": null
+  },
+  {
+   "agent": "RugSecurity",
+   "task": "RugCheck, Mint/Freeze, Score",
+   "action": "Wartet",
+   "metric": "",
+   "vote": null,
+   "status": "idle",
+   "ts": null
+  },
+  {
+   "agent": "Honeypot",
+   "task": "Jupiter Kauf+Verkauf Roundtrip",
+   "action": "Wartet",
+   "metric": "",
+   "vote": null,
+   "status": "idle",
+   "ts": null
+  },
+  {
+   "agent": "DevWallet",
+   "task": "Creator-Anteil (falls bekannt)",
+   "action": "Wartet",
+   "metric": "",
+   "vote": null,
+   "status": "idle",
+   "ts": null
+  },
+  {
+   "agent": "Momentum",
+   "task": "m5/h1 Kursmomentum",
+   "action": "Wartet",
+   "metric": "",
+   "vote": null,
+   "status": "idle",
+   "ts": null
+  },
+  {
+   "agent": "Orderflow",
+   "task": "Kauf-/Verkaufsquote & Txns",
+   "action": "Wartet",
+   "metric": "",
+   "vote": null,
+   "status": "idle",
+   "ts": null
+  },
+  {
+   "agent": "Volatility",
+   "task": "Zu wilde Schwankungen filtern",
+   "action": "Wartet",
+   "metric": "",
+   "vote": null,
+   "status": "idle",
+   "ts": null
+  },
+  {
+   "agent": "Candle",
+   "task": "1m-Kerzenmuster (GeckoTerminal)",
+   "action": "Wartet",
+   "metric": "",
+   "vote": null,
+   "status": "idle",
+   "ts": null
+  },
+  {
+   "agent": "Sentiment",
+   "task": "Boosts/Social-Links als Proxy",
+   "action": "Wartet",
+   "metric": "",
+   "vote": null,
+   "status": "idle",
+   "ts": null
   },
   {
    "agent": "Analyst",
-   "task": "Bewertet Momentum (Score ab 50)",
-   "action": "Zuletzt NVIDIH: Score 76,3",
-   "metric": "31 Analysen"
-  },
-  {
-   "agent": "Executor",
-   "task": "Jupiter-Quotes (simuliert, kein Wallet)",
-   "action": "Zuletzt verkauft: NVIDIH 02:00",
-   "metric": "6 Käufe, 6 Verkäufe"
+   "task": "Score + Stimmen zusammenfassen",
+   "action": "Wartet",
+   "metric": "",
+   "vote": null,
+   "status": "idle",
+   "ts": null
   },
   {
    "agent": "Risk",
-   "task": "1 Position, Quote-TP +0,10 €, Stop −6 %",
-   "action": "Überwacht 0 offene Position(en)",
-   "metric": "6 Trades freigegeben"
+   "task": "Größe, Halts, Freigabe",
+   "action": "Tagesverlust-Limit -15 % erreicht",
+   "metric": "",
+   "vote": -1,
+   "status": "warn",
+   "ts": "2026-11-09T02:07:10+01:00"
+  },
+  {
+   "agent": "Executor",
+   "task": "Jupiter-Quote-Fills (simuliert)",
+   "action": "Sell SPY 4.06 €",
+   "metric": "Netto-Stop -6.0 % (bei -8.8 %)",
+   "vote": 1,
+   "status": "ok",
+   "ts": "2026-11-09T02:05:55+01:00"
+  },
+  {
+   "agent": "ExitManager",
+   "task": "TP/Stop/Trailing mit Floor",
+   "action": "Verkauf SPY: Netto-Stop -6.0 % (bei -8.8 %)",
+   "metric": "4.06€",
+   "vote": 1,
+   "status": "ok",
+   "ts": "2026-11-09T02:05:55+01:00"
+  },
+  {
+   "agent": "MarketRegime",
+   "task": "SOL-Trend; Pause bei Dump",
+   "action": "Markt ok · SOL h1 +1.51 %",
+   "metric": "SOL $87.75",
+   "vote": 1,
+   "status": "ok",
+   "ts": "2026-11-09T02:07:10+01:00"
+  },
+  {
+   "agent": "Learner",
+   "task": "Filter-Statistik (ohne Limits zu lockern)",
+   "action": "Filter-Stats: noch keine Daten",
+   "metric": "0 Keys",
+   "vote": 0,
+   "status": "ok",
+   "ts": "2026-11-09T02:05:55+01:00"
+  },
+  {
+   "agent": "Auditor",
+   "task": "Equity/Trades Konsistenz",
+   "action": "Kontostand & Trades konsistent",
+   "metric": "eq=4.0635",
+   "vote": 1,
+   "status": "ok",
+   "ts": "2026-11-09T02:05:55+01:00"
   },
   {
    "agent": "Logger",
-   "task": "Protokolliert jede Entscheidung",
-   "action": "Letzter Eintrag 02:01",
-   "metric": "1506 Einträge, 77 Durchläufe"
+   "task": "Protokolliert Entscheidungen",
+   "action": "Halt: Tagesverlust-Limit -15 % erreicht",
+   "metric": "",
+   "vote": null,
+   "status": "warn",
+   "ts": "2026-11-09T02:07:10+01:00"
   }
  ],
+ "agent_count": 21,
  "readiness": {
-  "days_running": 0.02,
+  "days_running": 0.03,
   "days_needed": 3,
-  "trades_closed": 6,
+  "trades_closed": 7,
   "trades_needed": 30,
-  "win_rate": 50.0,
-  "net_pnl_eur": -0.54,
-  "max_drawdown_pct": -17.6,
+  "win_rate": 42.9,
+  "net_pnl_eur": -0.94,
+  "max_drawdown_pct": -22.37,
   "max_drawdown_limit_pct": -15.0,
   "ready_for_real": false,
-  "label_de": "Echtgeld-Freigabe: 6/30 Trades · Tag 0/3 · noch nicht bereit",
+  "label_de": "Echtgeld-Freigabe: 7/30 Trades · Tag 0/3 · noch nicht bereit",
   "checks": {
    "days": false,
    "trades": false,
@@ -647,7 +867,31 @@
    "drawdown": false
   }
  },
+ "chart_focus": null,
+ "watchlist": [],
+ "regime": {
+  "sol_usd": 87.75,
+  "sol_eur": 78.594165,
+  "h1": 1.51,
+  "m5": 0.02,
+  "paused": false,
+  "src": "dexscreener",
+  "ts": "2026-11-09T02:07:10+01:00"
+ },
+ "auditor": {
+  "ok": true,
+  "issues": [],
+  "equity": 4.0635,
+  "ts": "2026-11-09T02:05:55+01:00"
+ },
+ "last_buy_why": null,
  "ticker": [
+  {
+   "symbol": "SPY",
+   "m5": 10.85,
+   "h1": 113,
+   "score": 84.7
+  },
   {
    "symbol": "NVIDIH",
    "m5": 4.08,
@@ -661,5 +905,5 @@
    "score": 97.7
   }
  ],
- "server_time": 1794186078
+ "server_time": 1794186438
 }
