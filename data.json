@@ -2,18 +2,18 @@
  "currency": "EUR",
  "rules": "Spielgeld 10 € · Stop −3 % · ab +0,10 € Trailing · nur Coins < 1 % Kosten",
  "pricing_model": "Jupiter ExactIn quotes + network fee; EUR via SOL/USD×USD/EUR; 20-agent desk",
- "as_of": "09.11.2026, 19:01:55",
- "data_time": "2026-11-09T19:01:43+01:00",
- "as_of_iso": "2026-11-09T19:01:55+01:00",
+ "as_of": "09.11.2026, 19:02:03",
+ "data_time": "2026-11-09T19:02:01+01:00",
+ "as_of_iso": "2026-11-09T19:02:03+01:00",
  "bot_running": true,
  "bot_stale": false,
- "bot_stale_sec": 12.66364,
+ "bot_stale_sec": 2.771095,
  "last_cycle": "19:01",
  "start": 10.0,
  "equity": 8.5,
  "cash": 0.01,
  "pnl": -1.5,
- "pnl_pct": -14.95,
+ "pnl_pct": -14.97,
  "multiplier": 0.85,
  "pairs_scanned": 214,
  "evaluations": 34785,
@@ -320,8 +320,8 @@
    "equity": 8.6
   },
   {
-   "t": "2026-11-09T19:01:55+01:00",
-   "label": "19:01",
+   "t": "2026-11-09T19:02:03+01:00",
+   "label": "19:02",
    "equity": 8.5
   }
  ],
@@ -331,7 +331,7 @@
    "opened": "19:01",
    "cost": 8.52,
    "value": 8.5,
-   "pct": -0.23,
+   "pct": -0.25,
    "tp1_done": false,
    "score": 45.6,
    "url": "https://dexscreener.com/solana/bzc9nzfmqkxr6fz1dbph7bdf9broyef6pnzesp7v5iiw",
@@ -1402,11 +1402,11 @@
   {
    "agent": "Risk",
    "task": "Größe, Halts, Freigabe",
-   "action": "Freigabe 8.52 € · Stop −6 %",
-   "metric": "score=45.6",
+   "action": "Limits ok · Stop −3 % Baseline · −6 % Safety · Trail ab +0,10 €",
+   "metric": "eq=8.50€",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T19:01:42+01:00"
+   "ts": "2026-11-09T19:02:01+01:00"
   },
   {
    "agent": "Executor",
@@ -1420,11 +1420,11 @@
   {
    "agent": "ExitManager",
    "task": "Stop −3 % Baseline · Grace · Trailing ab +0,10 €",
-   "action": "Überwacht 0 Pos · Stop −3% Baseline · Grace 20s · Trail ab +0.10€",
+   "action": "Überwacht 1 Pos · Stop −3% Baseline · Grace 20s · Trail ab +0.10€",
    "metric": "check≈2.5s",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-09T19:01:37+01:00"
+   "ts": "2026-11-09T19:02:01+01:00"
   },
   {
    "agent": "MarketRegime",
@@ -1448,10 +1448,10 @@
    "agent": "Auditor",
    "task": "Equity/Trades Konsistenz",
    "action": "Kontostand & Trades konsistent",
-   "metric": "eq=8.5045",
+   "metric": "eq=8.5034",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-09T19:01:43+01:00"
+   "ts": "2026-11-09T19:02:01+01:00"
   },
   {
    "agent": "Logger",
@@ -1471,7 +1471,7 @@
   "trades_needed": 30,
   "win_rate": 0.0,
   "net_pnl_eur": -1.5,
-  "max_drawdown_pct": -15.78,
+  "max_drawdown_pct": -15.79,
   "max_drawdown_limit_pct": -15.0,
   "ready_for_real": false,
   "label_de": "Echtgeld-Freigabe: 11/30 Trades · Tag 0/3 · noch nicht bereit",
@@ -1609,8 +1609,8 @@
  "auditor": {
   "ok": true,
   "issues": [],
-  "equity": 8.5045,
-  "ts": "2026-11-09T19:01:43+01:00"
+  "equity": 8.5034,
+  "ts": "2026-11-09T19:02:01+01:00"
  },
  "last_buy_why": {
   "summary": "Score 45.6, Votes +7, rt 0.2619%",
@@ -1675,5 +1675,5 @@
    "score": 21.6
   }
  ],
- "server_time": 1794247315
+ "server_time": 1794247323
 }
