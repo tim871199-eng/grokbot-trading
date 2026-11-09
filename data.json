@@ -1,1 +1,284 @@
-{"as_of": "09.11.2026, 01:23", "as_of_iso": "2026-11-09T01:23:19+01:00", "bot_running": true, "last_cycle": "01:22", "start": 280.0, "equity": 275.45, "cash": 252.91, "pnl": -4.55, "pnl_pct": -1.62, "multiplier": 0.984, "pairs_scanned": 42, "evaluations": 753, "cycles": 42, "trades_opened": 2, "closed_count": 1, "wins": 0, "win_rate": 0, "realized_pnl": -5.1, "curve": [{"t": "2026-11-09T00:52:13+01:00", "label": "00:52", "equity": 280.0}, {"t": "2026-11-09T00:52:21+01:00", "label": "00:52", "equity": 279.56}, {"t": "2026-11-09T00:53:01+01:00", "label": "00:53", "equity": 274.9}, {"t": "2026-11-09T00:53:47+01:00", "label": "00:53", "equity": 274.9}, {"t": "2026-11-09T00:54:33+01:00", "label": "00:54", "equity": 274.9}, {"t": "2026-11-09T00:55:18+01:00", "label": "00:55", "equity": 274.46}, {"t": "2026-11-09T00:56:04+01:00", "label": "00:56", "equity": 275.72}, {"t": "2026-11-09T00:56:50+01:00", "label": "00:56", "equity": 275.71}, {"t": "2026-11-09T00:56:59+01:00", "label": "00:56", "equity": 275.71}, {"t": "2026-11-09T00:57:01+01:00", "label": "00:57", "equity": 275.71}, {"t": "2026-11-09T00:57:04+01:00", "label": "00:57", "equity": 275.71}, {"t": "2026-11-09T00:57:29+01:00", "label": "00:57", "equity": 274.98}, {"t": "2026-11-09T00:57:39+01:00", "label": "00:57", "equity": 274.98}, {"t": "2026-11-09T00:57:41+01:00", "label": "00:57", "equity": 274.42}, {"t": "2026-11-09T00:58:27+01:00", "label": "00:58", "equity": 277.19}, {"t": "2026-11-09T00:59:13+01:00", "label": "00:59", "equity": 276.09}, {"t": "2026-11-09T00:59:58+01:00", "label": "00:59", "equity": 276.99}, {"t": "2026-11-09T01:00:44+01:00", "label": "01:00", "equity": 278.59}, {"t": "2026-11-09T01:01:30+01:00", "label": "01:01", "equity": 278.54}, {"t": "2026-11-09T01:02:16+01:00", "label": "01:02", "equity": 279.08}, {"t": "2026-11-09T01:03:02+01:00", "label": "01:03", "equity": 278.01}, {"t": "2026-11-09T01:03:47+01:00", "label": "01:03", "equity": 277.72}, {"t": "2026-11-09T01:04:33+01:00", "label": "01:04", "equity": 277.38}, {"t": "2026-11-09T01:05:19+01:00", "label": "01:05", "equity": 277.1}, {"t": "2026-11-09T01:06:05+01:00", "label": "01:06", "equity": 277.35}, {"t": "2026-11-09T01:06:51+01:00", "label": "01:06", "equity": 277.51}, {"t": "2026-11-09T01:07:36+01:00", "label": "01:07", "equity": 276.75}, {"t": "2026-11-09T01:08:22+01:00", "label": "01:08", "equity": 277.05}, {"t": "2026-11-09T01:09:07+01:00", "label": "01:09", "equity": 277.24}, {"t": "2026-11-09T01:09:53+01:00", "label": "01:09", "equity": 277.68}, {"t": "2026-11-09T01:10:39+01:00", "label": "01:10", "equity": 277.76}, {"t": "2026-11-09T01:11:25+01:00", "label": "01:11", "equity": 277.87}, {"t": "2026-11-09T01:12:11+01:00", "label": "01:12", "equity": 278.27}, {"t": "2026-11-09T01:12:56+01:00", "label": "01:12", "equity": 277.67}, {"t": "2026-11-09T01:13:42+01:00", "label": "01:13", "equity": 277.12}, {"t": "2026-11-09T01:14:28+01:00", "label": "01:14", "equity": 276.82}, {"t": "2026-11-09T01:15:14+01:00", "label": "01:15", "equity": 276.78}, {"t": "2026-11-09T01:16:00+01:00", "label": "01:16", "equity": 276.57}, {"t": "2026-11-09T01:16:45+01:00", "label": "01:16", "equity": 275.21}, {"t": "2026-11-09T01:17:31+01:00", "label": "01:17", "equity": 275.52}, {"t": "2026-11-09T01:18:17+01:00", "label": "01:18", "equity": 275.58}, {"t": "2026-11-09T01:19:03+01:00", "label": "01:19", "equity": 276.27}, {"t": "2026-11-09T01:19:49+01:00", "label": "01:19", "equity": 276.25}, {"t": "2026-11-09T01:20:34+01:00", "label": "01:20", "equity": 274.91}, {"t": "2026-11-09T01:21:20+01:00", "label": "01:21", "equity": 274.75}, {"t": "2026-11-09T01:22:06+01:00", "label": "01:22", "equity": 274.74}, {"t": "2026-11-09T01:22:54+01:00", "label": "01:22", "equity": 275.05}, {"t": "2026-11-09T01:23:19+01:00", "label": "01:23", "equity": 275.45}], "open_positions": [{"symbol": "HEREWEGO", "opened": "00:55", "cost": 21.99, "value": 22.55, "pct": 3.55, "tp1_done": false, "score": 66.3, "url": "https://dexscreener.com/solana/67bwjnjsjbdpp3kpi6gdeevk25qgrprwfttmqe4wszir"}], "closed_trades": [{"symbol": "NIVI", "opened": "00:52", "closed": "00:53", "cost": 22.4, "proceeds": 17.3, "pnl": -5.1, "pnl_pct": -22.77, "reason": "Stop-Loss -6.0 % (bei -22.0 %)", "url": "https://dexscreener.com/solana/7izwlpjqhimqpipwhza4qbgnrkuegbmbzjvfnaojtgng"}], "rejections": [{"reason": "Liquidität < 15k $", "count": 17}, {"reason": "Volumen 1h < 10k $", "count": 14}, {"reason": "Zu wenig Trades (5 Min)", "count": 14}, {"reason": "Quote-Token nicht SOL/USDC", "count": 11}, {"reason": "Paar älter als 24 h", "count": 10}, {"reason": "Starker Verkaufsdruck", "count": 8}, {"reason": "Kurs dumpt (1h < -30 %)", "count": 7}, {"reason": "Paar jünger als 10 Min", "count": 4}, {"reason": "Kein Preis", "count": 4}, {"reason": "Momentum-Score < 60", "count": 4}, {"reason": "Überhitzt (5 Min > +40 %)", "count": 4}, {"reason": "Kein Solana-Paar gefunden", "count": 3}, {"reason": "Paar-Alter unbekannt", "count": 1}], "log": [{"time": "01:19:49", "agent": "Logger", "text": "Durchlauf 38: 18 Kandidaten, 2 durch Filter, Konto 276,25 $", "status": "Durchlauf", "tone": "neutral"}, {"time": "01:20:34", "agent": "Analyst", "text": "ELYSION: Momentum-Score 19,5", "status": "Analyse", "tone": "neutral"}, {"time": "01:20:34", "agent": "Analyst", "text": "forg: Momentum-Score 4,9", "status": "Analyse", "tone": "neutral"}, {"time": "01:20:34", "agent": "Filter", "text": "RATTLE: Liquidität < 15k $, Zu wenig Trades (5 Min)", "status": "Abgelehnt", "tone": "neutral"}, {"time": "01:20:34", "agent": "Logger", "text": "Durchlauf 39: 19 Kandidaten, 2 durch Filter, Konto 274,91 $", "status": "Durchlauf", "tone": "neutral"}, {"time": "01:21:20", "agent": "Analyst", "text": "ELYSION: Momentum-Score 19,9", "status": "Analyse", "tone": "neutral"}, {"time": "01:21:20", "agent": "Analyst", "text": "forg: Momentum-Score 4,3", "status": "Analyse", "tone": "neutral"}, {"time": "01:21:20", "agent": "Logger", "text": "Durchlauf 40: 19 Kandidaten, 2 durch Filter, Konto 274,75 $", "status": "Durchlauf", "tone": "neutral"}, {"time": "01:22:06", "agent": "Analyst", "text": "ELYSION: Momentum-Score 20,8", "status": "Analyse", "tone": "neutral"}, {"time": "01:22:06", "agent": "Analyst", "text": "forg: Momentum-Score 1,6", "status": "Analyse", "tone": "neutral"}, {"time": "01:22:06", "agent": "Filter", "text": "OPENAI: Quote-Token nicht SOL/USDC, Kein Preis", "status": "Abgelehnt", "tone": "neutral"}, {"time": "01:22:06", "agent": "Logger", "text": "Durchlauf 41: 20 Kandidaten, 2 durch Filter, Konto 274,74 $", "status": "Durchlauf", "tone": "neutral"}, {"time": "01:22:52", "agent": "Analyst", "text": "ELYSION: Momentum-Score 20,1", "status": "Analyse", "tone": "neutral"}, {"time": "01:22:54", "agent": "Analyst", "text": "forg: Momentum-Score 1,5", "status": "Analyse", "tone": "neutral"}, {"time": "01:22:54", "agent": "Logger", "text": "Durchlauf 42: 19 Kandidaten, 2 durch Filter, Konto 275,05 $", "status": "Durchlauf", "tone": "neutral"}], "agents": [{"agent": "Scout", "task": "Sucht neue Solana-Coins (DexScreener)", "action": "Letzter Durchlauf 01:22: 0 neue, 19 Kandidaten", "metric": "42 Paare gescannt"}, {"agent": "Filter", "task": "Prüft Liquidität, Volumen, Alter, Holder", "action": "Zuletzt abgelehnt: RATTLE (Liquidität < 15k $)", "metric": "43 Tokens aussortiert"}, {"agent": "Analyst", "task": "Bewertet Momentum (Score ab 60)", "action": "Zuletzt forg: Score 1,5", "metric": "86 Analysen"}, {"agent": "Executor", "task": "Kauft und verkauft (simuliert)", "action": "Zuletzt gekauft: HEREWEGO 00:55", "metric": "2 Käufe, 1 Verkäufe"}, {"agent": "Risk", "task": "Max. 8 % pro Trade, Stop −6 %", "action": "Überwacht 1 offene Position(en)", "metric": "2 Trades freigegeben"}, {"agent": "Logger", "task": "Protokolliert jede Entscheidung", "action": "Letzter Eintrag 01:22", "metric": "806 Einträge, 42 Durchläufe"}], "ticker": [{"symbol": "forg", "m5": -3.05, "h1": -17.58, "score": 1.5}, {"symbol": "ELYSION", "m5": -1.05, "h1": -8.64, "score": 20.1}, {"symbol": "VICECITY", "m5": 8.73, "h1": 26.02, "score": 54.0}], "server_time": 1794183799}
+{
+ "currency": "EUR",
+ "rules": "Spielgeld 5 € · +0,10 € Take-Profit netto · Stop -6 %",
+ "pricing_model": "USD price returns applied to EUR paper equity; FX risk not modeled",
+ "as_of": "09.11.2026, 01:29:40",
+ "data_time": "2026-11-09T01:29:29+01:00",
+ "as_of_iso": "2026-11-09T01:29:40+01:00",
+ "bot_running": true,
+ "last_cycle": "01:29",
+ "start": 5.0,
+ "equity": 5.0,
+ "cash": 5.0,
+ "pnl": 0.0,
+ "pnl_pct": 0.0,
+ "multiplier": 1.0,
+ "pairs_scanned": 39,
+ "evaluations": 111,
+ "cycles": 5,
+ "trades_opened": 0,
+ "closed_count": 0,
+ "wins": 0,
+ "win_rate": null,
+ "realized_pnl": 0.0,
+ "curve": [
+  {
+   "t": "2026-11-09T01:27:53+01:00",
+   "label": "01:27",
+   "equity": 5.0
+  },
+  {
+   "t": "2026-11-09T01:28:26+01:00",
+   "label": "01:28",
+   "equity": 5.0
+  },
+  {
+   "t": "2026-11-09T01:28:29+01:00",
+   "label": "01:28",
+   "equity": 5.0
+  },
+  {
+   "t": "2026-11-09T01:28:44+01:00",
+   "label": "01:28",
+   "equity": 5.0
+  },
+  {
+   "t": "2026-11-09T01:28:59+01:00",
+   "label": "01:28",
+   "equity": 5.0
+  },
+  {
+   "t": "2026-11-09T01:29:14+01:00",
+   "label": "01:29",
+   "equity": 5.0
+  },
+  {
+   "t": "2026-11-09T01:29:29+01:00",
+   "label": "01:29",
+   "equity": 5.0
+  },
+  {
+   "t": "2026-11-09T01:29:40+01:00",
+   "label": "01:29",
+   "equity": 5.0
+  }
+ ],
+ "open_positions": [],
+ "closed_trades": [],
+ "rejections": [
+  {
+   "reason": "Kaufquote 5 Min < 60 %",
+   "count": 15
+  },
+  {
+   "reason": "Kein ruhiges positives 5-Min-Momentum",
+   "count": 15
+  },
+  {
+   "reason": "Liquidität < 15k USD (Marktdaten)",
+   "count": 14
+  },
+  {
+   "reason": "Zu wenig Trades (5 Min)",
+   "count": 13
+  },
+  {
+   "reason": "Quote-Token nicht SOL/USDC",
+   "count": 11
+  },
+  {
+   "reason": "Paar älter als 24 h",
+   "count": 10
+  },
+  {
+   "reason": "Volumen 1h < 10k USD (Marktdaten)",
+   "count": 10
+  },
+  {
+   "reason": "1h-Trend negativ",
+   "count": 10
+  },
+  {
+   "reason": "Kein Preis",
+   "count": 4
+  },
+  {
+   "reason": "Starker Verkaufsdruck",
+   "count": 2
+  },
+  {
+   "reason": "Kurs dumpt (1h < -30 %)",
+   "count": 2
+  },
+  {
+   "reason": "Kein Solana-Paar gefunden",
+   "count": 2
+  },
+  {
+   "reason": "Paar-Alter unbekannt",
+   "count": 1
+  },
+  {
+   "reason": "Überhitzt (5 Min > +25 %)",
+   "count": 1
+  },
+  {
+   "reason": "Momentum-Score < 60",
+   "count": 1
+  }
+ ],
+ "log": [
+  {
+   "time": "01:28:29",
+   "agent": "Filter",
+   "text": "4CHAN: Liquidität < 15k USD (Marktdaten), Volumen 1h < 10k USD (Marktdaten)",
+   "status": "Abgelehnt",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:28:29",
+   "agent": "Filter",
+   "text": "AgenC: Paar älter als 24 h",
+   "status": "Abgelehnt",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:28:29",
+   "agent": "Filter",
+   "text": "Leonida: Paar älter als 24 h",
+   "status": "Abgelehnt",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:28:29",
+   "agent": "Filter",
+   "text": "ELYSION: Kaufquote 5 Min < 60 %",
+   "status": "Abgelehnt",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:28:29",
+   "agent": "Filter",
+   "text": "forg: Kaufquote 5 Min < 60 %, 1h-Trend negativ",
+   "status": "Abgelehnt",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:28:29",
+   "agent": "Filter",
+   "text": "DESSA: Paar älter als 24 h",
+   "status": "Abgelehnt",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:28:29",
+   "agent": "Filter",
+   "text": "0DAY: Paar älter als 24 h",
+   "status": "Abgelehnt",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:28:29",
+   "agent": "Filter",
+   "text": "Marscoin: Paar älter als 24 h",
+   "status": "Abgelehnt",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:28:29",
+   "agent": "Logger",
+   "text": "Durchlauf 1: 41 Kandidaten, 0 durch Filter, Konto 5,00 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:28:44",
+   "agent": "Logger",
+   "text": "Durchlauf 2: 20 Kandidaten, 0 durch Filter, Konto 5,00 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:28:59",
+   "agent": "Logger",
+   "text": "Durchlauf 3: 20 Kandidaten, 0 durch Filter, Konto 5,00 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:29:14",
+   "agent": "Analyst",
+   "text": "HEREWEGO: Momentum-Score 45,7",
+   "status": "Analyse",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:29:14",
+   "agent": "Logger",
+   "text": "Durchlauf 4: 18 Kandidaten, 1 durch Filter, Konto 5,00 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:29:29",
+   "agent": "Analyst",
+   "text": "HEREWEGO: Momentum-Score 45,7",
+   "status": "Analyse",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:29:29",
+   "agent": "Logger",
+   "text": "Durchlauf 5: 18 Kandidaten, 1 durch Filter, Konto 5,00 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  }
+ ],
+ "agents": [
+  {
+   "agent": "Scout",
+   "task": "Sucht neue Solana-Coins (DexScreener)",
+   "action": "Letzter Durchlauf 01:29: 0 neue, 18 Kandidaten",
+   "metric": "39 Paare gescannt"
+  },
+  {
+   "agent": "Filter",
+   "task": "Prüft Liquidität, Volumen, Alter, Holder",
+   "action": "Zuletzt abgelehnt: forg (Kaufquote 5 Min < 60 %)",
+   "metric": "41 Tokens aussortiert"
+  },
+  {
+   "agent": "Analyst",
+   "task": "Bewertet Momentum (Score ab 60)",
+   "action": "Zuletzt HEREWEGO: Score 45,7",
+   "metric": "2 Analysen"
+  },
+  {
+   "agent": "Executor",
+   "task": "Kauft und verkauft (simuliert)",
+   "action": "Wartet",
+   "metric": "0 Käufe, 0 Verkäufe"
+  },
+  {
+   "agent": "Risk",
+   "task": "1 Position, voller Einsatz, Netto-Stop −6 %",
+   "action": "Überwacht 0 offene Position(en)",
+   "metric": "0 Trades freigegeben"
+  },
+  {
+   "agent": "Logger",
+   "task": "Protokolliert jede Entscheidung",
+   "action": "Letzter Eintrag 01:29",
+   "metric": "117 Einträge, 5 Durchläufe"
+  }
+ ],
+ "ticker": [
+  {
+   "symbol": "HEREWEGO",
+   "m5": 3.11,
+   "h1": 3.01,
+   "score": 45.7
+  }
+ ],
+ "server_time": 1794184180
+}
