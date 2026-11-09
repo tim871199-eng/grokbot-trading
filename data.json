@@ -2,11 +2,11 @@
  "currency": "EUR",
  "rules": "Spielgeld 5 € · +0,10 € Take-Profit netto · Stop -6 %",
  "pricing_model": "USD price returns applied to EUR paper equity; FX risk not modeled",
- "as_of": "09.11.2026, 01:29:40",
- "data_time": "2026-11-09T01:29:29+01:00",
- "as_of_iso": "2026-11-09T01:29:40+01:00",
+ "as_of": "09.11.2026, 01:30:28",
+ "data_time": "2026-11-09T01:30:14+01:00",
+ "as_of_iso": "2026-11-09T01:30:28+01:00",
  "bot_running": true,
- "last_cycle": "01:29",
+ "last_cycle": "01:30",
  "start": 5.0,
  "equity": 5.0,
  "cash": 5.0,
@@ -14,8 +14,8 @@
  "pnl_pct": 0.0,
  "multiplier": 1.0,
  "pairs_scanned": 39,
- "evaluations": 111,
- "cycles": 5,
+ "evaluations": 165,
+ "cycles": 8,
  "trades_opened": 0,
  "closed_count": 0,
  "wins": 0,
@@ -58,8 +58,23 @@
    "equity": 5.0
   },
   {
-   "t": "2026-11-09T01:29:40+01:00",
+   "t": "2026-11-09T01:29:44+01:00",
    "label": "01:29",
+   "equity": 5.0
+  },
+  {
+   "t": "2026-11-09T01:29:59+01:00",
+   "label": "01:29",
+   "equity": 5.0
+  },
+  {
+   "t": "2026-11-09T01:30:14+01:00",
+   "label": "01:30",
+   "equity": 5.0
+  },
+  {
+   "t": "2026-11-09T01:30:28+01:00",
+   "label": "01:30",
    "equity": 5.0
   }
  ],
@@ -131,48 +146,6 @@
   {
    "time": "01:28:29",
    "agent": "Filter",
-   "text": "4CHAN: Liquidität < 15k USD (Marktdaten), Volumen 1h < 10k USD (Marktdaten)",
-   "status": "Abgelehnt",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:28:29",
-   "agent": "Filter",
-   "text": "AgenC: Paar älter als 24 h",
-   "status": "Abgelehnt",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:28:29",
-   "agent": "Filter",
-   "text": "Leonida: Paar älter als 24 h",
-   "status": "Abgelehnt",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:28:29",
-   "agent": "Filter",
-   "text": "ELYSION: Kaufquote 5 Min < 60 %",
-   "status": "Abgelehnt",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:28:29",
-   "agent": "Filter",
-   "text": "forg: Kaufquote 5 Min < 60 %, 1h-Trend negativ",
-   "status": "Abgelehnt",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:28:29",
-   "agent": "Filter",
-   "text": "DESSA: Paar älter als 24 h",
-   "status": "Abgelehnt",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:28:29",
-   "agent": "Filter",
    "text": "0DAY: Paar älter als 24 h",
    "status": "Abgelehnt",
    "tone": "neutral"
@@ -232,13 +205,55 @@
    "text": "Durchlauf 5: 18 Kandidaten, 1 durch Filter, Konto 5,00 €",
    "status": "Durchlauf",
    "tone": "neutral"
+  },
+  {
+   "time": "01:29:44",
+   "agent": "Analyst",
+   "text": "HEREWEGO: Momentum-Score 45,7",
+   "status": "Analyse",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:29:44",
+   "agent": "Logger",
+   "text": "Durchlauf 6: 18 Kandidaten, 1 durch Filter, Konto 5,00 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:29:59",
+   "agent": "Analyst",
+   "text": "HEREWEGO: Momentum-Score 46,6",
+   "status": "Analyse",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:29:59",
+   "agent": "Logger",
+   "text": "Durchlauf 7: 18 Kandidaten, 1 durch Filter, Konto 5,00 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:30:14",
+   "agent": "Analyst",
+   "text": "HEREWEGO: Momentum-Score 46,6",
+   "status": "Analyse",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:30:14",
+   "agent": "Logger",
+   "text": "Durchlauf 8: 18 Kandidaten, 1 durch Filter, Konto 5,00 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
   }
  ],
  "agents": [
   {
    "agent": "Scout",
    "task": "Sucht neue Solana-Coins (DexScreener)",
-   "action": "Letzter Durchlauf 01:29: 0 neue, 18 Kandidaten",
+   "action": "Letzter Durchlauf 01:30: 0 neue, 18 Kandidaten",
    "metric": "39 Paare gescannt"
   },
   {
@@ -250,8 +265,8 @@
   {
    "agent": "Analyst",
    "task": "Bewertet Momentum (Score ab 60)",
-   "action": "Zuletzt HEREWEGO: Score 45,7",
-   "metric": "2 Analysen"
+   "action": "Zuletzt HEREWEGO: Score 46,6",
+   "metric": "5 Analysen"
   },
   {
    "agent": "Executor",
@@ -268,17 +283,17 @@
   {
    "agent": "Logger",
    "task": "Protokolliert jede Entscheidung",
-   "action": "Letzter Eintrag 01:29",
-   "metric": "117 Einträge, 5 Durchläufe"
+   "action": "Letzter Eintrag 01:30",
+   "metric": "174 Einträge, 8 Durchläufe"
   }
  ],
  "ticker": [
   {
    "symbol": "HEREWEGO",
-   "m5": 3.11,
-   "h1": 3.01,
-   "score": 45.7
+   "m5": 3.35,
+   "h1": 3.26,
+   "score": 46.6
   }
  ],
- "server_time": 1794184180
+ "server_time": 1794184228
 }

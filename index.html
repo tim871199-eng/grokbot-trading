@@ -133,7 +133,7 @@ function render(d){
  $("closed").innerHTML=ct.length?ct.map(t=>`<div class="pos"><div><div class="s">${esc(t.symbol)}</div><div class="m">${esc(t.opened)}–${esc(t.closed)} · ${esc(t.reason)}</div></div><div class="rt"><b class="${cls(t.pnl)}">${sg(t.pnl)} €</b><div class="m ${cls(t.pnl_pct)}">${sg(t.pnl_pct)} %</div></div></div>`).join(""):`<div class="empty">Noch keine geschlossenen Trades.</div>`;
  const tk=d.ticker||[];const th=tk.map(t=>{const v=t.h1??t.m5;return `<span><b>${esc(t.symbol)}</b><span class="${cls(v)}">${v==null?"–":sg(v)+"%"}</span></span>`}).join("");
  if(th&&th!==lastTicker){lastTicker=th;$("ticker").innerHTML=th+th;}
- $("foot").textContent="Stand: "+new Intl.DateTimeFormat("de-DE",{timeZone:"Europe/Berlin",hour:"2-digit",minute:"2-digit",second:"2-digit"}).format(new Date(d.data_time||d.as_of_iso))+" (Berlin) · aktualisiert ca. jede Minute";
+ $("foot").textContent="Stand: "+new Intl.DateTimeFormat("de-DE",{timeZone:"Europe/Berlin",hour:"2-digit",minute:"2-digit",second:"2-digit"}).format(new Date(d.data_time||d.as_of_iso))+" (Berlin) · aktualisiert ca. alle 5–10 Min";
  // Toasts
  const now={open:new Set(op.map(p=>p.symbol+"|"+p.opened)),closed:new Set((d.closed_trades||[]).map(t=>t.symbol+"|"+t.closed))};
  if(known){op.forEach(p=>{if(!known.open.has(p.symbol+"|"+p.opened))toast(`▲ Kauf ${p.symbol} · ${eur(p.cost)}`)});
