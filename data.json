@@ -2,19 +2,19 @@
  "currency": "EUR",
  "rules": "Spielgeld 10 € · Stop −3 % · ab +0,10 € Trailing · nur Coins < 1 % Kosten",
  "pricing_model": "Jupiter ExactIn quotes + network fee; EUR via SOL/USD×USD/EUR; 20-agent desk",
- "as_of": "10.11.2026, 07:56:43",
- "data_time": "2026-11-10T07:56:42+01:00",
- "as_of_iso": "2026-11-10T07:56:43+01:00",
+ "as_of": "10.11.2026, 08:02:58",
+ "data_time": "2026-11-10T08:02:57+01:00",
+ "as_of_iso": "2026-11-10T08:02:58+01:00",
  "bot_running": true,
  "bot_stale": false,
- "bot_stale_sec": 1.107321,
+ "bot_stale_sec": 1.398408,
  "last_cycle": "07:54",
  "start": 10.0,
- "equity": 8.51,
+ "equity": 8.5,
  "cash": 0.01,
- "pnl": -1.49,
- "pnl_pct": -14.93,
- "multiplier": 0.851,
+ "pnl": -1.5,
+ "pnl_pct": -14.97,
+ "multiplier": 0.85,
  "pairs_scanned": 305,
  "evaluations": 53548,
  "cycles": 2300,
@@ -320,9 +320,9 @@
    "equity": 8.51
   },
   {
-   "t": "2026-11-10T07:56:43+01:00",
-   "label": "07:56",
-   "equity": 8.51
+   "t": "2026-11-10T08:02:58+01:00",
+   "label": "08:02",
+   "equity": 8.5
   }
  ],
  "open_positions": [
@@ -331,7 +331,7 @@
    "opened": "07:54",
    "cost": 8.51,
    "value": 8.5,
-   "pct": -0.08,
+   "pct": -0.13,
    "tp1_done": false,
    "score": 44.2,
    "url": "https://dexscreener.com/solana/faqh648xeeatql7du49sztp9nfj5pjrqrfvamccyd9cz",
@@ -1631,10 +1631,10 @@
    "agent": "Risk",
    "task": "Größe, Halts, Freigabe",
    "action": "Limits ok · Stop −3 % Baseline · −6 % Safety · Trail ab +0,10 €",
-   "metric": "eq=8.51€",
+   "metric": "eq=8.50€",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-10T07:56:42+01:00"
+   "ts": "2026-11-10T08:02:57+01:00"
   },
   {
    "agent": "Executor",
@@ -1652,7 +1652,7 @@
    "metric": "check≈2.5s",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-10T07:56:42+01:00"
+   "ts": "2026-11-10T08:02:57+01:00"
   },
   {
    "agent": "MarketRegime",
@@ -1676,10 +1676,10 @@
    "agent": "Auditor",
    "task": "Equity/Trades Konsistenz",
    "action": "Kontostand & Trades konsistent",
-   "metric": "eq=8.5073",
+   "metric": "eq=8.5032",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-10T07:56:42+01:00"
+   "ts": "2026-11-10T08:02:57+01:00"
   },
   {
    "agent": "Logger",
@@ -1693,12 +1693,12 @@
  ],
  "agent_count": 22,
  "readiness": {
-  "days_running": 1.21,
+  "days_running": 1.22,
   "days_needed": 3,
   "trades_closed": 15,
   "trades_needed": 30,
   "win_rate": 13.3,
-  "net_pnl_eur": -1.49,
+  "net_pnl_eur": -1.5,
   "max_drawdown_pct": -17.18,
   "max_drawdown_limit_pct": -15.0,
   "ready_for_real": false,
@@ -1837,8 +1837,8 @@
  "auditor": {
   "ok": true,
   "issues": [],
-  "equity": 8.5073,
-  "ts": "2026-11-10T07:56:42+01:00"
+  "equity": 8.5032,
+  "ts": "2026-11-10T08:02:57+01:00"
  },
  "last_buy_why": {
   "summary": "Score 44.2, Votes +6, rt 0.1341%",
@@ -1890,5 +1890,5 @@
    "score": 39.5
   }
  ],
- "server_time": 1794293803
+ "server_time": 1794294178
 }
