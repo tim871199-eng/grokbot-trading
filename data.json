@@ -2,12 +2,12 @@
  "currency": "EUR",
  "rules": "Spielgeld 10 € · Stop −3 % · ab +0,10 € Trailing · nur Coins < 1 % Kosten",
  "pricing_model": "Jupiter ExactIn quotes + network fee; EUR via SOL/USD×USD/EUR; 20-agent desk",
- "as_of": "10.11.2026, 19:48:07",
+ "as_of": "10.11.2026, 20:01:46",
  "data_time": "2026-11-10T19:48:06+01:00",
- "as_of_iso": "2026-11-10T19:48:07+01:00",
+ "as_of_iso": "2026-11-10T20:01:46+01:00",
  "bot_running": true,
- "bot_stale": false,
- "bot_stale_sec": 1.472708,
+ "bot_stale": true,
+ "bot_stale_sec": 820.714406,
  "last_cycle": "19:48",
  "start": 10.0,
  "equity": 7.43,
@@ -320,8 +320,8 @@
    "equity": 7.43
   },
   {
-   "t": "2026-11-10T19:48:07+01:00",
-   "label": "19:48",
+   "t": "2026-11-10T20:01:46+01:00",
+   "label": "20:01",
    "equity": 7.43
   }
  ],
@@ -1752,7 +1752,7 @@
  ],
  "agent_count": 22,
  "readiness": {
-  "days_running": 1.71,
+  "days_running": 1.72,
   "days_needed": 3,
   "trades_closed": 18,
   "trades_needed": 30,
@@ -1938,5 +1938,5 @@
   "agents_against": []
  },
  "ticker": [],
- "server_time": 1794336487
+ "server_time": 1794337307
 }
