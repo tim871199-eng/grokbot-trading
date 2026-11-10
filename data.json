@@ -2,22 +2,22 @@
  "currency": "EUR",
  "rules": "Spielgeld 10 € · Stop −3 % · ab +0,10 € Trailing · nur Coins < 1 % Kosten",
  "pricing_model": "Jupiter ExactIn quotes + network fee; EUR via SOL/USD×USD/EUR; 20-agent desk",
- "as_of": "10.11.2026, 01:04:15",
- "data_time": "2026-11-10T01:04:03+01:00",
- "as_of_iso": "2026-11-10T01:04:15+01:00",
+ "as_of": "10.11.2026, 02:05:29",
+ "data_time": "2026-11-10T02:05:22+01:00",
+ "as_of_iso": "2026-11-10T02:05:29+01:00",
  "bot_running": true,
  "bot_stale": false,
- "bot_stale_sec": 11.956255,
- "last_cycle": "01:04",
+ "bot_stale_sec": 7.155233,
+ "last_cycle": "02:05",
  "start": 10.0,
  "equity": 8.46,
  "cash": 8.46,
  "pnl": -1.54,
  "pnl_pct": -15.42,
  "multiplier": 0.846,
- "pairs_scanned": 252,
- "evaluations": 39270,
- "cycles": 1817,
+ "pairs_scanned": 259,
+ "evaluations": 39912,
+ "cycles": 1833,
  "trades_opened": 12,
  "closed_count": 12,
  "wins": 0,
@@ -35,293 +35,293 @@
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T03:06:00+01:00",
+   "t": "2026-11-09T03:06:15+01:00",
    "label": "03:06",
    "equity": 10.0
   },
   {
-   "t": "2026-11-09T04:05:15+01:00",
+   "t": "2026-11-09T04:05:29+01:00",
    "label": "04:05",
    "equity": 9.03
   },
   {
-   "t": "2026-11-09T05:19:28+01:00",
+   "t": "2026-11-09T05:19:45+01:00",
    "label": "05:19",
    "equity": 9.03
   },
   {
-   "t": "2026-11-09T05:27:14+01:00",
+   "t": "2026-11-09T05:27:44+01:00",
    "label": "05:27",
    "equity": 9.03
   },
   {
-   "t": "2026-11-09T05:34:58+01:00",
-   "label": "05:34",
+   "t": "2026-11-09T05:35:28+01:00",
+   "label": "05:35",
    "equity": 9.03
   },
   {
-   "t": "2026-11-09T05:42:45+01:00",
-   "label": "05:42",
+   "t": "2026-11-09T05:43:15+01:00",
+   "label": "05:43",
    "equity": 9.03
   },
   {
-   "t": "2026-11-09T05:50:28+01:00",
-   "label": "05:50",
+   "t": "2026-11-09T05:51:14+01:00",
+   "label": "05:51",
    "equity": 9.03
   },
   {
-   "t": "2026-11-09T05:58:15+01:00",
+   "t": "2026-11-09T05:58:59+01:00",
    "label": "05:58",
    "equity": 9.03
   },
   {
-   "t": "2026-11-09T06:06:15+01:00",
+   "t": "2026-11-09T06:06:45+01:00",
    "label": "06:06",
    "equity": 9.03
   },
   {
-   "t": "2026-11-09T06:13:59+01:00",
-   "label": "06:13",
+   "t": "2026-11-09T06:14:45+01:00",
+   "label": "06:14",
    "equity": 9.03
   },
   {
-   "t": "2026-11-09T06:21:45+01:00",
-   "label": "06:21",
+   "t": "2026-11-09T06:22:29+01:00",
+   "label": "06:22",
    "equity": 9.03
   },
   {
-   "t": "2026-11-09T06:29:29+01:00",
-   "label": "06:29",
+   "t": "2026-11-09T06:30:15+01:00",
+   "label": "06:30",
    "equity": 9.03
   },
   {
-   "t": "2026-11-09T06:48:43+01:00",
-   "label": "06:48",
+   "t": "2026-11-09T06:49:46+01:00",
+   "label": "06:49",
    "equity": 9.03
   },
   {
-   "t": "2026-11-09T07:11:15+01:00",
-   "label": "07:11",
+   "t": "2026-11-09T07:12:16+01:00",
+   "label": "07:12",
    "equity": 8.85
   },
   {
-   "t": "2026-11-09T07:18:59+01:00",
-   "label": "07:18",
+   "t": "2026-11-09T07:19:59+01:00",
+   "label": "07:19",
    "equity": 8.85
   },
   {
-   "t": "2026-11-09T07:26:45+01:00",
-   "label": "07:26",
+   "t": "2026-11-09T07:27:44+01:00",
+   "label": "07:27",
    "equity": 8.85
   },
   {
-   "t": "2026-11-09T08:05:59+01:00",
-   "label": "08:05",
+   "t": "2026-11-09T08:07:13+01:00",
+   "label": "08:07",
    "equity": 8.79
   },
   {
-   "t": "2026-11-09T08:49:19+01:00",
-   "label": "08:49",
+   "t": "2026-11-09T08:50:33+01:00",
+   "label": "08:50",
    "equity": 8.79
   },
   {
-   "t": "2026-11-09T08:57:04+01:00",
-   "label": "08:57",
+   "t": "2026-11-09T08:58:18+01:00",
+   "label": "08:58",
    "equity": 8.79
   },
   {
-   "t": "2026-11-09T09:04:49+01:00",
-   "label": "09:04",
+   "t": "2026-11-09T09:06:19+01:00",
+   "label": "09:06",
    "equity": 8.79
   },
   {
-   "t": "2026-11-09T09:12:33+01:00",
-   "label": "09:12",
+   "t": "2026-11-09T09:14:06+01:00",
+   "label": "09:14",
    "equity": 8.79
   },
   {
-   "t": "2026-11-09T09:20:19+01:00",
-   "label": "09:20",
+   "t": "2026-11-09T09:21:49+01:00",
+   "label": "09:21",
    "equity": 8.79
   },
   {
-   "t": "2026-11-09T09:42:56+01:00",
-   "label": "09:42",
+   "t": "2026-11-09T09:44:38+01:00",
+   "label": "09:44",
    "equity": 8.75
   },
   {
-   "t": "2026-11-09T09:50:38+01:00",
-   "label": "09:50",
+   "t": "2026-11-09T09:52:26+01:00",
+   "label": "09:52",
    "equity": 8.75
   },
   {
-   "t": "2026-11-09T10:13:09+01:00",
-   "label": "10:13",
+   "t": "2026-11-09T10:14:54+01:00",
+   "label": "10:14",
    "equity": 8.73
   },
   {
-   "t": "2026-11-09T10:20:54+01:00",
-   "label": "10:20",
+   "t": "2026-11-09T10:22:54+01:00",
+   "label": "10:22",
    "equity": 8.73
   },
   {
-   "t": "2026-11-09T10:28:40+01:00",
-   "label": "10:28",
+   "t": "2026-11-09T10:30:40+01:00",
+   "label": "10:30",
    "equity": 8.73
   },
   {
-   "t": "2026-11-09T10:42:48+01:00",
-   "label": "10:42",
+   "t": "2026-11-09T10:44:48+01:00",
+   "label": "10:44",
    "equity": 8.73
   },
   {
-   "t": "2026-11-09T11:10:18+01:00",
-   "label": "11:10",
-   "equity": 8.67
-  },
-  {
-   "t": "2026-11-09T11:32:53+01:00",
-   "label": "11:32",
+   "t": "2026-11-09T11:27:07+01:00",
+   "label": "11:27",
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T11:40:39+01:00",
-   "label": "11:40",
+   "t": "2026-11-09T11:34:58+01:00",
+   "label": "11:34",
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T11:48:40+01:00",
-   "label": "11:48",
+   "t": "2026-11-09T11:42:39+01:00",
+   "label": "11:42",
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T11:56:26+01:00",
-   "label": "11:56",
+   "t": "2026-11-09T11:50:56+01:00",
+   "label": "11:50",
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T12:04:10+01:00",
-   "label": "12:04",
+   "t": "2026-11-09T11:58:40+01:00",
+   "label": "11:58",
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T12:24:34+01:00",
-   "label": "12:24",
+   "t": "2026-11-09T12:06:26+01:00",
+   "label": "12:06",
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T12:39:21+01:00",
-   "label": "12:39",
+   "t": "2026-11-09T12:27:03+01:00",
+   "label": "12:27",
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T12:52:29+01:00",
-   "label": "12:52",
+   "t": "2026-11-09T12:41:51+01:00",
+   "label": "12:41",
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T13:02:21+01:00",
-   "label": "13:02",
+   "t": "2026-11-09T12:57:06+01:00",
+   "label": "12:57",
    "equity": 8.65
   },
   {
-   "t": "2026-11-09T14:35:24+01:00",
-   "label": "14:35",
-   "equity": 8.59
+   "t": "2026-11-09T13:06:32+01:00",
+   "label": "13:06",
+   "equity": 8.65
   },
   {
-   "t": "2026-11-09T16:06:56+01:00",
-   "label": "16:06",
+   "t": "2026-11-09T15:15:31+01:00",
+   "label": "15:15",
    "equity": 8.62
   },
   {
-   "t": "2026-11-09T16:14:39+01:00",
-   "label": "16:14",
+   "t": "2026-11-09T16:09:41+01:00",
+   "label": "16:09",
    "equity": 8.62
   },
   {
-   "t": "2026-11-09T16:22:26+01:00",
-   "label": "16:22",
+   "t": "2026-11-09T16:17:39+01:00",
+   "label": "16:17",
    "equity": 8.62
   },
   {
-   "t": "2026-11-09T16:30:11+01:00",
-   "label": "16:30",
+   "t": "2026-11-09T16:25:29+01:00",
+   "label": "16:25",
    "equity": 8.62
   },
   {
-   "t": "2026-11-09T16:52:51+01:00",
-   "label": "16:52",
+   "t": "2026-11-09T16:33:11+01:00",
+   "label": "16:33",
+   "equity": 8.62
+  },
+  {
+   "t": "2026-11-09T16:56:09+01:00",
+   "label": "16:56",
    "equity": 8.6
   },
   {
-   "t": "2026-11-09T17:00:59+01:00",
-   "label": "17:00",
+   "t": "2026-11-09T17:04:15+01:00",
+   "label": "17:04",
    "equity": 8.6
   },
   {
-   "t": "2026-11-09T17:08:58+01:00",
-   "label": "17:08",
+   "t": "2026-11-09T17:12:14+01:00",
+   "label": "17:12",
    "equity": 8.6
   },
   {
-   "t": "2026-11-09T17:16:43+01:00",
-   "label": "17:16",
+   "t": "2026-11-09T17:19:58+01:00",
+   "label": "17:19",
    "equity": 8.6
   },
   {
-   "t": "2026-11-09T18:36:04+01:00",
-   "label": "18:36",
-   "equity": 8.52
-  },
-  {
-   "t": "2026-11-09T20:06:18+01:00",
-   "label": "20:06",
+   "t": "2026-11-09T20:01:48+01:00",
+   "label": "20:01",
    "equity": 8.46
   },
   {
-   "t": "2026-11-09T21:13:23+01:00",
-   "label": "21:13",
+   "t": "2026-11-09T20:35:14+01:00",
+   "label": "20:35",
    "equity": 8.46
   },
   {
-   "t": "2026-11-09T23:09:19+01:00",
-   "label": "23:09",
+   "t": "2026-11-09T22:02:58+01:00",
+   "label": "22:02",
    "equity": 8.46
   },
   {
-   "t": "2026-11-09T23:40:28+01:00",
-   "label": "23:40",
+   "t": "2026-11-09T23:35:47+01:00",
+   "label": "23:35",
    "equity": 8.46
   },
   {
-   "t": "2026-11-09T23:48:13+01:00",
-   "label": "23:48",
+   "t": "2026-11-09T23:43:58+01:00",
+   "label": "23:43",
    "equity": 8.46
   },
   {
-   "t": "2026-11-09T23:57:24+01:00",
-   "label": "23:57",
+   "t": "2026-11-09T23:51:43+01:00",
+   "label": "23:51",
    "equity": 8.46
   },
   {
-   "t": "2026-11-10T00:05:22+01:00",
-   "label": "00:05",
+   "t": "2026-11-10T00:01:23+01:00",
+   "label": "00:01",
    "equity": 8.46
   },
   {
-   "t": "2026-11-10T00:20:08+01:00",
-   "label": "00:20",
+   "t": "2026-11-10T00:09:07+01:00",
+   "label": "00:09",
    "equity": 8.46
   },
   {
-   "t": "2026-11-10T00:27:54+01:00",
-   "label": "00:27",
+   "t": "2026-11-10T00:23:53+01:00",
+   "label": "00:23",
    "equity": 8.46
   },
   {
-   "t": "2026-11-10T01:04:14+01:00",
-   "label": "01:04",
+   "t": "2026-11-10T00:38:09+01:00",
+   "label": "00:38",
+   "equity": 8.46
+  },
+  {
+   "t": "2026-11-10T02:05:29+01:00",
+   "label": "02:05",
    "equity": 8.46
   }
  ],
@@ -547,79 +547,79 @@
  "rejections": [
   {
    "reason": "Kein ruhiges positives 5-Min-Momentum",
-   "count": 146
-  },
-  {
-   "reason": "Liquidität < 40k USD (Marktdaten)",
-   "count": 127
+   "count": 151
   },
   {
    "reason": "Kaufquote 5 Min < 55 %",
-   "count": 126
+   "count": 130
   },
   {
-   "reason": "1h-Trend negativ",
-   "count": 121
+   "reason": "Liquidität < 40k USD (Marktdaten)",
+   "count": 130
   },
   {
    "reason": "Zu wenig Trades (5 Min)",
-   "count": 121
+   "count": 124
+  },
+  {
+   "reason": "1h-Trend negativ",
+   "count": 123
   },
   {
    "reason": "Kurs dumpt (1h < -30 %)",
-   "count": 96
+   "count": 99
   },
   {
    "reason": "Volumen 1h < 10k USD (Marktdaten)",
-   "count": 92
-  },
-  {
-   "reason": "Quote-Token nicht SOL/USDC",
-   "count": 77
+   "count": 97
   },
   {
    "reason": "Starker Verkaufsdruck",
-   "count": 77
+   "count": 82
+  },
+  {
+   "reason": "Quote-Token nicht SOL/USDC",
+   "count": 80
   },
   {
    "reason": "Überhitzt (5 Min > +25 %)",
-   "count": 69
+   "count": 71
   },
   {
    "reason": "Zu volatil (5 Min ±21 %)",
-   "count": 38
+   "count": 39
   },
   {
    "reason": "Paar älter als 24 h",
-   "count": 36
+   "count": 37
+  },
+  {
+   "reason": "Zu volatil (5 Min ±20 %)",
+   "count": 33
   },
   {
    "reason": "Paar jünger als 10 Min",
    "count": 33
   },
   {
+   "reason": "Zu volatil (5 Min ±25 %)",
+   "count": 32
+  },
+  {
    "reason": "Zu volatil (5 Min ±23 %)",
    "count": 32
   },
   {
-   "reason": "Zu volatil (5 Min ±20 %)",
+   "reason": "Zu volatil (5 Min ±19 %)",
    "count": 32
   },
   {
-   "reason": "Zu volatil (5 Min ±25 %)",
-   "count": 31
-  },
-  {
-   "reason": "Zu volatil (5 Min ±19 %)",
-   "count": 31
+   "reason": "Zu volatil (5 Min ±26 %)",
+   "count": 27
   },
   {
    "reason": "Zu volatil (5 Min ±24 %)",
    "count": 27
-  },
-  {
-   "reason": "Zu volatil (5 Min ±26 %)",
-   "count": 26
   },
   {
    "reason": "Zu volatil (5 Min ±27 %)",
@@ -627,7 +627,7 @@
   },
   {
    "reason": "Zu volatil (5 Min ±22 %)",
-   "count": 23
+   "count": 24
   },
   {
    "reason": "Zu volatil (5 Min ±36 %)",
@@ -678,11 +678,11 @@
    "count": 16
   },
   {
-   "reason": "Zu volatil (5 Min ±44 %)",
-   "count": 15
+   "reason": "Kaufquote 5 Min < 52 %",
+   "count": 16
   },
   {
-   "reason": "Kaufquote 5 Min < 52 %",
+   "reason": "Zu volatil (5 Min ±44 %)",
    "count": 15
   },
   {
@@ -694,15 +694,15 @@
    "count": 14
   },
   {
+   "reason": "Zu volatil (5 Min ±37 %)",
+   "count": 14
+  },
+  {
    "reason": "Zu volatil (5 Min ±31 %)",
    "count": 14
   },
   {
    "reason": "Zu volatil (5 Min ±35 %)",
-   "count": 13
-  },
-  {
-   "reason": "Zu volatil (5 Min ±37 %)",
    "count": 13
   },
   {
@@ -742,20 +742,20 @@
    "count": 10
   },
   {
+   "reason": "Preiswirkung zu hoch",
+   "count": 9
+  },
+  {
+   "reason": "Sofort-Roundtrip zu teuer",
+   "count": 9
+  },
+  {
    "reason": "Zu volatil (5 Min ±54 %)",
    "count": 9
   },
   {
    "reason": "Zu volatil (5 Min ±57 %)",
    "count": 9
-  },
-  {
-   "reason": "Preiswirkung zu hoch",
-   "count": 8
-  },
-  {
-   "reason": "Sofort-Roundtrip zu teuer",
-   "count": 8
   },
   {
    "reason": "Momentum-Score < 40",
@@ -791,6 +791,10 @@
   },
   {
    "reason": "Zu volatil (5 Min ±98 %)",
+   "count": 6
+  },
+  {
+   "reason": "Zu volatil (5 Min ±84 %)",
    "count": 6
   },
   {
@@ -842,10 +846,6 @@
    "count": 5
   },
   {
-   "reason": "Zu volatil (5 Min ±84 %)",
-   "count": 5
-  },
-  {
    "reason": "Zu volatil (5 Min ±89 %)",
    "count": 5
   },
@@ -859,6 +859,10 @@
   },
   {
    "reason": "Top-10-Holder > 60 %",
+   "count": 4
+  },
+  {
+   "reason": "1h-Trend unter -3.0 %",
    "count": 4
   },
   {
@@ -879,10 +883,6 @@
   },
   {
    "reason": "Zu volatil (5 Min ±73 %)",
-   "count": 3
-  },
-  {
-   "reason": "1h-Trend unter -3.0 %",
    "count": 3
   },
   {
@@ -915,6 +915,10 @@
   },
   {
    "reason": "Zu volatil (5 Min ±86 %)",
+   "count": 2
+  },
+  {
+   "reason": "Zu volatil (5 Min ±80 %)",
    "count": 2
   },
   {
@@ -967,10 +971,6 @@
   },
   {
    "reason": "Kerzen-Range zu groß (14.3 %)",
-   "count": 1
-  },
-  {
-   "reason": "Zu volatil (5 Min ±80 %)",
    "count": 1
   },
   {
@@ -1156,75 +1156,87 @@
   {
    "reason": "Zu volatil (5 Min ±79197 %)",
    "count": 1
+  },
+  {
+   "reason": "Zu volatil (5 Min ±78 %)",
+   "count": 1
+  },
+  {
+   "reason": "Kerzen-Range zu groß (13.9 %)",
+   "count": 1
+  },
+  {
+   "reason": "Liquidität < 200k USD (Marktdaten)",
+   "count": 1
   }
  ],
  "filter_performance": [
   {
    "key": "Kein ruhiges positives 5-Min-Momentum",
-   "rejects": 32834,
+   "rejects": 33362,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Zu wenig Trades (5 Min)",
-   "rejects": 22566,
+   "rejects": 23044,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Liquidität < 40k USD (Marktdaten)",
-   "rejects": 16920,
+   "rejects": 17266,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Kaufquote 5 Min < 52 %",
-   "rejects": 13003,
+   "rejects": 13174,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Kaufquote 5 Min < 55 %",
-   "rejects": 12861,
+   "rejects": 13168,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "1h-Trend negativ",
-   "rejects": 10738,
+   "rejects": 10958,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Starker Verkaufsdruck",
-   "rejects": 8873,
+   "rejects": 9057,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Volumen 1h < 10k USD (Marktdaten)",
-   "rejects": 7731,
+   "rejects": 7993,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Volumen 1h < 5k USD (Marktdaten)",
-   "rejects": 7443,
+   "rejects": 7577,
    "wins": 0,
    "losses": 0,
    "trades": 0
   },
   {
    "key": "Kurs dumpt (1h < -30 %)",
-   "rejects": 6160,
+   "rejects": 6224,
    "wins": 0,
    "losses": 0,
    "trades": 0
@@ -1232,128 +1244,128 @@
  ],
  "log": [
   {
-   "time": "01:02:50",
+   "time": "01:36:50",
+   "agent": "Logger",
+   "text": "Durchlauf 1825: 46 Kand., 0 ok, 8,46 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:37:06",
+   "agent": "Logger",
+   "text": "Durchlauf 1826: 46 Kand., 0 ok, 8,46 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:37:20",
+   "agent": "Logger",
+   "text": "Durchlauf 1827: 46 Kand., 0 ok, 8,46 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:37:36",
+   "agent": "Logger",
+   "text": "Durchlauf 1828: 46 Kand., 0 ok, 8,46 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "01:37:50",
+   "agent": "Logger",
+   "text": "Durchlauf 1829: 46 Kand., 0 ok, 8,46 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "02:04:38",
+   "agent": "Logger",
+   "text": "Durchlauf 1830: 24 Kand., 0 ok, 8,46 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "02:04:52",
+   "agent": "Analyst",
+   "text": "GATO: Score 17,1",
+   "status": "Analyse",
+   "tone": "neutral"
+  },
+  {
+   "time": "02:04:54",
+   "agent": "Analyst",
+   "text": "OnlyCats: Score 90,6",
+   "status": "Analyse",
+   "tone": "neutral"
+  },
+  {
+   "time": "02:04:54",
    "agent": "Filter",
-   "text": "workinu: Liquidität < 40k USD (Marktdaten), Zu wenig Trades (5 Min)",
+   "text": "NVIDIOT: Liquidität < 40k USD (Marktdaten), Kaufquote 5 Min < 55 %",
    "status": "Abgelehnt",
    "tone": "neutral"
   },
   {
-   "time": "01:02:50",
-   "agent": "Honeypot",
-   "text": "BORLY: Kauf-Preiswirkung 0.93 % > 0.5 %, Sofort-Roundtrip −2.81 % > 1.0 %",
+   "time": "02:04:54",
+   "agent": "Filter",
+   "text": "GAMP: Quote-Token nicht SOL/USDC",
    "status": "Abgelehnt",
    "tone": "neutral"
   },
   {
-   "time": "01:02:50",
+   "time": "02:04:54",
+   "agent": "Filter",
+   "text": "CBR: Quote-Token nicht SOL/USDC",
+   "status": "Abgelehnt",
+   "tone": "neutral"
+  },
+  {
+   "time": "02:04:54",
    "agent": "Logger",
-   "text": "Durchlauf 1812: 44 Kand., 2 ok, 8,46 €",
+   "text": "Durchlauf 1831: 27 Kand., 2 ok, 8,46 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "01:03:03",
+   "time": "02:05:06",
    "agent": "Analyst",
-   "text": "CBUCKS: Score 25,4",
+   "text": "GATO: Score 17,1",
    "status": "Analyse",
    "tone": "neutral"
   },
   {
-   "time": "01:03:03",
+   "time": "02:05:08",
    "agent": "Analyst",
-   "text": "BORLY: Score 92,9",
+   "text": "OnlyCats: Score 90,6",
    "status": "Analyse",
    "tone": "neutral"
   },
   {
-   "time": "01:03:03",
+   "time": "02:05:08",
    "agent": "Logger",
-   "text": "Durchlauf 1813: 44 Kand., 2 ok, 8,46 €",
+   "text": "Durchlauf 1832: 25 Kand., 2 ok, 8,46 €",
    "status": "Durchlauf",
    "tone": "neutral"
   },
   {
-   "time": "01:03:19",
+   "time": "02:05:21",
    "agent": "Analyst",
-   "text": "CBUCKS: Score 19,7",
+   "text": "GATO: Score 17,1",
    "status": "Analyse",
    "tone": "neutral"
   },
   {
-   "time": "01:03:19",
+   "time": "02:05:21",
    "agent": "Analyst",
-   "text": "BORLY: Score 92,9",
+   "text": "OnlyCats: Score 90,6",
    "status": "Analyse",
    "tone": "neutral"
   },
   {
-   "time": "01:03:20",
+   "time": "02:05:22",
    "agent": "Logger",
-   "text": "Durchlauf 1814: 44 Kand., 2 ok, 8,46 €",
-   "status": "Durchlauf",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:03:33",
-   "agent": "Analyst",
-   "text": "CBUCKS: Score 19,7",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:03:33",
-   "agent": "Analyst",
-   "text": "BORLY: Score 88,6",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:03:33",
-   "agent": "Logger",
-   "text": "Durchlauf 1815: 43 Kand., 2 ok, 8,46 €",
-   "status": "Durchlauf",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:03:49",
-   "agent": "Analyst",
-   "text": "CBUCKS: Score 19,7",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:03:49",
-   "agent": "Analyst",
-   "text": "BORLY: Score 88,6",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:03:50",
-   "agent": "Logger",
-   "text": "Durchlauf 1816: 43 Kand., 2 ok, 8,46 €",
-   "status": "Durchlauf",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:04:03",
-   "agent": "Analyst",
-   "text": "CBUCKS: Score 25,4",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:04:03",
-   "agent": "Analyst",
-   "text": "BORLY: Score 88,6",
-   "status": "Analyse",
-   "tone": "neutral"
-  },
-  {
-   "time": "01:04:03",
-   "agent": "Logger",
-   "text": "Durchlauf 1817: 43 Kand., 2 ok, 8,46 €",
+   "text": "Durchlauf 1833: 25 Kand., 2 ok, 8,46 €",
    "status": "Durchlauf",
    "tone": "neutral"
   }
@@ -1363,19 +1375,19 @@
    "agent": "Scout",
    "task": "Neue Solana-Paare aus DexScreener-Feeds",
    "action": "0 neue Paare entdeckt",
-   "metric": "seen=263",
+   "metric": "seen=270",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-10T01:03:52+01:00"
+   "ts": "2026-11-10T02:05:11+01:00"
   },
   {
    "agent": "TrendScout",
    "task": "Boosted/Trending Tokens",
-   "action": "50 Boost-/Trend-Tokens",
-   "metric": "boosted_cycle=50",
+   "action": "49 Boost-/Trend-Tokens",
+   "metric": "boosted_cycle=49",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-10T01:03:55+01:00"
+   "ts": "2026-11-10T02:05:13+01:00"
   },
   {
    "agent": "LiquidScout",
@@ -1384,115 +1396,115 @@
    "metric": "liq_watch=16",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-10T01:04:02+01:00"
+   "ts": "2026-11-10T02:05:21+01:00"
   },
   {
    "agent": "Liquidity",
    "task": "Mindest-Liquidität prüfen",
-   "action": "workinu: liq=0$",
+   "action": "NVIDIOT: liq=18780$",
    "metric": "",
    "vote": -1,
    "status": "warn",
-   "ts": "2026-11-10T01:04:03+01:00"
+   "ts": "2026-11-10T02:05:21+01:00"
   },
   {
    "agent": "Volume",
    "task": "1h-Volumen prüfen",
-   "action": "workinu: vol1h=19735$",
+   "action": "NVIDIOT: vol1h=172759$",
    "metric": "",
-   "vote": 0,
+   "vote": 1,
    "status": "ok",
-   "ts": "2026-11-10T01:04:03+01:00"
+   "ts": "2026-11-10T02:05:21+01:00"
   },
   {
    "agent": "Holder",
    "task": "Top-Holder-Konzentration",
-   "action": "BORLY: top1=1.1 top10=9.9",
+   "action": "OnlyCats: top1=2.0 top10=19.7",
    "metric": "",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-10T01:04:03+01:00"
+   "ts": "2026-11-10T02:05:21+01:00"
   },
   {
    "agent": "RugSecurity",
    "task": "RugCheck, Mint/Freeze, Score",
-   "action": "BORLY: {'score': 1, 'top1': 1.1047479362106354, 'top10': 9.857836579668795}",
+   "action": "OnlyCats: {'score': 1, 'top1': 1.9934208099217205, 'top10': 19.695595967237026}",
    "metric": "",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-10T01:04:03+01:00"
+   "ts": "2026-11-10T02:05:21+01:00"
   },
   {
    "agent": "Honeypot",
    "task": "Jupiter Kauf+Verkauf Roundtrip",
-   "action": "BORLY: rt=2.18%",
+   "action": "OnlyCats: rt=2.0733%",
    "metric": "",
    "vote": -1,
    "status": "warn",
-   "ts": "2026-11-10T01:04:03+01:00"
+   "ts": "2026-11-10T02:05:22+01:00"
   },
   {
    "agent": "DevWallet",
    "task": "Creator-Anteil (falls bekannt)",
-   "action": "BORLY: {'creator_pct': 0, 'creator': 'BzQeQBsspTqV'}",
+   "action": "OnlyCats: {'creator_pct': 0, 'creator': 'DUK7XQLCHHa6'}",
    "metric": "",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-10T01:04:03+01:00"
+   "ts": "2026-11-10T02:05:21+01:00"
   },
   {
    "agent": "Momentum",
    "task": "m5/h1 Kursmomentum",
-   "action": "workinu[new]: m5=0.07 h1=-0.78",
+   "action": "NVIDIOT[new]: m5=-10.76 h1=79.65",
    "metric": "",
    "vote": -1,
    "status": "warn",
-   "ts": "2026-11-10T01:04:03+01:00"
+   "ts": "2026-11-10T02:05:21+01:00"
   },
   {
    "agent": "Orderflow",
    "task": "Kauf-/Verkaufsquote & Txns",
-   "action": "workinu: buy5=1.0",
+   "action": "NVIDIOT: buy5=0.5",
    "metric": "",
    "vote": -1,
    "status": "warn",
-   "ts": "2026-11-10T01:04:03+01:00"
+   "ts": "2026-11-10T02:05:21+01:00"
   },
   {
    "agent": "Volatility",
    "task": "Zu wilde Schwankungen filtern",
-   "action": "workinu: {'m5': 0.07}",
+   "action": "NVIDIOT: {'m5': 10.76}",
    "metric": "",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-10T01:04:03+01:00"
+   "ts": "2026-11-10T02:05:21+01:00"
   },
   {
    "agent": "Candle",
    "task": "1m-Kerzenmuster (GeckoTerminal)",
-   "action": "workinu: {'note': 'keine Kerzen'}",
+   "action": "NVIDIOT: {'note': 'keine Kerzen'}",
    "metric": "",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-10T01:04:03+01:00"
+   "ts": "2026-11-10T02:05:21+01:00"
   },
   {
    "agent": "Sentiment",
    "task": "Boosts/Social-Links als Proxy",
-   "action": "workinu: boosts=0 socials=1",
+   "action": "NVIDIOT: boosts=0 socials=2",
    "metric": "",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-10T01:04:03+01:00"
+   "ts": "2026-11-10T02:05:21+01:00"
   },
   {
    "agent": "Analyst",
    "task": "Score + Stimmen zusammenfassen",
-   "action": "BORLY[new]: Score 88.6 · Votes +8",
-   "metric": "score=88.6",
+   "action": "OnlyCats[new]: Score 90.6 · Votes +8",
+   "metric": "score=90.6",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-10T01:04:03+01:00"
+   "ts": "2026-11-10T02:05:21+01:00"
   },
   {
    "agent": "Risk",
@@ -1501,7 +1513,7 @@
    "metric": "eq=8.46€",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-10T01:04:03+01:00"
+   "ts": "2026-11-10T02:05:21+01:00"
   },
   {
    "agent": "Executor",
@@ -1519,25 +1531,25 @@
    "metric": "check≈2.5s",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-10T01:04:03+01:00"
+   "ts": "2026-11-10T02:05:21+01:00"
   },
   {
    "agent": "MarketRegime",
    "task": "SOL-Trend; Pause bei Dump",
-   "action": "Markt ok · SOL h1 +0.18 %",
-   "metric": "SOL $86.71",
+   "action": "Markt ok · SOL h1 -0.05 %",
+   "metric": "SOL $86.56",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-10T01:03:51+01:00"
+   "ts": "2026-11-10T02:05:09+01:00"
   },
   {
    "agent": "Learner",
    "task": "Filter-Statistik (ohne Limits zu lockern)",
-   "action": "Filter-Stats: Kein ruhiges positives 5-Min-Momentum×32834, Zu wenig Trades (5 Min)×22566, Liquidität < 40k USD (Ma",
-   "metric": "164 Keys",
+   "action": "Filter-Stats: Kein ruhiges positives 5-Min-Momentum×33362, Zu wenig Trades (5 Min)×23044, Liquidität < 40k USD (Ma",
+   "metric": "167 Keys",
    "vote": 0,
    "status": "ok",
-   "ts": "2026-11-10T01:04:03+01:00"
+   "ts": "2026-11-10T02:05:22+01:00"
   },
   {
    "agent": "Auditor",
@@ -1546,21 +1558,21 @@
    "metric": "eq=8.4577",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-10T01:04:03+01:00"
+   "ts": "2026-11-10T02:05:22+01:00"
   },
   {
    "agent": "Logger",
    "task": "Protokolliert Entscheidungen",
-   "action": "Durchlauf 1817: 43 Kand., 2 ok, eq=8.4577€",
-   "metric": "rej=42",
+   "action": "Durchlauf 1833: 25 Kand., 2 ok, eq=8.4577€",
+   "metric": "rej=24",
    "vote": null,
    "status": "ok",
-   "ts": "2026-11-10T01:04:03+01:00"
+   "ts": "2026-11-10T02:05:22+01:00"
   }
  ],
  "agent_count": 22,
  "readiness": {
-  "days_running": 0.93,
+  "days_running": 0.97,
   "days_needed": 3,
   "trades_closed": 12,
   "trades_needed": 30,
@@ -1579,32 +1591,32 @@
  },
  "chart_focus": {
   "mode": "candidate",
-  "mint": "F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump",
-  "symbol": "BORLY",
-  "pair": "7XwNpcwT4uPJ2hYuFf4czvmmsvVWs13k1W8iP6y4o5Zq",
-  "pool": "7XwNpcwT4uPJ2hYuFf4czvmmsvVWs13k1W8iP6y4o5Zq",
-  "url": "https://dexscreener.com/solana/7xwnpcwt4upj2hyuff4czvmmsvvws13k1w8ip6y4o5zq",
+  "mint": "BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump",
+  "symbol": "OnlyCats",
+  "pair": "TC3DBFimQpxjs92NaqDMcRHyb9zuR1MPt8KKWfQRZBK",
+  "pool": "TC3DBFimQpxjs92NaqDMcRHyb9zuR1MPt8KKWfQRZBK",
+  "url": "https://dexscreener.com/solana/tc3dbfimqpxjs92naqdmcrhyb9zur1mpt8kkwfqrzbk",
   "entry": null,
   "cost": null,
   "stop_pct": -6.0,
   "stop_loss_pct_baseline": 3.0,
   "tp_eur": 0.1,
   "trailing": false,
-  "score": 88.6,
+  "score": 90.6,
   "opened": null
  },
  "watchlist": [
   {
-   "mint": "F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump",
-   "symbol": "BORLY",
-   "pair": "7XwNpcwT4uPJ2hYuFf4czvmmsvVWs13k1W8iP6y4o5Zq",
-   "pool": "7XwNpcwT4uPJ2hYuFf4czvmmsvVWs13k1W8iP6y4o5Zq",
-   "score": 88.6,
-   "price": 0.0007001,
-   "m5": 20.21,
-   "h1": 1120,
-   "liq": 65866.64,
-   "url": "https://dexscreener.com/solana/7xwnpcwt4upj2hyuff4czvmmsvvws13k1w8ip6y4o5zq"
+   "mint": "BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump",
+   "symbol": "OnlyCats",
+   "pair": "TC3DBFimQpxjs92NaqDMcRHyb9zuR1MPt8KKWfQRZBK",
+   "pool": "TC3DBFimQpxjs92NaqDMcRHyb9zuR1MPt8KKWfQRZBK",
+   "score": 90.6,
+   "price": 0.001223,
+   "m5": 18.94,
+   "h1": 2715,
+   "liq": 86733.36,
+   "url": "https://dexscreener.com/solana/tc3dbfimqpxjs92naqdmcrhyb9zur1mpt8kkwfqrzbk"
   },
   {
    "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -1612,10 +1624,10 @@
    "pair": "5E3dXLXGwmTDCokA51WYYaKttjFZBwqCoyUHBUi5gt2m",
    "pool": "5E3dXLXGwmTDCokA51WYYaKttjFZBwqCoyUHBUi5gt2m",
    "score": null,
-   "price": 0.01114,
-   "m5": -1.5,
-   "h1": -3.55,
-   "liq": 352928.72,
+   "price": 0.01093,
+   "m5": 0.74,
+   "h1": -2.56,
+   "liq": 349465.86,
    "url": "https://dexscreener.com/solana/5e3dxlxgwmtdcoka51wyyakttjfzbwqcoyuhbui5gt2m"
   },
   {
@@ -1624,10 +1636,10 @@
    "pair": "B4Cp45PGifVM5FAXfh6AeV8QZ3eUNQnqGBw7KuC7MHnB",
    "pool": "B4Cp45PGifVM5FAXfh6AeV8QZ3eUNQnqGBw7KuC7MHnB",
    "score": null,
-   "price": 0.00472,
-   "m5": 1.14,
-   "h1": 11.83,
-   "liq": 235006.69,
+   "price": 0.004446,
+   "m5": 1.02,
+   "h1": -5.87,
+   "liq": 228051.73,
    "url": "https://dexscreener.com/solana/b4cp45pgifvm5faxfh6aev8qz3eunqnqgbw7kuc7mhnb"
   },
   {
@@ -1636,10 +1648,10 @@
    "pair": "DEXTCER4k9dwbxTMU8zNVVwGevVmvHMB183pF2xxZwvH",
    "pool": "DEXTCER4k9dwbxTMU8zNVVwGevVmvHMB183pF2xxZwvH",
    "score": null,
-   "price": 0.03275,
-   "m5": -11.37,
-   "h1": -5.61,
-   "liq": 539578.99,
+   "price": 0.03001,
+   "m5": -0.26,
+   "h1": -5.25,
+   "liq": 516873.74,
    "url": "https://dexscreener.com/solana/dextcer4k9dwbxtmu8znvvwgevvmvhmb183pf2xxzwvh"
   },
   {
@@ -1648,10 +1660,10 @@
    "pair": "5zpyutJu9ee6jFymDGoK7F6S5Kczqtc9FomP3ueKuyA9",
    "pool": "5zpyutJu9ee6jFymDGoK7F6S5Kczqtc9FomP3ueKuyA9",
    "score": null,
-   "price": 2.791e-06,
-   "m5": 0.01,
-   "h1": -0.55,
-   "liq": 274830.96,
+   "price": 2.79e-06,
+   "m5": 0.11,
+   "h1": -0.02,
+   "liq": 274612.35,
    "url": "https://dexscreener.com/solana/5zpyutju9ee6jfymdgok7f6s5kczqtc9fomp3uekuya9"
   },
   {
@@ -1660,10 +1672,10 @@
    "pair": "FRhB8L7Y9Qq41qZXYLtC2nw8An1RJfLLxRF2x9RwLLMo",
    "pool": "FRhB8L7Y9Qq41qZXYLtC2nw8An1RJfLLxRF2x9RwLLMo",
    "score": null,
-   "price": 0.03423,
-   "m5": 0,
-   "h1": -0.66,
-   "liq": 2814455.46,
+   "price": 0.03417,
+   "m5": -0.44,
+   "h1": -0.3,
+   "liq": 2811471.66,
    "url": "https://dexscreener.com/solana/frhb8l7y9qq41qzxyltc2nw8an1rjfllxrf2x9rwllmo"
   },
   {
@@ -1672,10 +1684,10 @@
    "pair": "879F697iuDJGMevRkRcnW21fcXiAeLJK1ffsw2ATebce",
    "pool": "879F697iuDJGMevRkRcnW21fcXiAeLJK1ffsw2ATebce",
    "score": null,
-   "price": 0.0003455,
-   "m5": 0.14,
-   "h1": -0.45,
-   "liq": 7375302.95,
+   "price": 0.0003442,
+   "m5": 0.03,
+   "h1": -0.36,
+   "liq": 7354967.96,
    "url": "https://dexscreener.com/solana/879f697iudjgmevrkrcnw21fcxiaeljk1ffsw2atebce"
   },
   {
@@ -1684,27 +1696,27 @@
    "pair": "DSUvc5qf5LJHHV5e2tD184ixotSnCnwj7i4jJa4Xsrmt",
    "pool": "DSUvc5qf5LJHHV5e2tD184ixotSnCnwj7i4jJa4Xsrmt",
    "score": null,
-   "price": 0.0006067,
+   "price": 0.0006099,
    "m5": 0,
-   "h1": -1.25,
-   "liq": 11965763.54,
+   "h1": 0.53,
+   "liq": 11993427.15,
    "url": "https://dexscreener.com/solana/dsuvc5qf5ljhhv5e2td184ixotsncnwj7i4jja4xsrmt"
   }
  ],
  "regime": {
-  "sol_usd": 86.71,
-  "sol_eur": 77.4684482,
-  "h1": 0.18,
-  "m5": 0.11,
+  "sol_usd": 86.56,
+  "sol_eur": 77.3344352,
+  "h1": -0.05,
+  "m5": 0.16,
   "paused": false,
   "src": "dexscreener",
-  "ts": "2026-11-10T01:03:51+01:00"
+  "ts": "2026-11-10T02:05:09+01:00"
  },
  "auditor": {
   "ok": true,
   "issues": [],
   "equity": 8.4577,
-  "ts": "2026-11-10T01:04:03+01:00"
+  "ts": "2026-11-10T02:05:22+01:00"
  },
  "last_buy_why": {
   "summary": "Score 45.6, Votes +7, rt 0.2619%",
@@ -1745,17 +1757,23 @@
  },
  "ticker": [
   {
-   "symbol": "BORLY",
-   "m5": 20.21,
-   "h1": 1120,
-   "score": 88.6
+   "symbol": "OnlyCats",
+   "m5": 18.94,
+   "h1": 2715,
+   "score": 90.6
   },
   {
-   "symbol": "CBUCKS",
-   "m5": 1.14,
-   "h1": 11.83,
-   "score": 25.4
+   "symbol": "GATO",
+   "m5": 0.74,
+   "h1": -2.56,
+   "score": 17.1
+  },
+  {
+   "symbol": "BORLY",
+   "m5": 20.7,
+   "h1": 110,
+   "score": 72.2
   }
  ],
- "server_time": 1794269055
+ "server_time": 1794272729
 }
