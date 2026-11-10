@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Luma KI – dein zweites Gehirn</title>
+<meta name="description" content="Luma ist eine persönliche KI für Windows: ein holografisches zweites Gehirn, das dich kennenlernt, mitdenkt und von allein für dich arbeitet.">
+<meta property="og:title" content="Luma KI – dein zweites Gehirn">
+<meta property="og:description" content="Holografische KI für Windows. Lernt dich kennen, bereitet deinen Tag vor, schreibt Entwürfe – deine Daten bleiben auf deinem PC.">
+<style>
+:root{--a:#b026ff;--b:#00d5ff;--c:#ff2d95}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#000;color:#eef;font:16px/1.55 Inter,system-ui,-apple-system,Segoe UI,sans-serif;overflow-x:hidden}
+canvas#bg{position:fixed;inset:0;width:100vw;height:100vh;z-index:0}
+.scan{position:fixed;inset:0;z-index:1;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(255,255,255,.025) 0 1px,transparent 1px 3px);mix-blend-mode:overlay}
+.vig{position:fixed;inset:0;z-index:1;pointer-events:none;background:radial-gradient(ellipse at 50% 45%,transparent 40%,rgba(0,0,0,.85) 100%)}
+main{position:relative;z-index:2}
+.hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px 20px}
+.logo{font-weight:800;letter-spacing:.5em;font-size:13px;color:#aab;text-transform:uppercase;margin-bottom:22px}
+.logo i{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--b);box-shadow:0 0 12px var(--b);margin-left:6px;vertical-align:middle;animation:p 1.6s infinite}
+@keyframes p{50%{opacity:.3}}
+h1{font-size:clamp(44px,8vw,112px);line-height:.95;letter-spacing:-.04em;font-weight:800;background:linear-gradient(100deg,#fff 10%,#c9a6ff 40%,#7fe6ff 70%,#fff 95%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 30px rgba(150,90,255,.35));animation:sh 7s linear infinite;background-size:200% 100%}
+@keyframes sh{to{background-position:-200% 0}}
+.sub{max-width:640px;margin:22px auto 34px;color:#c3c6dd;font-size:clamp(16px,2vw,20px)}
+.dl{display:inline-flex;align-items:center;gap:14px;padding:18px 30px;border-radius:999px;border:1px solid rgba(180,140,255,.6);background:linear-gradient(120deg,rgba(176,38,255,.35),rgba(0,213,255,.25));color:#fff;text-decoration:none;font-weight:700;font-size:18px;box-shadow:0 0 40px rgba(150,80,255,.45),inset 0 0 20px rgba(255,255,255,.08);transition:transform .2s,box-shadow .2s}
+.dl:hover{transform:translateY(-2px) scale(1.02);box-shadow:0 0 70px rgba(150,80,255,.7)}
+.dl svg{width:22px;height:22px}
+.meta{margin-top:14px;font-size:13px;color:#8890aa}
+.meta b{color:#cfd3ea;font-weight:600}
+.scroll{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);font-size:11px;letter-spacing:.3em;color:#667;text-transform:uppercase}
+section{max-width:1100px;margin:0 auto;padding:90px 22px}
+h2{font-size:clamp(28px,4vw,44px);letter-spacing:-.02em;margin-bottom:12px}
+.lead{color:#aab;max-width:680px;margin-bottom:40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.card{padding:22px;border-radius:16px;border:1px solid rgba(255,255,255,.09);background:linear-gradient(160deg,rgba(30,20,60,.55),rgba(5,10,25,.55));backdrop-filter:blur(10px);position:relative;overflow:hidden}
+.card:before{content:"";position:absolute;inset:-1px;border-radius:16px;padding:1px;background:linear-gradient(140deg,rgba(176,38,255,.55),transparent 40%,rgba(0,213,255,.45));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+.card h3{font-size:17px;margin-bottom:6px}.card p{color:#aab;font-size:14.5px}
+.ico{font-size:24px;margin-bottom:10px;display:block}
+.steps{counter-reset:s;display:grid;gap:12px;max-width:720px}
+.steps div{counter-increment:s;padding:16px 18px 16px 58px;border-radius:12px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);position:relative;color:#c8cbe0}
+.steps div:before{content:counter(s);position:absolute;left:18px;top:14px;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(140deg,var(--a),var(--b));font-weight:700;font-size:13px;color:#fff}
+.note{margin-top:18px;font-size:13.5px;color:#8b90a8;max-width:720px}
+.priv{border:1px solid rgba(57,255,20,.25);background:rgba(10,40,10,.25);border-radius:16px;padding:22px;max-width:760px}
+.priv h3{margin-bottom:6px;color:#b6ffb0}
+footer{text-align:center;color:#556;font-size:12px;padding:40px 20px 60px}
+.cta{text-align:center}
+</style>
+</head>
+<body>
+<canvas id="bg"></canvas><div class="scan"></div><div class="vig"></div>
+<main>
+ <div class="hero">
+  <div class="logo">luma<i></i></div>
+  <h1>Dein zweites<br>Gehirn.</h1>
+  <p class="sub">Luma ist eine persönliche KI für Windows – ein lebendes Hologramm, das dich kennenlernt, mitdenkt und im Hintergrund von allein für dich arbeitet.</p>
+  <a class="dl" id="dl" href="https://github.com/tim871199-eng/grokbot-trading/releases/download/luma-ki-v1.0.0/Luma-KI-1.0.0-Windows-x64.zip"><svg viewBox="0 0 24 24" fill="#fff"><path d="M3 5.5l7.5-1v7H3zm0 13l7.5 1v-7H3zm8.5 1.1L21 21v-8.5h-9.5zm0-15.2v7.1H21V3z"/></svg>Für Windows laden</a>
+  <div class="meta">Version <b>1.0.3</b> · Windows 10 / 11 · 64-bit · ZIP · <span id="size">ca. 200 MB</span> · kostenlos</div>
+  <div class="scroll">mehr ↓</div>
+ </div>
+ <section>
+  <h2>Was Luma kann</h2>
+  <p class="lead">Kein Chatfenster. Ein Partikel-Gehirn, das mit dir wächst – und Dinge erledigt.</p>
+  <div class="grid">
+   <div class="card"><span class="ico">🧠</span><h3>Merkt sich alles über dich</h3><p>Aus Gesprächen, Mails, Kalender und Dateien entstehen „Gedanken“ – sichtbar als leuchtende Knoten im Hologramm.</p></div>
+   <div class="card"><span class="ico">🎙</span><h3>„Hey Luma“</h3><p>Wachwort offline auf deinem PC. Danach einfach reden – oder „hör mir zu“: Luma hört still mit, sieht den Bildschirm und bereitet Dinge vor.</p></div>
+   <div class="card"><span class="ico">☀</span><h3>Kino-Briefing am Morgen</h3><p>Die Kamera fliegt durch dein Gehirn und zeigt, was sich über Nacht getan hat. Danach sagst du nur Ja oder Nein.</p></div>
+   <div class="card"><span class="ico">🤖</span><h3>Arbeitet von allein</h3><p>Erkennt Versprechen und Fristen, bereitet Antworten vor, sortiert den Posteingang, findet Unbeantwortetes – alles im Protokoll.</p></div>
+   <div class="card"><span class="ico">👥</span><h3>Beziehungs-Gehirn</h3><p>Bevor du mit jemandem redest, weiß Luma, was du ihm zuletzt versprochen hast – und aktualisiert alles nach dem Gespräch.</p></div>
+   <div class="card"><span class="ico">💬</span><h3>Mail & WhatsApp</h3><p>Verbinde dein Postfach und WhatsApp (QR-Code). Senden nur auf deinen Befehl – oder wenn du „selbstständig senden“ einschaltest.</p></div>
+   <div class="card"><span class="ico">🌆</span><h3>Hologramme</h3><p>Holo-Stadt, Globus, DNA, Reaktor, Schwarzes Loch – und jeden Tag ein neues Hologramm, das Luma selbst baut.</p></div>
+   <div class="card"><span class="ico">📅</span><h3>Dein Tag</h3><p>Kalender, Erinnerungen, Termin-Vorbereitung, Konto-Überblick per CSV, Tagebuch und Ziele.</p></div>
+  </div>
+ </section>
+ <section>
+  <div class="priv"><h3>🔒 Deine Daten bleiben bei dir</h3><p style="color:#b9c7b6">Jede Installation startet mit einem <b>leeren Gehirn</b>. Erinnerungen, Mails, Chats und Schlüssel liegen nur auf deinem PC (verschlüsselt mit Windows). Es gibt keinen Luma-Server. Nach außen geht nur, was du verbindest: deine Nachrichten an den KI-Anbieter, den du wählst (Google Gemini – kostenloser Schlüssel – oder xAI).</p></div>
+ </section>
+ <section>
+  <h2>In 1 Minute startklar</h2>
+  <div class="steps">
+   <div>ZIP laden und entpacken (Rechtsklick → „Alle extrahieren“).</div>
+   <div><b>Luma KI.exe</b> starten. Windows zeigt evtl. „Der Computer wurde durch Windows geschützt“ → <b>Weitere Informationen → Trotzdem ausführen</b> (die App ist nicht signiert).</div>
+   <div>Kostenlosen Gemini-Schlüssel auf aistudio.google.com/apikey holen, einfügen, deinen Namen eintragen – fertig.</div>
+   <div>Im <b>Labor</b> nach Lust E-Mail, Kalender, WhatsApp, Mikrofon und „Hey Luma“ verbinden.</div>
+  </div>
+  <p class="note">Hinweis: WhatsApp läuft über „Verknüpfte Geräte“ mit einer inoffiziellen Bibliothek – nutze es fair, sonst kann WhatsApp die Nummer sperren. Mithören/„hör mir zu“ nur mit Einverständnis aller (§ 201 StGB).</p>
+ </section>
+ <section class="cta"><a class="dl" href="https://github.com/tim871199-eng/grokbot-trading/releases/download/luma-ki-v1.0.0/Luma-KI-1.0.0-Windows-x64.zip"><svg viewBox="0 0 24 24" fill="#fff"><path d="M3 5.5l7.5-1v7H3zm0 13l7.5 1v-7H3zm8.5 1.1L21 21v-8.5h-9.5zm0-15.2v7.1H21V3z"/></svg>Luma 1.0.3 laden</a></section>
+ <footer>Luma KI · gebaut von Jony · Windows 10/11</footer>
+</main>
+<script>
+// Partikel-Gehirn (Canvas 2D, ohne Bibliotheken)
+(function(){const c=document.getElementById('bg'),g=c.getContext('2d');let W,H,D=Math.min(2,devicePixelRatio||1);const N=innerWidth<700?1600:3200,P=[];
+function rs(){W=c.width=innerWidth*D;H=c.height=innerHeight*D}addEventListener('resize',rs);rs();
+const col=['#b026ff','#00d5ff','#ff2d95','#7df9ff','#9b5de5','#39ff14'];
+for(let i=0;i<N;i++){let x,y,z;do{x=Math.random()*2-1;y=Math.random()*2-1;z=Math.random()*2-1}while(x*x/1+y*y/0.55+z*z/0.8>1);const hemi=x>0?1:-1;x+=hemi*0.06;const fold=Math.sin(y*14+z*9)*0.04;P.push({x:x*1.25+fold,y:y*0.85,z:z*0.95,c:col[(Math.abs(Math.floor((x+1)*3+(y+1)*2)))%col.length],s:Math.random()*1.4+0.4,ph:Math.random()*6.28})}
+let t=0,mx=0,my=0;addEventListener('pointermove',e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5});
+function f(){t+=0.006;g.fillStyle='rgba(0,0,0,0.22)';g.fillRect(0,0,W,H);g.globalCompositeOperation='lighter';
+const a=t*0.6+mx*0.8,ca=Math.cos(a),sa=Math.sin(a),b=0.25+my*0.4,cb=Math.cos(b),sb=Math.sin(b),R=Math.min(W,H)*0.34,cx=W/2,cy=H*0.46;
+for(const p of P){const br=1+0.04*Math.sin(t*3+p.ph);let x=p.x*br,y=p.y*br,z=p.z*br;let X=x*ca-z*sa,Z=x*sa+z*ca;let Y=y*cb-Z*sb;Z=y*sb+Z*cb;const k=3/(3+Z),sx=cx+X*R*k,sy=cy+Y*R*k,al=Math.max(0,0.55-Z*0.25)*(0.6+0.4*Math.sin(t*5+p.ph));g.globalAlpha=al;g.fillStyle=p.c;const s=p.s*k*D;g.fillRect(sx,sy,s,s)}
+g.globalAlpha=1;g.globalCompositeOperation='source-over';requestAnimationFrame(f)}f()})();
+fetch('https://api.github.com/repos/tim871199-eng/grokbot-trading/releases/tags/luma-ki-v1.0.0').then(r=>r.json()).then(j=>{const a=(j.assets||[]).find(x=>x.name==='Luma-KI-1.0.0-Windows-x64.zip');if(a)document.getElementById('size').textContent=Math.round(a.size/1048576)+' MB'}).catch(()=>{});
+</script>
+</body>
+</html>
