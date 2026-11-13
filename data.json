@@ -2,13 +2,13 @@
  "currency": "EUR",
  "rules": "Spielgeld 10 € · Stop −3 % · ab +0,10 € Trailing · nur Coins < 1 % Kosten",
  "pricing_model": "Jupiter ExactIn quotes + network fee; EUR via SOL/USD×USD/EUR; 20-agent desk",
- "as_of": "13.11.2026, 02:02:46",
- "data_time": "2026-11-13T02:02:37+01:00",
- "as_of_iso": "2026-11-13T02:02:46+01:00",
+ "as_of": "13.11.2026, 01:40:19",
+ "data_time": "2026-11-13T01:40:15+01:00",
+ "as_of_iso": "2026-11-13T01:40:19+01:00",
  "bot_running": true,
  "bot_stale": false,
- "bot_stale_sec": 9.494339,
- "last_cycle": "02:02",
+ "bot_stale_sec": 4.331774,
+ "last_cycle": "01:40",
  "start": 10.0,
  "equity": 7.43,
  "cash": 7.43,
@@ -320,8 +320,8 @@
    "equity": 7.43
   },
   {
-   "t": "2026-11-13T02:02:46+01:00",
-   "label": "02:02",
+   "t": "2026-11-13T01:40:19+01:00",
+   "label": "01:40",
    "equity": 7.43
   }
  ],
@@ -1543,7 +1543,7 @@
    "tone": "neutral"
   },
   {
-   "time": "02:02:37",
+   "time": "01:40:15",
    "agent": "Logger",
    "text": "Durchlauf 6893: 0 Kand., 0 ok, 7,43 €",
    "status": "Durchlauf",
@@ -1558,7 +1558,7 @@
    "metric": "halt",
    "vote": 0,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "TrendScout",
@@ -1567,7 +1567,7 @@
    "metric": "halt",
    "vote": 0,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "LiquidScout",
@@ -1576,7 +1576,7 @@
    "metric": "halt",
    "vote": 0,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "Liquidity",
@@ -1585,7 +1585,7 @@
    "metric": "halt",
    "vote": 0,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "Volume",
@@ -1594,7 +1594,7 @@
    "metric": "halt",
    "vote": 0,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "Holder",
@@ -1603,7 +1603,7 @@
    "metric": "halt",
    "vote": 0,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "RugSecurity",
@@ -1612,7 +1612,7 @@
    "metric": "halt",
    "vote": 0,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "Honeypot",
@@ -1621,7 +1621,7 @@
    "metric": "halt",
    "vote": 0,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "DevWallet",
@@ -1630,7 +1630,7 @@
    "metric": "halt",
    "vote": 0,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "Momentum",
@@ -1639,7 +1639,7 @@
    "metric": "halt",
    "vote": 0,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "Orderflow",
@@ -1648,7 +1648,7 @@
    "metric": "halt",
    "vote": 0,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "Volatility",
@@ -1657,7 +1657,7 @@
    "metric": "halt",
    "vote": 0,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "Candle",
@@ -1666,7 +1666,7 @@
    "metric": "halt",
    "vote": 0,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "Sentiment",
@@ -1675,7 +1675,7 @@
    "metric": "halt",
    "vote": 0,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "Analyst",
@@ -1684,7 +1684,7 @@
    "metric": "halt",
    "vote": 0,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "Risk",
@@ -1693,7 +1693,7 @@
    "metric": "",
    "vote": -1,
    "status": "error",
-   "ts": "2026-11-13T02:02:36+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "Executor",
@@ -1702,7 +1702,7 @@
    "metric": "halt",
    "vote": 0,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "ExitManager",
@@ -1711,16 +1711,16 @@
    "metric": "halt",
    "vote": 0,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "MarketRegime",
    "task": "SOL-Trend; Pause bei Dump",
-   "action": "Markt ok · SOL h1 -0.38 %",
-   "metric": "SOL $81.39",
+   "action": "Markt ok · SOL h1 -0.35 %",
+   "metric": "SOL $81.25",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "Learner",
@@ -1738,7 +1738,7 @@
    "metric": "eq=7.4333",
    "vote": 1,
    "status": "ok",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   },
   {
    "agent": "Logger",
@@ -1747,12 +1747,12 @@
    "metric": "",
    "vote": null,
    "status": "warn",
-   "ts": "2026-11-13T02:02:37+01:00"
+   "ts": "2026-11-13T01:40:15+01:00"
   }
  ],
  "agent_count": 22,
  "readiness": {
-  "days_running": 3.97,
+  "days_running": 3.95,
   "days_needed": 3,
   "trades_closed": 18,
   "trades_needed": 30,
@@ -1885,19 +1885,19 @@
   }
  ],
  "regime": {
-  "sol_usd": 81.39,
-  "sol_eur": 73.4504055,
-  "h1": -0.38,
-  "m5": -0.08,
+  "sol_usd": 81.25,
+  "sol_eur": 73.3240625,
+  "h1": -0.35,
+  "m5": -0.18,
   "paused": false,
   "src": "dexscreener",
-  "ts": "2026-11-13T02:02:37+01:00"
+  "ts": "2026-11-13T01:40:15+01:00"
  },
  "auditor": {
   "ok": true,
   "issues": [],
   "equity": 7.4333,
-  "ts": "2026-11-13T02:02:37+01:00"
+  "ts": "2026-11-13T01:40:15+01:00"
  },
  "last_buy_why": {
   "summary": "Score 41.1, Votes +8, rt 0.7627%",
@@ -1938,5 +1938,5 @@
   "agents_against": []
  },
  "ticker": [],
- "server_time": 1794531766
+ "server_time": 1794530419
 }
