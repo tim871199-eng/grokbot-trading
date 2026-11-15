@@ -2,12 +2,12 @@
  "currency": "EUR",
  "rules": "Spielgeld 10 € · Stop −3 % · ab +0,10 € Trailing · nur Coins < 1 % Kosten",
  "pricing_model": "Jupiter ExactIn quotes + network fee; EUR via SOL/USD×USD/EUR; 20-agent desk",
- "as_of": "15.11.2026, 08:28:28",
+ "as_of": "15.11.2026, 08:28:38",
  "data_time": "2026-11-15T08:28:23+01:00",
- "as_of_iso": "2026-11-15T08:28:28+01:00",
+ "as_of_iso": "2026-11-15T08:28:38+01:00",
  "bot_running": true,
  "bot_stale": false,
- "bot_stale_sec": 5.181576,
+ "bot_stale_sec": 15.447676,
  "last_cycle": "08:28",
  "start": 10.0,
  "equity": 7.43,
@@ -320,7 +320,7 @@
    "equity": 7.43
   },
   {
-   "t": "2026-11-15T08:28:28+01:00",
+   "t": "2026-11-15T08:28:38+01:00",
    "label": "08:28",
    "equity": 7.43
   }
@@ -1424,13 +1424,6 @@
  ],
  "log": [
   {
-   "time": "07:34:29",
-   "agent": "Logger",
-   "text": "Durchlauf 8757: 0 Kand., 0 ok, 7,43 €",
-   "status": "Durchlauf",
-   "tone": "neutral"
-  },
-  {
    "time": "07:34:44",
    "agent": "Logger",
    "text": "Durchlauf 8758: 0 Kand., 0 ok, 7,43 €",
@@ -1546,6 +1539,13 @@
    "time": "08:28:23",
    "agent": "Logger",
    "text": "Durchlauf 8774: 0 Kand., 0 ok, 7,43 €",
+   "status": "Durchlauf",
+   "tone": "neutral"
+  },
+  {
+   "time": "08:28:38",
+   "agent": "Logger",
+   "text": "Durchlauf 8775: 0 Kand., 0 ok, 7,43 €",
    "status": "Durchlauf",
    "tone": "neutral"
   }
@@ -1938,5 +1938,5 @@
   "agents_against": []
  },
  "ticker": [],
- "server_time": 1794727708
+ "server_time": 1794727718
 }
